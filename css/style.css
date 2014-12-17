@@ -79,6 +79,9 @@ a.button:hover, .footer, .footer2 {
   padding-top: 50px;
   position: relative;
 }
+.footer .fa {
+  color: #fff !important;
+}
 .footer p {
   margin: 0;
   padding: 0;
