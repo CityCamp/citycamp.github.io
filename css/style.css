@@ -61,7 +61,7 @@ a.button:hover, .footer, .footer2 {
 .speakers img {
   border-radius: 50%;
   margin-top: 1em;
-  min-width: 150px;
+  max-width: 150px;
 }
 .footer, .footer2 {
   bottom: 0;
