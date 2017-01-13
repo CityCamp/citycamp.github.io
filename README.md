@@ -1,4 +1,4 @@
 CityCamp
 ==================
 
-Website: [citycamp.com][http://citycamp.com]
+Website: http://citycamp.com
