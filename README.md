@@ -1,4 +1,4 @@
-citycamp.github.io
+CityCamp
 ==================
 
-CityCamp website
+Website: [citycamp.com][http://citycamp.com]
