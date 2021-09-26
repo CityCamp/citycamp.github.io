@@ -1,0 +1,83 @@
+<div class="card-deck text-center">
+    {% if site.twitter_username %}
+    <div class="card">
+        <div class="card-body">
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="stretched-link">
+                <p><i class="fab fa-twitter fa-3x"></i></p>
+                <p class="card-title">Twitter</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.facebook %}
+    <div class="card">
+        <div class="card-body">
+            <a href="https://twitter.com/{{ site.facebook }}" class="stretched-link">
+                <p><i class="fab fa-facebook fa-3x"></i></p>
+                <p class="card-title">Facebook</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.linkedin_link %}
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ site.linkedin_link }}" class="stretched-link">
+                <p><i class="fab fa-linkedin fa-3x"></i>
+                </p>
+                <p class="card-title">LinkedIn</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.facebook_link %}
+    <div class="card">
+        <div class="card-body">
+            <a href="https://twitter.com/{{ site.facebook_link }}" class="stretched-link">
+                <p><i class="fab fa-facebook fa-3x"></i></p>
+                <p class="card-title">Facebook</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.github_username %}
+    <div class="card">
+        <div class="card-body">
+            <a href="https://github.com/{{ site.github_username }}" class="stretched-link">
+                <p><i class="fab fa-github fa-3x"></i></p>
+                <p class="card-title">GitHub</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.instagram_username %}
+    <div class="card">
+        <div class="card-body">
+            <a href="https://instagram.com/{{ site.instagram_username }}" class="stretched-link">
+                <p><i class="fab fa-instagram fa-3x"></i></p>
+                <p class="card-title">Instagram</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.flickr_link %}
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ site.flickr_link }}" class="stretched-link">
+                <p><i class="fab fa-flickr fa-3x"></i></p>
+                <p class="card-title">Flickr</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.rss_link %}
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ site.rss_link }}" class="stretched-link">
+                <p><i class="fas fa-rss fa-3x"></i></p>
+                <p class="card-title">RSS</p>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+</div>

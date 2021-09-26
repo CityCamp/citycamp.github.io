@@ -1,0 +1,28 @@
+---
+layout: wrapper
+---
+
+<div class="card-deck">
+  {% for post in site.posts %}
+  <div class="card">
+    <div class="card-body">
+      {% if post.feat-img %}
+      <a href="{{ post.url }}">
+        <img
+          class="card-img-top"
+          src="{{ site.baseurl }}/img/posts/{{ post.feat-img }}"
+          alt=""
+        />
+      </a>
+      {% endif %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>
+        <small class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</small>
+      </p>
+      {% if post.description %}
+      <p class="card-text">{{ post.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

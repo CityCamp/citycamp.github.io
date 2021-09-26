@@ -1,0 +1,136 @@
+---
+layout: post
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+  <div class="container post">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="display-4">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% if page.feat-image %}
+  <div class="feat-img">
+    <img
+      src="{{ site.baseurl }}/assets/img/posts{{ page.feat-image }}"
+      alt="{{ include.alt | default: 'image representing a theme in this article' }}"
+    />
+  </div>
+  {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="post-main">
+          {% if page.author %}
+          <div class="byline">
+            {% comment %}Loop through all of the authors of the page.{%
+            endcomment %} {% for author in page.author %} {% comment %}"where"
+            creates an array, so using "first" we can pop the first item off of
+            the array of 1.{% endcomment %} {% assign author_data = site.people
+            | where:"author", author | first %} {% if author_data.content.size >
+            1 %}
+            <p>
+              {% if author_data.avatar %}<img
+                src="{{ site.baseurl }}/assets/img/people/{{ author_data.avatar }}"
+                alt="Photo of {{ author_data.name }}"
+                title="{{ author_data.name }}"
+                class="avatar rounded-circle"
+              />
+              {% endif %}By <a href="{{ site.baseurl }}{{ author_data.url }}"> {{ author_data.name }}</a>
+            </p>
+          </div>
+          {% endif %} {% endfor %} {% endif %}
+          <div class="date">
+            <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+          </div>
+          {{ content | markdownify }}
+        </div>
+        {% if page.author %} {% comment %}Loop through all of the authors of the
+        page.{% endcomment %} {% for author in page.author %} {% comment
+        %}"where" creates an array, so using "first" we can pop the first item
+        off of the array of 1.{% endcomment %} {% assign author_data =
+        site.people | where:"author", author | first %} {% if
+        author_data.content.size > 1 %}
+        <div class="profile">
+          <h2>About {{ author_data.name }}</h2>
+          <p>{{ author_data.content | markdownify }}</p>
+          <p class="profile-social">
+            {% if author_data.website %}
+                    <a href="{{ author_data.website }}" aria-label="Website"
+                      ><i class="fas fa-home fa-lg"></i
+                    ></a>
+                    {% endif %}
+            {% if author_data.email %}
+            <a href="mailto:{{ author_data.email }}" aria-label="Email"
+              ><i class="fas fa-envelope fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.twitter_username %}
+            <a
+              href="https://twitter.com/{{ author_data.twitter_username }}"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.linkedin_link %}
+            <a href="{{ author_data.linkedin_link }}" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.facebook_link %}
+            <a href="{{ author_data.facebook_link }}" aria-label="Facebook"
+              ><i class="fab fa-facebook fa-lg"></i
+            ></a>
+            {% endif %}
+            {% if author_data.medium %}
+            <a href="{{ site.medium }}" aria-label="Medium"><i class="fab fa-medium fa-lg"></i></a>
+            {% endif %}
+            {% if author_data.youtube %}
+            <a href="{{ site.youtube }}" aria-label="YouTube"><i class="fab fa-youtube fa-lg"></i></a>
+            {% endif %}
+            {% if author_data.figma %}
+            <a href="{{ site.figma }}" aria-label="Figma"><i class="fab fa-figma fa-lg"></i></a>
+            {% endif %}
+            {% if author_data.github_username %}
+            <a
+              href="https://github.com/{{ author_data.github_username }}"
+              aria-label="GitHub"
+              ><i class="fab fa-github fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.instagram_username %}
+            <a
+              href="https://instagram.com/{{ author_data.instagram_username }}"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.flickr_link %}
+            <a href="{{ author_data.flickr_link }}" aria-label="Flickr"
+              ><i class="fab fa-flickr fa-lg"></i
+            ></a>
+            {% endif %}
+            {% if author_data.tumblr %}
+            <a href="{{ author_data.tumblr }}" aria-label="Tumblr"
+              ><i class="fab fa-tumblr fa-lg"></i
+            ></a>
+            {% endif %} {% if author_data.rss_link %}
+            <a href="{{ author_data.rss_link }}" aria-label="RSS"
+              ><i class="fas fa-rss fa-lg"></i
+            ></a>
+            {% endif %}
+          </p>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+      </div>
+      <div class="col-sm-4">
+        {% include promo.html %}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include analytics.html %} {% include footer.html %}

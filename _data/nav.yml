@@ -1,0 +1,23 @@
+docs_list_title: nav
+docs:
+
+- title: About
+  url: /about/
+
+- title: Playbook
+  url: /playbook/
+
+- title: Cities
+  url: /cities/
+
+- title: Press
+  url: /press/
+
+- title: Posts
+  url: /posts/
+
+- title: Connect
+  url: /connect/
+
+- title: <i class="fas fa-search"></i>
+  url: /search/

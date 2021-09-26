@@ -1,0 +1,67 @@
+---
+layout: wrapper
+title: Posts
+---
+
+<div class="card-deck">
+    {% for post in paginator.posts %}
+    <div class="card">
+        <div class="card-body">
+            {% if post.feat-img %}
+            <a href="{{ post.url }}">
+                <img class="card-img-top" src="{{ site.baseurl }}/img/posts/{{ post.feat-img }}" alt="" />
+            </a>
+            {% endif %}
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>
+                <small class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</small>
+            </p>
+            {% if post.description %}
+            <p class="card-text">{{ post.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% if paginator.total_pages > 1 %}
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        {% if paginator.previous_page %}
+        <li class="page-item">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">Previous</a
+      >
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    {% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
+    paginator.page %}
+    <li class="page-item active">
+      <a class="page-link" href="#">{{ page }}</a>
+        </li>
+        {% elsif page == 1 %}
+        <li class="page-item">
+            <a href="{{ site.baseurl }}/posts/" class="page-link">{{ page }}</a>
+        </li>
+        {% else %}
+        <li class="page-item">
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-link">{{ page }}</a
+      >
+    </li>
+    {% endif %} {% endfor %} {% if paginator.next_page %}
+    <li class="page-item">
+      <a
+        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        class="page-link"
+        >Next</a
+      >
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">Next</span>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}

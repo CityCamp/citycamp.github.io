@@ -1,0 +1,19 @@
+---
+layout: wrapper
+---
+
+<div class="card-deck">
+    {% assign people = site.people | where: "external", false %}
+    {% for author in people %}
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            {% if author.avatar %}
+            <a href="{{ site.baseurl }}{{ author.url }}">
+                <img class="card-img-top rounded-circle" src="{{ site.baseurl }}/assets/img/people/{{ author.avatar }}" alt="Photo of {{ author.name }}">
+            </a>
+            {% endif %}
+            <h2><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
+        </div>
+    </div>
+    {% endfor %}
+</div>

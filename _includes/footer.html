@@ -1,0 +1,39 @@
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="footer-social">
+                        {% include social.html size="fa-lg" %}
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        {% for item in site.data.nav-footer-1.docs %}
+                        {% if item.url %}
+                        <li><a class="" href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        {% for item in site.data.nav-footer-2.docs %}
+                        {% if item.url %}
+                        <li><a class="" href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

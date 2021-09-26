@@ -1,0 +1,95 @@
+---
+layout: home
+---
+
+{% include header.html %} {% include nav.html %}
+<main>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="display-3">{{ page.title }}</h1>
+                    {% if page.description %}
+                    <p class="lead">{{ page.description }}</p>
+                    {% endif %}
+                    <div class="jumbotron-social">
+                        {% include social.html size="fa-2x" %}
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if site.data.themes.docs %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Themes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-deck themes">
+                    {% for item in site.data.themes.docs %}
+                    <div class="card">
+                        <div class="icon">
+                            <i class="{{ item.icon }} fa-4x"></i>
+                        </div>
+                        <p>{{ item.theme }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %} {% if site.data.press.docs %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% if page.press-title %}
+                <h2>{{ page.press-title }}</h2>
+                {% endif %}
+                <ul>
+                    {% for item in site.data.press.docs limit:5 %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a>, <em>{{ item.source }}</em></li>
+                    {% endfor %}
+                </ul>
+                <p><a href="{{ page.press-link }}" class="btn btn-primary">{{ page.press-link-text }}</a></p>
+            </div>
+        </div>
+    </div>
+    {% endif %} {% if site.posts %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                {% if page.post-title %}
+                <h2>{{ page.post-title }}</h2>
+                {% endif %}
+                <div class="card-deck">
+                    {% assign number = page.post-number | plus:0 %} {% for post in site.posts limit:number %}
+                    <div class="card">
+                        <div class="card-body">
+                            {% if post.feat-img %}
+                            <a href="{{ post.url }}">
+                                <img class="card-img-top" src="{{ site.baseurl }}/img/posts/{{ post.feat-img }}" alt="">
+                            </a>
+                            {% endif %}
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <p><small class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</small></p>
+                            {% if post.description %}
+                            <p class="card-text">{{ post.description }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><a href="{{ page.post-link }}" class="btn btn-primary">{{ page.post-link-text }}</a></p>
+            </div>
+        </div>
+    </div>
+    {% endif %} {% include analytics.html %} {% include footer.html %}
