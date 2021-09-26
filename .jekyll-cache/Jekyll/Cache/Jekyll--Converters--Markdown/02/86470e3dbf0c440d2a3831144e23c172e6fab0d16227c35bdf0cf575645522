@@ -1,0 +1,84 @@
+I"v<div>
+  <div>
+    <p>
+      <em>Originally posted at <a title="Showing aloha through open government" href="http://opensource.com/government/11/11/showing-aloha-through-open-government" rel="nofollow">opensource.com</a>.</em>
+    </p>
+    
+    <p>
+      The City of Honolulu is calling all citizens to <a title="CityCamp Honolulu" href="http://citycamphnl.govfresh.com/" rel="nofollow" target="blank">join the open government movement on December 3</a> and to prove the value of government data as a platform. They hope to entice citizens to shape the future of their city by identifying open government opportunities, discussing technology, and formulating solutions. Civic groups, designers, &#8220;govies,&#8221; techies, developers, and more are encouraged to participate. The organizers of <a title="CityCamp Honolulu" href="http://citycamphnl.govfresh.com/" rel="nofollow" target="blank">CityCamp Honolulu</a> are excited to host this open government unconference in preparation for a 2012 Code for America project.<!--more-->
+    </p>
+    
+    <p>
+      The conversation has already started <a title="User voice forum" href="http://citycamphnl.uservoice.com/forums/133940-ideas-for-citycamp-honolulu" rel="nofollow" target="blank">on their idea forum</a>, sparking almost 50 ideas ranging from creating a mobile application for bus routes to displaying city tax revenue and spending trends. It&#8217;s great to see the community interact before the event, suggesting topics that are important to them and making the first step—identifying things they can work on at the camp.
+    </p>
+    
+    <p>
+      I&#8217;ll be participating in a panel discussion on open government. Alissa Black, Government Relations Director at Code for America; Gordon Bruce, the City of Honolulu CIO; and I will discuss trends in open government, application concepts, and ideas from other <a title="CityCamps" href="../" rel="nofollow" target="blank">CityCamps</a>. We hope to motivate attendees and provide a unique perspective to maximize their CityCamp experience.
+    </p>
+    
+    <p>
+      I got a chance to catch up with one of the organizers, Forest Frizzell, a deputy director in Honolulu’s Department of Information Technology. I met Frizzell soon after the organizers announced their CityCamp, and we discussed the intricacies of how much planning goes into an unconference. In the interview with Frizzell, he provides the current landscape for open government in Honolulu, what they hope to achieve with their CityCamp, and much more.
+    </p>
+    
+    <p>
+      <strong>What does open government currently look like for the City of Honolulu?</strong>
+    </p>
+    
+    <p>
+      <a href="http://opensource.com/government/11/11/showing-aloha-through-open-government"><img loading="lazy" class="alignright" title="Forest Frizzell" src="http://opensource.com/sites/default/files/resize/images/government-uploads/forest-a-frizzell1-220x194.jpg" alt="Forest Frizzell" width="220" height="194" /></a>We made a concerted effort in 2011 to come up with ideas on how to be a more open government. The low-hanging fruit for us was posting all of our financial information. Citizens of Honolulu can download our budgets in line item, .csv form. We have an fully integrated ERP system, so generating these reports was something that could be done relatively quickly. We also posted all financial disclosure statements for appointed officials.
+    </p>
+    
+    <p>
+      Simultaneously we started talking to our departments about opening up Twitter and Facebook accounts. Adding social media as a medium took some getting used to, but there are a number of departments that have done a great job with these accounts. Just recently we hosted the Asia Pacific Economic Cooperation (APEC) meetings here in Honolulu. With 21 dignitaries from Pacific Rim countries, including Russia, China, and the US, road closures in an already congested city were a troublesome thought. With the help of Twitter, Facebook, and Nixle we rapidly got the word out on road closures and kept people out of traffic.
+    </p>
+    
+    <p>
+      Next we&#8217;re doing a pilot project with City Sourced, a mobile/web application that allows citizens to take pictures of things like potholes or broken street lights and report them.
+    </p>
+    
+    <p>
+      <strong>What do the organizers hope to accomplish at CityCamp Honolulu?</strong>
+    </p>
+    
+    <p>
+      We hope to leverage the CityCamp experience for a few things. The first is to let the public know we are serious in wanting to hear back from them about how we can leverage technology to make it convenient for them to work with government or be more active in their communities. We also want to get our local developer community more involved with helping us create citizen-focused applications.
+    </p>
+    
+    <p>
+      The idea of government data as a platform is a new concept and one that is going to take time to fully understand and get buy-in from the public. I believe once we can show a tangible application like real-time bus arrivals or an application that shows you refuse pick-up times for your neighborhood, people will start to fully understand the concept of open data.
+    </p>
+    
+    <p>
+      Finally, Honolulu was selected as a 2012 Code for America city. CityCamp will be an excellent way for us to crowdsource and have a large amount of discussed and vetted ideas and suggestions for that engagement.
+    </p>
+    
+    <p>
+      <strong>How can the average citizen participate at CityCamp Honolulu?</strong>
+    </p>
+    
+    <p>
+      The first way would be to simply <a title="sign up and attend" href="http://citycamphnl2011.eventbrite.com/" rel="nofollow" target="blank">sign up and attend</a>. We’ve made it easy to get the conversation started with a <a title="user voice account" href="http://citycamphnl.uservoice.com/forums/133940-ideas-for-citycamp-honolulu" rel="nofollow" target="blank">user voice account</a>. At last check, we had about 40 ideas up there with side bar discussions and people voting on their favorite ideas. We want to spread the message that CityCamp isn&#8217;t just for the developers of Honolulu, but also civic groups, designers, users of government services, and forward-thinking people. You don’t have to be a computer expert to realize that if one could reserve a campsite online instead of coming to city hall to stand in line, that would be a much more efficient use of time. The voice of the average citizen is a very important piece to this initiative.
+    </p>
+    
+    <p>
+      <strong>What has been the biggest surprise so far, as you help plan and organize CityCamp Honolulu?</strong>
+    </p>
+    
+    <p>
+      The tremendous amount of support from the CityCamp group has been overwhelming. We didn’t have to create our camp from the ground up, rather just tweak it here and there for our needs. I’ve also been energized by the amount of community enthusiasm this has generated. We’ve been able to pull together some quality sponsors in a short amount of time, which speaks volumes for how ready people are to talk about this subject. We’ve also has a number of community members step up and offer assistance in planning the event.
+    </p>
+    
+    <p>
+      <strong>How do you use the open source way in your everyday life?</strong>
+    </p>
+    
+    <p>
+      I use Android mobile apps, OpenOffice, Google Docs, and our city cyber security. At the office, we’re running Red Hat Enterprise Linux on Mainframe IFL, which will shape a lot of our business decisions for the next few years.
+    </p>
+    
+    <p>
+      <em>This post is licensed <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="nofollow" target="blank">CC-BY-SA</a>.</em>
+    </p>
+  </div>
+</div>
+:ET
