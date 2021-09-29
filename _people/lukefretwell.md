@@ -16,7 +16,7 @@ github_username: lukefretwell
 flickr_link: 
 tumblr: 
 rss_link: 
-external: false
+external: true
 ---
 
 Luke Fretwell is co-founder and CEO of [ProudCity](https://proudcity.com).
