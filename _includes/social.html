@@ -1,39 +1,60 @@
 {% if site.email %}
-<a href="mailto:{{ site.email }}" aria-label="Email"><i class="fas fa-envelope {{ include.size }}"></i></a>
+  <a href="mailto:{{ site.email }}" aria-label="Email">
+    <i class="fas fa-envelope {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.calendar %}
-<a href="{{ site.calendar }}" aria-label="Calendar"><i class="fas fa-calendar {{ include.size }}"></i></a>
+  <a href="{{ site.calendar }}" aria-label="Calendar">
+    <i class="fas fa-calendar {{ include.size }}"></i>
+  </a>
+{% endif %}
+{% if site.slack %}
+  <a href="{{ site.slack }}" aria-label="Slack">
+    <i class="fab fa-slack {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.twitter_username %}
-<a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter"><i class="fab fa-twitter {{ include.size }}"></i></a>
+  <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter">
+    <i class="fab fa-twitter {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.linkedin_link %}
-<a href="{{ site.linkedin_link }}" aria-label="LinkedIn"><i class="fab fa-linkedin {{ include.size }}"></i></a>
+  <a href="{{ site.linkedin_link }}" aria-label="LinkedIn">
+    <i class="fab fa-linkedin {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.facebook_link %}
-<a href="{{ site.facebook_link }}" aria-label="Facebook"><i class="fab fa-facebook {{ include.size }}"></i></a>
+  <a href="{{ site.facebook_link }}" aria-label="Facebook">
+    <i class="fab fa-facebook {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.medium %}
-<a href="{{ site.medium }}" aria-label="Medium"><i class="fab fa-medium {{ include.size }}"></i></a>
+  <a href="{{ site.medium }}" aria-label="Medium">
+    <i class="fab fa-medium {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.youtube %}
-<a href="{{ site.youtube }}" aria-label="YouTube"><i class="fab fa-youtube {{ include.size }}"></i></a>
+  <a href="{{ site.youtube }}" aria-label="YouTube">
+    <i class="fab fa-youtube {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.figma %}
-<a href="{{ site.figma }}" aria-label="Figma"><i class="fab fa-figma {{ include.size }}"></i></a>
+  <a href="{{ site.figma }}" aria-label="Figma">
+    <i class="fab fa-figma {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.github_username %}
-<a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><i class="fab fa-github {{ include.size }}"></i></a>
+  <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub">
+    <i class="fab fa-github {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.instagram_username %}
-<a href="https://instagram.com/{{ site.instagram_username }}" aria-label="Instagram"><i class="fab fa-instagram {{ include.size }}"></i></a>
-{% endif %}
-{% if site.tumblr %}
-<a href="https://{{ site.tumblr }}.tumblr.com" aria-label="Tumblr"><i class="fab fa-tumblr {{ include.size }}"></i></a>
-{% endif %}
-{% if site.flickr_link %}
-<a href="{{ site.flickr_link }}" aria-label="Flickr"><i class="fab fa-flickr {{ include.size }}"></i></a>
+  <a href="https://instagram.com/{{ site.instagram_username }}" aria-label="Instagram">
+    <i class="fab fa-instagram {{ include.size }}"></i>
+  </a>
 {% endif %}
 {% if site.rss_link %}
-<a href="{{ site.baseurl }}/{{ site.rss_link }}" aria-label="RSS"><i class="fas fa-rss {{ include.size }}"></i></a>
+  <a href="{{ site.baseurl }}/{{ site.rss_link }}" aria-label="RSS">
+    <i class="fas fa-rss {{ include.size }}"></i>
+  </a>
 {% endif %}
