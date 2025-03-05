@@ -1,12 +1,12 @@
 docs_list_title: themes
 docs:
   - theme: Arts
-    icon: fa fa-paint-brush
+    icon: fa fa-palette
   - theme: Civic engagement
     icon: fas fa-landmark
   - theme: Civic technology
-    icon: fa fa-desktop
-  - theme: Economic & workforce development
+    icon: fa fa-code
+  - theme: Economics
     icon: fas fa-chart-line
   - theme: Education
     icon: fa fa-university
@@ -17,10 +17,14 @@ docs:
   - theme: Human services
     icon: fa fa-users
   - theme: Open government
-    icon: fa fa-spinner
-  - theme: Safety & emergency management
+    icon: fa fa-door-open
+  - theme: Safety
     icon: fa fa-ambulance
-  - theme: Public health
+  - theme: Emergency management
+    icon: fa fa-fire
+  - theme: Health
     icon: fa fa-medkit
   - theme: Transportation
     icon: fa fa-bus
+  - theme: More
+    icon: fa fa-circle-plus

@@ -5,161 +5,26 @@ layout: post
 {% include header.html %}
 {% include nav.html %}
 <main>
-  <div class="container post">
+  {% include jumbotron.html %}
+  <div class="container py-4">
     <div class="row">
-      <div class="col-sm-12">
-        <h1 class="display-4">{{ page.title }}</h1>
-        {% if page.description %}
-        <p class="lead">{{ page.description }}</p>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        {% if page.img-og %}
+          {% include image.html %}
         {% endif %}
-      </div>
-    </div>
-  </div>
-  {% if page.feat-image %}
-  <div class="feat-img">
-    <img
-      src="{{ site.baseurl }}/assets/img/posts{{ page.feat-image }}"
-      alt="{{ include.alt | default: 'image representing a theme in this article' }}"
-    />
-  </div>
-  {% endif %}
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="post-main">
-          {% if page.author %}
-          <div class="byline">
-            {% comment %}Loop through all of the authors of the page.{%
-            endcomment %} {% for author in page.author %} {% comment %}"where"
-            creates an array, so using "first" we can pop the first item off of
-            the array of 1.{% endcomment %} {% assign author_data = site.people
-            | where:"author", author | first %} {% if author_data.content.size >
-            1 %}
-            <p>
-              {% if author_data.avatar %}<img
-                src="{{ site.baseurl }}/assets/img/people/{{ author_data.avatar }}"
-                alt="Photo of {{ author_data.name }}"
-                title="{{ author_data.name }}"
-                class="avatar rounded-circle"
-              />
-              {% endif %}By <a href="{{ site.baseurl }}{{ author_data.url }}"> {{ author_data.name }}</a>
-            </p>
-          </div>
-          {% endif %} {% endfor %} {% endif %}
-          <div class="date">
-            <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-          </div>
-          {{ content | markdownify }}
+        <p class="border-bottom mb-4 pb-3">
+          By
+          {{ page.author }}
+          / {% include date.html %}
+        </p>
+        <div class="post">
+          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" %}
+          {% include topics.html %}
         </div>
-        {% if page.author %} {% comment %}Loop through all of the authors of the
-        page.{% endcomment %} {% for author in page.author %} {% comment
-        %}"where" creates an array, so using "first" we can pop the first item
-        off of the array of 1.{% endcomment %} {% assign author_data =
-        site.people | where:"author", author | first %} {% if
-        author_data.content.size > 1 %}
-        <div class="profile">
-          <h2>About {{ author_data.name }}</h2>
-          <p>{{ author_data.content | markdownify }}</p>
-          <p class="profile-social">
-            {% if author_data.website %}
-                    <a href="{{ author_data.website }}" aria-label="Website"
-                      ><i class="fas fa-home fa-lg"></i
-                    ></a>
-                    {% endif %}
-            {% if author_data.email %}
-            <a href="mailto:{{ author_data.email }}" aria-label="Email"
-              ><i class="fas fa-envelope fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.twitter_username %}
-            <a
-              href="https://twitter.com/{{ author_data.twitter_username }}"
-              aria-label="Twitter"
-              ><i class="fab fa-twitter fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.linkedin_link %}
-            <a href="{{ author_data.linkedin_link }}" aria-label="LinkedIn"
-              ><i class="fab fa-linkedin fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.facebook_link %}
-            <a href="{{ author_data.facebook_link }}" aria-label="Facebook"
-              ><i class="fab fa-facebook fa-lg"></i
-            ></a>
-            {% endif %}
-            {% if author_data.medium %}
-            <a href="{{ site.medium }}" aria-label="Medium"><i class="fab fa-medium fa-lg"></i></a>
-            {% endif %}
-            {% if author_data.youtube %}
-            <a href="{{ site.youtube }}" aria-label="YouTube"><i class="fab fa-youtube fa-lg"></i></a>
-            {% endif %}
-            {% if author_data.figma %}
-            <a href="{{ site.figma }}" aria-label="Figma"><i class="fab fa-figma fa-lg"></i></a>
-            {% endif %}
-            {% if author_data.github_username %}
-            <a
-              href="https://github.com/{{ author_data.github_username }}"
-              aria-label="GitHub"
-              ><i class="fab fa-github fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.instagram_username %}
-            <a
-              href="https://instagram.com/{{ author_data.instagram_username }}"
-              aria-label="Instagram"
-              ><i class="fab fa-instagram fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.flickr_link %}
-            <a href="{{ author_data.flickr_link }}" aria-label="Flickr"
-              ><i class="fab fa-flickr fa-lg"></i
-            ></a>
-            {% endif %}
-            {% if author_data.tumblr %}
-            <a href="{{ author_data.tumblr }}" aria-label="Tumblr"
-              ><i class="fab fa-tumblr fa-lg"></i
-            ></a>
-            {% endif %} {% if author_data.rss_link %}
-            <a href="{{ author_data.rss_link }}" aria-label="RSS"
-              ><i class="fas fa-rss fa-lg"></i
-            ></a>
-            {% endif %}
-          </p>
-        </div>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
       </div>
-      <div class="col-sm-4">
-        {% include promo.html %}
-      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
   </div>
 </main>
-<div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-              <div class="card-deck">
-                {% for post in site.posts limit:3 %}
-                <div class="card">
-                  <div class="card-body">
-                    {% if post.feat-img %}
-                    <a href="{{ post.url }}">
-                      <img
-                        class="card-img-top"
-                        src="{{ site.baseurl }}/img/posts/{{ post.feat-img }}"
-                        alt=""
-                      />
-                    </a>
-                    {% endif %}
-                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    <p>
-                      <small class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</small>
-                    </p>
-                    {% if post.description %}
-                    <p class="card-text">{{ post.description }}</p>
-                    {% endif %}
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-            </div>
-        </div>
-    </div>
-    {% include analytics.html %} {% include footer.html %}
+{% include footer.html %}

@@ -1,0 +1,69 @@
+---
+layout: cards
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="card-group">
+        {% if include.limit %}
+          {% assign limitVar = include.limit | plus: 0 %}
+        {% endif %}
+        {% if page.title == "Press" %}
+          {% for item in site.data.press.docs limit: limitVar %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2">
+                <div class="card-body">
+                  <h2 class="h4 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}">
+                      {{ item.title }}
+                    </a>
+                  </h2>
+                </div>
+                <div class="card-footer text-muted small">
+                  {{ item.source }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% elsif page.title == "Topics" %}
+          {% for item in site.topics %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card mx-2 my-2 pt-2 shadow">
+                <div class="card-body">
+                  <i class="{{ item.icon }} fa-3x mb-3 text-shadow"></i>
+                  <h2 class="h3 mb-3">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
+                  </h2>
+                  <p class="card-text">{{ item.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% elsif page.title == "News" %}
+          {% include news.html %}
+        {% else %}
+          {% assign sorted_docs = site.pages | sort: 'title' %}
+          {% for item in sorted_docs %}
+            {% if item.icon %}
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card mx-2 my-2 pt-2">
+                  <div class="card-body">
+                    <i class="{{ item.icon }} fa-2x mb-3"></i>
+                    <h2 class="h4 mb-3">
+                      <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                    </h2>
+                    <p class="description">{{ item.description }}</p>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

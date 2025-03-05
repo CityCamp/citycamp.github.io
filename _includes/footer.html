@@ -1,39 +1,31 @@
 <footer>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="footer-social">
-                        {% include social.html size="fa-lg" %}
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <ul>
-                        {% for item in site.data.nav-footer-1.docs %}
-                        {% if item.url %}
-                        <li><a class="" href="{{ item.url }}">{{ item.title }}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul>
-                        {% for item in site.data.nav-footer-2.docs %}
-                        {% if item.url %}
-                        <li><a class="" href="{{ item.url }}">{{ item.title }}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
-                </div>
-            </div>
+  <div class="bg-dark mt-3 pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        {% for col in site.data.footer.docs %}
+          <div class="col-3 mb-3">
+            <ul class="nav flex-column">
+              {% for item in col %}
+                <li class="mb-0">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0">{{ item.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="small">
+            {{ site.title }}
+            {{ "now" | date: "%Y" }}
+          </p>
         </div>
+      </div>
     </div>
+  </div>
 </footer>
-</body>
-
-</html>
+{% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+{% endif %}
+{% include js.html %}</body></html>

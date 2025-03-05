@@ -1,0 +1,37 @@
+{% if site.posts %}
+  <div class="container">
+    {% if page.layout == "home" %}
+      <h2 class="h2 mb-3">News</h2>
+    {% endif %}
+    <div class="row">
+      <div class="card-group">
+        {% for item in site.posts limit: limitVar %}
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+            <div class="card mx-2 my-2 pt-2 shadow">
+              {% if item.img-og %}
+                <img
+                  class="card-img-top img-fluid border-bottom"
+                  src="{{ site.baseurl }}/assets/img/posts/{{ item.img-og }}"
+                  alt="{{ item.title }}">
+              {% endif %}
+              <div class="card-body">
+                <h2 class="h3 mb-3">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
+                </h2>
+                <p class="card-text">{{ item.description }}</p>
+              </div>
+              <div class="card-footer text-muted small">
+                {% include date.html %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% if page.layout == "home" %}
+        <p>
+          <a href="{{ site.baseurl }}/news/" class="btn btn-primary">News</a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

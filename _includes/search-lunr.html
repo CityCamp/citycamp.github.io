@@ -1,0 +1,92 @@
+<script src="/js/lunr.js"></script>
+
+{% assign counter = 0 %}
+
+<style>
+    #lunrsearchresults {padding-top: 0.2rem;}
+    .lunrsearchresult {padding-bottom: 1rem;}
+    .lunrsearchresult .title {color: var(--bs-body-color);}
+    .lunrsearchresult .url {color: var(--bs-body-color);}
+    .lunrsearchresult a {display: block; color: var(--bs-body-color);}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="needs-validation" novalidate>
+    <div class="mb-3">
+        <label for="lunrsearch" class="form-label">Search CityCamp:</label>
+        <div class="input-group-lg">
+            <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="" required>
+            <button type="submit" class="btn btn-primary">Go</button>
+            <div class="invalid-feedback">
+                Please enter a search term.
+            </div>
+        </div>
+    </div>
+</form>
+
+<div id="lunrsearchresults" class="mb-4">
+    <ul></ul>
+</div>
+
+<script>
+var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.description | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endfor %}{% for page in site.posts %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.date | date: site.date }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body')
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="search-child"></div>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = "<p class='border-bottom pb-3 mb-4'>Search results for: <span class='text-body-secondary'>" + term + "</span></p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+(documents[ref]['body'].length>=160?'...':'');
+                document.getElementById('search-child').innerHTML += `
+                        <div class="mb-4">
+                            <a href="${url}" class="nav-link"><h2 class="h3">${title}</h2></a>
+                            <p class="mb-0">${body}</p>
+                        </div>
+                            `;
+            }
+        } else {
+            document.getElementById('search-child').innerHTML = "<p class='lunrsearchresult'>No results found.</p>";
+        }
+    }
+    return false;
+}
+
+const params = new URLSearchParams(location.search);
+if (params.has('q')) {
+    const q = decodeURI(params.get('q'));
+    lunr_search(q);
+    document.getElementById('lunrsearch').value = q;
+}
+</script>

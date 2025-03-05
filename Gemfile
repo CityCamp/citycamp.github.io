@@ -33,6 +33,7 @@ gem 'ostruct'
 gem 'base64'
 gem 'bigdecimal'
 gem 'webrick'
+gem 'jekyll-redirect-from'
 
 
 # Performance-booster for watching directories on Windows

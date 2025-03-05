@@ -1,0 +1,48 @@
+docs_list_title: footer
+docs:
+
+- 
+ - title: About
+   url: /about
+
+ - title: Connect
+   url: /connect
+
+ - title: News
+   url: /news
+   
+ - title: People
+   url: /people
+
+- 
+
+ - title: Organize
+   url: /topics/organize
+
+ - title: Participate
+   url: /topics/participate
+
+ - title: Sponsor
+   url: /topics/sponsor
+
+-
+
+ - title: Community
+   url: /community
+
+ - title: Code of conduct
+   url: /conduct
+
+- 
+
+ - title: Help
+   url: /help
+
+ - title: License
+   url: /license
+
+ - title: Site index
+   url: /site-index
+
+-
+

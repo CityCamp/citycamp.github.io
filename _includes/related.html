@@ -1,0 +1,47 @@
+{% assign related_pages = "" | split: "," %}
+{% if page.topics %}
+  {% for other_page in site.pages %}
+    {% if other_page.url != page.url and other_page.topics %}
+      {% for topic in page.topics %}
+        {% if other_page.topics contains topic %}
+          {% unless related_pages contains other_page %}
+            {% assign related_pages = related_pages | push: other_page %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% if related_pages.size > 0 %}
+  <h2 class="h3 mt-5">Related</h2>
+  <ul>
+    {% for related in related_pages limit: 3 %}
+      {% unless related.title == "Services" or related.title contains "ScanGov"" %}
+                                <li>
+                                  <a href="{{ related.url }}">{{ related.title }}</a>
+                                </li>
+                              {% endunless %}
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                        {% assign shown_topics = "" %}
+                        {% for topic in site.topics %}
+                          {% if topic.link and page.topics contains topic.title %}
+                            {% assign shown_topics = shown_topics | append: topic.title | append: "
+        , " %}
+                          {% endif %}
+                        {% endfor %}
+                        
+                        {% if shown_topics != "" %}
+                          <h2 class="mt-5">ScanGov</h2>
+                          <p>Grades/scores that use {{ page.title }}:</p>
+                          <ul>
+                            {% for topic in site.topics %}
+                              {% if topic.link and page.topics contains topic.title %}
+                                <li>
+                                  <a href="{{ topic.link }}">{{ topic.title }}</a>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        {% endif %}

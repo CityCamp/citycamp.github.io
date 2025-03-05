@@ -1,0 +1,32 @@
+docs_list_title: home
+docs:
+
+  - title: Organize
+    description: "Lead a CityCamp where you live."
+    icon: fa-solid fa-compass
+    url: /topics/organize
+
+  - title: Participate
+    description: "Get involved with a CityCamp near you."
+    icon: fa-solid fa-hands-helping
+    url: /topics/participate
+
+  - title: Sponsor
+    description: "Support a CityCamp in-kind or financially."
+    icon: fa-solid fa-gift
+    url: /topics/sponsor
+    
+  - title: Community
+    description: "Join the CityCamp community."
+    icon: fa-solid fa-circle-nodes
+    url: /community
+
+  - title: Find
+    description: "Find a CityCamp near you."
+    icon: fa-solid fa-map-marker-alt
+    url: /find
+
+  - title: Help
+    description: "Get CityCamp help."
+    icon: fa-solid fa-circle-question
+    url: /help

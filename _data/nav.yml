@@ -1,23 +1,26 @@
 docs_list_title: nav
 docs:
 
+- title: Organize
+  icon: fa-solid fa-compass
+  url: /topics/organize
+
+- title: Participate
+  icon: fa-solid fa-hands-helping
+  url: /topics/participate
+
+- title: Sponsor
+  icon: fa-solid fa-gift
+  url: /topics/sponsor
+
 - title: About
-  url: /about/
+  icon: fa-solid fa-info-circle
+  url: /about
 
-- title: Playbook
-  url: /playbook/
+- title: News
+  icon: fa-solid fa-newspaper
+  url: /news
 
-- title: Cities
-  url: /cities/
-
-- title: Press
-  url: /press/
-
-- title: Posts
-  url: /posts/
-
-- title: Connect
-  url: /connect/
-
-- title: <i class="fas fa-search"></i>
-  url: /search/
+- title: Help
+  icon: fa-solid fa-question-circle
+  url: /help

@@ -1,17 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-sm-auto">
-                {% for item in site.data.nav.docs %}
-                {% if item.url %}
-                <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
+<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      {{ site.title }}
+    </a>
+    <button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler ml-auto collapsed"
+      data-target="#navbarSupportedContent"
+      data-toggle="collapse"
+      type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        {% for item in site.data.nav.docs %}
+          {% if item.url %}
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-item nav-link {% if page.url contains item.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">
+                <i class="{{ item.icon }}"></i>
+                {{ item.title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
+  </div>
 </nav>

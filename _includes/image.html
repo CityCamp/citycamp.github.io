@@ -1,0 +1,25 @@
+{% if page.parent "news" %}
+  {% if page.img-og %}
+    <figure>
+      <img
+        src="{{ site.baseurl }}/assets/img/posts/{{ page.img-og }}"
+        alt="{{ page.img-alt }}"
+        class="mb-3 border">
+      {% if page.img-caption %}
+        <figcaption>
+          <p class="small text-body-secondary mb-4">
+            <small>
+              {% if page.img-link %}
+                <a href="{{ site.baseurl }}{{ page.img-link }}" class="nav-link text-body-secondary link-body-emphasis link-offset-3">
+              {% endif %}
+              {{ page.img-caption }}
+              {% if page.img-link %}
+                </a>
+              {% endif %}
+            </small>
+          </p>
+        </figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
+{% endif %}
