@@ -1,0 +1,24 @@
+---
+title: Find
+description: Find a CityCamp near you.
+topics:
+  - Participate
+  - Sponsor
+---
+
+Coming soon!
+In the meantime,
+<a href="/community">join the CityCamp community</a>.
+
+<hr>
+{% for event in site.data.events %}
+    <div>
+      {{ event.startDate }}
+      &mdash;
+      {{ event.name }}
+      &mdash;
+      {{ event.location }}
+      &mdash;
+      {{ event.organizer }}
+    </div>
+{% endfor %}
