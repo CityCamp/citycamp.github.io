@@ -12,5 +12,4 @@ The CityCamp brand is maintained as a pattern that is easily repeatable and for 
 
 - [License](/license)
 - [Brand files](https://www.figma.com/community/file/1479330975655311306) (Figma)
-- Font: [Public Sans](https://public-sans.digital.gov/)
-- Icons: [Font Awesome](https://fontawesome.com/)
+- Logo font: [Public Sans](https://public-sans.digital.gov/)

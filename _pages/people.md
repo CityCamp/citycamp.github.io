@@ -1,6 +1,6 @@
 ---
-layout: people
 title: People
-description: CityCamp maintainers and contributors.
+description: CityCamp maintainers.
 ---
 
+- [Luke Fretwell](https://lukefretwell.com)

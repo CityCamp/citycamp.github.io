@@ -3,9 +3,49 @@ layout: home
 ---
 
 {% include header.html %} {% include nav.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
-  {% include home.html %}
-  {% include themes.html %}
+  {% if site.data.home.docs %}
+    <div class="container border-bottom mb-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-group pt-3 pb-5">
+            {% for item in site.data.home.docs %}
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                <div class="card text-center pt-4 pb-3 mx-2 mb-3 shadow">
+                  <i class="{{ item.icon }} fa-3x mb-3 text-shadow" aria-label="hidden"></i>
+                  <h2 class="h3 mb-2">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
+                  </h2>
+                  <p>{{ item.description }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  {% if site.data.themes.docs %}
+    <div class="container border-bottom mb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2>Themes</h2>
+          <p>CityCamp themes vary by event, but generally focus on these interest areas:</p>
+          <div class="card-group pt-3 pb-5">
+            {% for item in site.data.themes.docs %}
+              <div class="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-2 d-flex align-items-stretch">
+                <div class="card border-0 text-center pt-4 pb-2">
+                  <i class="{{ item.icon }} fa-3x mb-3 text-shadow" aria-label="hidden"></i>
+                  <p class="small">{{ item.theme }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
   {% include news.html %}
-  {% include analytics.html %} {% include footer.html %}
+</main>
+{% include analytics.html %} {% include footer.html %}

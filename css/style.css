@@ -25,22 +25,23 @@
     src: url("/assets/fonts/public-sans/PublicSans-Black.ttf") format("truetype");
 }
 
+/* Root */
+
 :root, [data-bs-theme=dark], [data-bs-theme=light] {
-    --color-2: #0050d8;
+    --bs-primary-color: #0050d8;
+    --bs-gray-100: #dddddd;
     --bs-body-bg: #ffffff;
     --bs-bg-dark: #000000;
     --bs-body-color: #000000;
-    --bs-border-color: #ccc !important;
+    --bs-border-color: #dddddd !important;
+    --bs-box-shadow: 0 0.25rem .5rem rgba(0, 0, 0, .15) !important;
+    --bs-border-radius: 0.25rem !important;
     --bs-font-sans-serif: "Public Sans Regular", sans-serif;
     --bs-font-thin: "Public Sans Thin", sans-serif;
     --bs-font-light: "Public Sans Light", sans-serif;
     --bs-font-regular: "Public Sans Regular", sans-serif;
     --bs-font-bold: "Public Sans Bold", sans-serif;
     --bs-font-extra-bold: "Public Sans ExtraBold", sans-serif;
-    --bs-box-shadow: 0 0.25rem .5rem rgba(0, 0, 0, .15) !important;
-    --bs-box-shadow-md: 0 0.25rem .5rem rgba(0, 0, 0, .25) !important;
-    --bs-border-radius: 0.25rem !important;
-    --bs-card-cap-bg: #000 !important;
 }
 
 body {
@@ -53,6 +54,7 @@ img {
     height: auto;
 }
 
+.navbar-brand,
 h1,
 h2,
 h3,
@@ -75,8 +77,14 @@ h6,
     letter-spacing: -.02em
 }
 
-.text-shadow {
-    filter: drop-shadow(-4px 4px 0 #dddddd);
+/* Dark */
+
+.bg-dark {
+    background-color: var(--bs-bg-dark) !important;
+}
+
+.bg-dark, .navbar-dark .navbar-nav .nav-link, .bg-dark .nav-link {
+    color: var(--bs-body-bg);
 }
 
 /* Links */
@@ -84,29 +92,8 @@ h6,
 a,
 a:visited,
 a:hover {
-    color: var(--color-2);
+    color: var(--bs-primary-color);
 }
-
-main a,
-main a:visited {
-    text-decoration: underline;
-}
-
-main a:hover {
-    text-decoration: none;
-}
-
-/*
-a[href^="http"]:not([href^="https://citycamp.com"]):not([href^="http://localhost:4000/"])::after {
-    content: "\f35d";
-font-family: "Font Awesome 5 Free";
-font-weight: 900;
-margin-left: 5px;
-font-size: 0.8em;
-display: inline-block;
-}
-
-/*
 
 /* Anchor links */
 
@@ -118,6 +105,12 @@ h3 a#heading-hashtag {
 h2:hover a#heading-hashtag,
 h3:hover a#heading-hashtag {
     display: revert;
+}
+
+/* Shadow */
+
+.text-shadow {
+    filter: drop-shadow(-4px 4px 0 #dddddd);
 }
 
 /* Post */
@@ -144,22 +137,7 @@ h3:hover a#heading-hashtag {
 
 .pagination a {
     text-decoration: none;
-    color: #000000;
-}
-
-.bg-dark {
-    background-color: var(--bs-bg-dark) !important;
-    color: var(--bs-body-bg);
-}
-
-/* Navbar */
-
-.navbar-brand {
-    font-family: var(--bs-font-bold);
-}
-
-.navbar-dark .navbar-nav .nav-link, .bg-dark .nav-link {
-    color: #fff;
+    color: var(--bs-body-color);
 }
 
 /* Cards */
@@ -175,69 +153,20 @@ a.btn-primary,
 a.btn-primary:active,
 a.btn-primary:hover,
 a.btn-primary:visited {
-    color: #000000;
-    background-color: #f1f1f1;
-    border: 1px solid #f1f1f1;
-    border-radius: 5px;
+    color: var(--bs-body-color);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-body-bg);
+    border-radius: var(--bs-border-radius);
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding: 0.75rem;
     text-decoration: none;
     text-align: center;
-    font-family: var(--font-1);
+    font-family: var(--bs-font-regular);
 }
 
 a.btn-primary:hover {
     background-color: var(--bs-body-color);
     border: 1px solid var(--bs-body-color);
-    color: #fff;
-}
-
-
-/* Profile */
-
-img.avatar {
-    border-radius: 50%;
-    max-width: 50px;
-    margin-right: 0.5rem;
-}
-
-img.avatar-profile {
-    max-width: 200px;
-    margin-right: 0.5rem;
-}
-
-img.profile-home {
-    margin-bottom: 1.5rem;
-}
-
-.profile-page {
-    padding-top: 2rem;
-}
-
-
-.profile {
-    border-top: 1px solid #000000;
-    margin-top: 3rem;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-}
-
-.profile p,
-.profile li {
-    font-size: 1.1rem;
-    font-family: var(--font-1);
-}
-
-.profile-social {
-    padding-bottom: 0.5rem;
-    padding-top: 0.75rem;
-}
-
-.profile-social a,
-.profile-social a:active,
-.profile-social a:visited {
-    color: #000000;
-    margin-right: 1.25rem;
+    color: var(--bs-body-bg);
 }

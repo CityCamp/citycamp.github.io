@@ -18,18 +18,6 @@ plugins:
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
-# Social media
-x: citycamp
-medium: 
-figma: 
-youtube: 
-github: citycamp
-linkedin: 
-facebook: https://www.facebook.com/citycamp
-instagram: 
-rss: https://citycamp.com/feed.xml
-slack: https://join.slack.com/t/citycamp-team/shared_invite/zt-30wn3ct2a-zzxhCRYLdlKlDLvjqv~dBA
-
 # Defaults
 defaults:
   - scope:
@@ -39,7 +27,7 @@ defaults:
       folder: "Pages"
       img-path: "pages"
       parent: "pages"
-      layout: "docs"
+      layout: "default"
       short: "false"
       schematype: ""
   - scope:

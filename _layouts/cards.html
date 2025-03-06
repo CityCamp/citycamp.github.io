@@ -3,7 +3,7 @@ layout: cards
 ---
 {% include header.html %}
 {% include nav.html %}
-<main>
+<main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
@@ -12,15 +12,13 @@ layout: cards
           {% assign limitVar = include.limit | plus: 0 %}
         {% endif %}
         {% if page.title == "Press" %}
-          {% for item in site.data.press.docs limit: limitVar %}
+          {% for item in site.data.press.docs %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-              <div class="card mx-2 my-2 pt-2">
+              <div class="card">
                 <div class="card-body">
-                  <h2 class="h4 mb-3">
-                    <a href="{{ site.baseurl }}{{ item.url }}">
-                      {{ item.title }}
-                    </a>
-                  </h2>
+                  <h3 class="card-title">
+                    <a href="{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
+                  </h3>
                 </div>
                 <div class="card-footer text-muted small">
                   {{ item.source }}
@@ -28,16 +26,17 @@ layout: cards
               </div>
             </div>
           {% endfor %}
-        {% elsif page.title == "Topics" %}
-          {% for item in site.topics %}
+        {% elsif page.title == "Connect" %}
+          {% for item in site.data.connect.docs %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-              <div class="card mx-2 my-2 pt-2 shadow">
+              <div class="card text-center pt-4 pb-3 mx-2 mb-3 shadow">
                 <div class="card-body">
-                  <i class="{{ item.icon }} fa-3x mb-3 text-shadow"></i>
-                  <h2 class="h3 mb-3">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
-                  </h2>
-                  <p class="card-text">{{ item.description }}</p>
+                  <a href="{{ item.url }}" class="stretched-link nav-link">
+                    <p>
+                      <i class="{{ item.icon }} fa-3x text-shadow" aria-label="{{ item.title }}"></i>
+                    </p>
+                    <p class="card-title">{{ item.title }}</p>
+                  </a>
                 </div>
               </div>
             </div>
