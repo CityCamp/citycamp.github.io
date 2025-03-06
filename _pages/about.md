@@ -15,7 +15,7 @@ CityCamp is a global movement of community-focused events that foster civic coll
 
 CityCamp was founded by Kevin Curry and Jen Pahlka.
 
-The first CityCamp was held January 23-24, 2010 in Chicago. Afterwards, Kevin and Luke Fretwell developed it as an open source brand so that anyone could host events anywhere. Since then, there have been self-organized [CityCamp events worldwide](/cities).
+The first CityCamp was held January 23-24, 2010, in Chicago. Afterwards, Kevin and Luke Fretwell developed it as an open source brand so that anyone could host events anywhere. Since then, there have been self-organized [CityCamp events worldwide](/cities).
 
 
 ## Format
@@ -29,4 +29,4 @@ CityCamp recognizes that local governments and community organizations have the 
 
 ## Brand
 
-CityCamp is an open source [brand](/brand) that exists in the Creative Commons ([license](https://citycamp.com/license)). This ensures that the pattern is recognizable and that independent organizers don’t misrepresent CityCamp CityCamp is maintained as a pattern that is easily repeatable and for anyone to use.
+CityCamp is an open source [brand](/brand) that exists in the Creative Commons ([license](https://citycamp.com/license)). This ensures that the pattern is recognizable and that independent organizers don’t misrepresent CityCamp. CityCamp is maintained as a pattern that is easily repeatable and for anyone to use.
