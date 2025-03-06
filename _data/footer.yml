@@ -1,7 +1,7 @@
 docs_list_title: footer
 docs:
 
-- 
+-
  - title: About
    url: /about
 
@@ -14,22 +14,21 @@ docs:
  - title: Connect
    url: /connect
 
-- 
+-
 
- - title: Organize
-   url: /topics/organize
+ - title: Community
+   url: /community
 
  - title: Participate
    url: /topics/participate
+
+ - title: Organize
+   url: /topics/organize
 
  - title: Sponsor
    url: /topics/sponsor
 
 -
-
-
- - title: Community
-   url: /community
 
  - title: Facebook
    url: https://facebook.com/citycamp
@@ -50,7 +49,7 @@ docs:
 
  - title: Code of conduct
    url: /conduct
-   
+
  - title: License
    url: /license
 

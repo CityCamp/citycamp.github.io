@@ -5,21 +5,21 @@ docs:
   icon: fa-solid fa-info-circle
   url: /topics/about
 
-- title: Organize
-  icon: fa-solid fa-compass
-  url: /topics/organize
+- title: Find
+  icon: fa-solid fa-magnifying-glass
+  url: /find
 
 - title: Participate
   icon: fa-solid fa-hands-helping
   url: /topics/participate
 
+- title: Organize
+  icon: fa-solid fa-compass
+  url: /topics/organize
+
 - title: Sponsor
   icon: fa-solid fa-gift
   url: /topics/sponsor
-
-- title: Find
-  icon: fa-solid fa-magnifying-glass
-  url: /find
 
 - title: Help
   icon: fa-solid fa-question-circle
