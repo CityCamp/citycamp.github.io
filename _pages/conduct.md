@@ -2,6 +2,7 @@
 title: Code of conduct
 description: CityCamp code of conduct.
 topics:
+  - About
   - Organize
   - Participate
   - Sponsor

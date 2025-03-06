@@ -1,11 +1,12 @@
 ---
-title: CityCamp 101
-description: Everything you need to know about CityCamp.
+title: Playbook
+description: Organizing your CityCamp.
 topics:
+  - About
   - Organize
-  - Participate
-  - Sponsor
 ---
+
+**NOTE: This page needs updating.**
 
 ## About CityCamp
 
@@ -48,8 +49,8 @@ Each CityCamp has four main goals:
 ## Common themes
 
 * Arts
-* Civic Engagement
-* Civic Technology
+* Civic engagement
+* Civic technology
 * Economics
 * Education
 * Environment

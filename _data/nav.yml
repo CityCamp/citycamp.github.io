@@ -9,13 +9,13 @@ docs:
   icon: fa-solid fa-magnifying-glass
   url: /find
 
-- title: Participate
-  icon: fa-solid fa-hands-helping
-  url: /topics/participate
-
 - title: Organize
   icon: fa-solid fa-compass
   url: /topics/organize
+
+- title: Participate
+  icon: fa-solid fa-hands-helping
+  url: /topics/participate
 
 - title: Sponsor
   icon: fa-solid fa-gift

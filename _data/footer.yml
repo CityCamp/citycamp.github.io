@@ -14,21 +14,24 @@ docs:
  - title: Connect
    url: /connect
 
+ - title: Feedback
+   url: /feedback
+
 -
-
- - title: Community
-   url: /community
-
- - title: Participate
-   url: /topics/participate
 
  - title: Organize
    url: /topics/organize
+
+ - title: Participate
+   url: /topics/participate
 
  - title: Sponsor
    url: /topics/sponsor
 
 -
+
+ - title: Community
+   url: /community
 
  - title: Facebook
    url: https://facebook.com/citycamp
@@ -44,14 +47,14 @@ docs:
  - title: Help
    url: /help
 
- - title: Feedback
-   url: /feedback
-
  - title: Code of conduct
    url: /conduct
 
  - title: License
    url: /license
+
+ - title: Accessibility
+   url: /accessibility-statement
 
  - title: Site index
    url: /site-index
