@@ -5,6 +5,10 @@ docs:
   icon: fa-solid fa-info-circle
   url: /topics/about
 
+- title: Find
+  icon: fa-solid fa-magnifying-glass
+  url: /find
+
 - title: Organize
   icon: fa-solid fa-compass
   url: /topics/organize
@@ -16,10 +20,6 @@ docs:
 - title: Sponsor
   icon: fa-solid fa-gift
   url: /topics/sponsor
-
-- title: Find
-  icon: fa-solid fa-magnifying-glass
-  url: /find
 
 - title: Help
   icon: fa-solid fa-question-circle
