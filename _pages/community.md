@@ -2,6 +2,7 @@
 title: Community
 description: Join the CityCamp community.
 topics:
+  - About
   - Organize
   - Participate
   - Sponsor

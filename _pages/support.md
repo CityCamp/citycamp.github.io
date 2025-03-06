@@ -2,6 +2,7 @@
 title: Support
 description: Can't find what you're looking for?
 topics:
+  - About
   - Organize
   - Participate
   - Sponsor

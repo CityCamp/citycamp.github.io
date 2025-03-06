@@ -13,8 +13,8 @@
 </style>
 
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="needs-validation" novalidate>
-    <div class="mb-3">
-        <label for="lunrsearch" class="form-label">Search CityCamp:</label>
+    <div class="mt-3">
+        <label for="lunrsearch" class="form-label">Search CityCamp (<a href="{{ site.baseurl }}/site-index">site index</a>):</label>
         <div class="input-group-lg">
             <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="" required>
             <button type="submit" class="btn btn-primary">Go</button>

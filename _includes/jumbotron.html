@@ -29,23 +29,15 @@
       <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
   </div>
-{% elsif page.layout == "docs-home" %}
-  <div class="container pt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        <h1 class="display-5 mb-3">{{ page.title }}</h1>
-        {% if page.search == true %}
-          {% include search-lunr.html %}
-        {% endif %}
-      </div>
-      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-    </div>
-  </div>
 {% elsif page.layout == "docs" %}
   <h1 class="display-5 mb-2">{{ page.title }}</h1>
-  {% if page.description %}
-    <p class="lead fs-4 mb-5 pb-4 border-bottom">{{ page.description }}</p>
+  {% if page.search == nil %}
+    {% if page.description %}
+      <p class="lead fs-4 mb-5 pb-4 border-bottom">{{ page.description }}</p>
+    {% endif %}
+  {% endif %}
+  {% if page.search == true %}
+    {% include search-lunr.html %}
   {% endif %}
 {% else %}
   <div class="bg-dark mb-4 border-bottom shadow py-3">
