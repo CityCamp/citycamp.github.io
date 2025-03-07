@@ -5,11 +5,17 @@ docs:
  - title: About
    url: /about
 
+ - title: Cities
+   url: /cities
+
  - title: News
    url: /news
 
  - title: Press
    url: /press
+
+ - title: Partners
+   url: /partners
 
  - title: Connect
    url: /connect
@@ -18,6 +24,9 @@ docs:
    url: /feedback
 
 -
+
+ - title: Find
+   url: /find
 
  - title: Organize
    url: /topics/organize

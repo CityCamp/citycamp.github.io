@@ -3,9 +3,6 @@ title: About
 description: Overview of CityCamp.
 topics:
   - About
-  - Organize
-  - Participate
-  - Sponsor
 ---
 
 CityCamp is a global movement of community-focused events that foster civic collaboration and innovation.

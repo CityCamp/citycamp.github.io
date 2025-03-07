@@ -2,7 +2,6 @@
 title: Get started (participants)
 description: Participate in a CityCamp where you live.
 topics:
-  - About
   - Participate
 ---
 

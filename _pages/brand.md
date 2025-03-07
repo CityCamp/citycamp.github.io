@@ -3,7 +3,6 @@ title: Brand
 description: CityCamp brand info and assets.
 topics:
   - About
-  - Organize
 ---
 
 CityCamp is an open source brand that exists in the Creative Commons. 

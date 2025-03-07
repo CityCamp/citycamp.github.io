@@ -2,7 +2,6 @@
 title: Get started (organizers)
 description: Organize a CityCamp where you live.
 topics:
-  - About
   - Organize
 ---
 

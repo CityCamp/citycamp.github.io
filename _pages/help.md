@@ -5,7 +5,7 @@ search: true
 topics:
   - About
   - Organize
-  - Particpate
+  - Participate
   - Sponsor
 ---
 
