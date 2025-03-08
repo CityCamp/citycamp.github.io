@@ -1,6 +1,7 @@
 {% if page.map == true %}
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/assets/js/TileLayer.Grayscale.js"></script>
   <style>
     #map {
       height: 500px;
@@ -12,6 +13,7 @@
   <script>
     // Initialize map
     var map = L.map('map', {
+      fadeAnimation: false,
       minZoom: 2
     });
 
@@ -19,7 +21,7 @@
     var bounds = new L.latLngBounds();
 
     // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.tileLayer.grayscale('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
