@@ -59,17 +59,25 @@
         { name: "Oakland", lat: 37.8044, lng: -122.2711, state: "California" },
     ];
 
+    // Custom black map pin
+    const marker =  blackPin = L.icon({
+        iconUrl: '/assets/img/map_pin_black.svg',
+        iconSize: [25, 41],
+        iconAnchor: [12, 31],
+        popupAnchor: [1, -34]
+      });
+
     // Add markers with popups
     cities.forEach(city => {
-        // Extend bounds to include all city coordinates
+        // Extend bounds to include all cities
         bounds.extend([city.lat, city.lng]);
 
-        L.marker([city.lat, city.lng])
+        L.marker([city.lat, city.lng], { icon: blackPin })
             .addTo(map)
             .bindPopup(`<b>${city.name}</b>`);
     });
 
-    // Fit the map view to show all markers
+    // Fit the map view to the bounds to show all markers
     map.fitBounds(bounds, { padding: [20, 20] });
   </script>
 {% endif %}
