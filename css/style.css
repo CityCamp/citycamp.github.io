@@ -143,6 +143,7 @@ h3:hover a#heading-hashtag {
 /* Cards */
 
 .card {
+    padding: 1rem;
     width: 100%;
 }
 
