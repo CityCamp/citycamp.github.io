@@ -7,12 +7,14 @@
       width: 100%;
     }
   </style>
-
   <div id="map"></div>
 
   <script>
     // Initialize map
-    var map = L.map('map');
+    var map = L.map('map', {
+      minZoom: 2
+    });
+
     // Define bounds, so all events can be focused on after they are rendered
     var bounds = new L.latLngBounds();
 
