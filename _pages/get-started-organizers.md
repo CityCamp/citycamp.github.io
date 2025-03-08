@@ -11,5 +11,6 @@ topics:
 4. If there isn't one, start a new Slack channel (name: `cc-yourcity`)
 5. Invite co-organizers
 6. Secure a location and set a date.
-7. [Request a subdomain](/subdomain-request) (if needed).
-8. Add to calendar (coming soon)
+7. [Create a CityCamp website](/organizer/website)
+  * [Request a subdomain](/subdomain-request) (if needed).
+8. [Add your event](/events/new) to the calendar
