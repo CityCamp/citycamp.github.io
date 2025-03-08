@@ -24,7 +24,7 @@ docs:
   - title: Find
     description: "Find a CityCamp near you."
     icon: fa-solid fa-map-marker-alt
-    url: /find
+    url: /events
 
   - title: Help
     description: "Get CityCamp help."
