@@ -9,6 +9,28 @@ CityCamp is an open source brand that exists in the Creative Commons.
 
 The CityCamp brand is maintained as a pattern that is easily repeatable and for anyone to use. This ensures that the pattern is recognizable and that independent organizers don’t misrepresent CityCamp.
 
-- [License](/license)
-- [Brand files](https://www.figma.com/community/file/1479330975655311306) (Figma)
+## Style guide
+
+Type:
+
+- CityCamp (one word)
+- CityCamp Tulsa (two words)
+
+Color:
+
+- CityCamp base color: #00000
+- City-specific: Open (note: make sure your custom color is [contrast accessible](https://webaim.org/resources/contrastchecker/))
+
+Visual:
+
 - Logo font: [Public Sans](https://public-sans.digital.gov/)
+- CityCamp font: Public Sans ExtraBold
+- City font Public Sans Regular
+
+## Assets
+
+- [Brand files](https://www.figma.com/community/file/1479330975655311306) (Figma)
+
+## License
+
+- [License](/license)
