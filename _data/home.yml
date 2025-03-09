@@ -21,9 +21,9 @@ docs:
     icon: fa-solid fa-circle-nodes
     url: /community
 
-  - title: Find
+  - title: Events
     description: "Find a CityCamp near you."
-    icon: fa-solid fa-map-marker-alt
+    icon: fa-solid fa-calendar
     url: /events
 
   - title: Help

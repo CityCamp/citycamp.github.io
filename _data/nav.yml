@@ -5,8 +5,8 @@ docs:
   icon: fa-solid fa-info-circle
   url: /topics/about
 
-- title: Find
-  icon: fa-solid fa-magnifying-glass
+- title: Events
+  icon: fa-solid fa-calendar
   url: /events
 
 - title: Organize
