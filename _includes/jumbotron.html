@@ -39,6 +39,38 @@
   {% if page.search == true %}
     {% include search-lunr.html %}
   {% endif %}
+
+{% elsif page.title == "Events" %}
+  <div class="bg-dark mb-4 border-bottom shadow py-3">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <h1 class="display-4">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+          {% endif %}
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-1 mb-3">
+            <a
+              href="https://airtable.com/appHfiSRNXI03wUZX/shrtEHpk3xl8qajzQ"
+              class="btn btn-primary"
+              target="_blank">Add your event</a>
+          </li>
+          <li class="list-inline-item mr-1 mb-3">
+            <a href="{{ site.baseurl }}/topics/organize" class="btn btn-primary">Organize a CityCamp</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 {% else %}
   <div class="bg-dark mb-4 border-bottom shadow py-3">
     <div class="container py-5">

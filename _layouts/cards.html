@@ -41,6 +41,22 @@ layout: cards
               </div>
             </div>
           {% endfor %}
+        {% elsif page.title == "Events" %}
+          {% for event in site.data.events %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+              <div class="card text-center pt-4 pb-3 mx-2 mb-3 shadow">
+                <div class="card-body">
+                  <a href="{{ event.url }}" class="stretched-link nav-link">
+                    <h2 class="h4 ">{{ event.name }}</h2>
+                  </a>
+                  <p class="card-text">{{ event.location }}</p>
+                </div>
+              </div>
+              <div class="card-footer text-muted small">
+                {{ event.date }}
+              </div>
+            </div>
+          {% endfor %}
         {% elsif page.title == "News" %}
           {% include news.html %}
         {% else %}

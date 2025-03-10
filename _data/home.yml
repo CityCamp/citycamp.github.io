@@ -22,7 +22,7 @@ docs:
     url: /community
 
   - title: Events
-    description: "Find a CityCamp near you."
+    description: "Calendar of CityCamp events (+ add yours!)."
     icon: fa-solid fa-calendar
     url: /events
 
