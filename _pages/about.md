@@ -13,6 +13,10 @@ CityCamp was founded by Kevin Curry and Jen Pahlka.
 
 The first CityCamp was held January 23-24, 2010, in Chicago. Afterwards, Kevin and Luke Fretwell developed it as an open source brand so that anyone could host events anywhere. Since then, there have been self-organized [CityCamp events worldwide](/cities).
 
+## World CityCamp Day
+
+World CityCamp Day is held annually on the third Saturday in September.
+
 ## Format
 
 CityCamp is an [unconference](http://en.wikipedia.org/wiki/Unconference) focused on collaboration and innovation for local governments and community organizations.

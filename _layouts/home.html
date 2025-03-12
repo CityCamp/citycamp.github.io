@@ -26,6 +26,26 @@ layout: home
       </div>
     </div>
   {% endif %}
+  {% if site.data.who.docs %}
+    <div class="container border-bottom mb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2>Who it's for</h2>
+          <p>CityCamp is for everyone in the community.</p>
+          <div class="card-group pt-3 pb-5">
+            {% for item in site.data.who.docs %}
+              <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
+                <div class="card border-0 text-center pt-4 pb-2">
+                  <i class="{{ item.icon }} fa-2x mb-3 text-shadow" aria-label="hidden"></i>
+                  <p class="small">{{ item.title }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
   {% if site.data.themes.docs %}
     <div class="container border-bottom mb-5">
       <div class="row">

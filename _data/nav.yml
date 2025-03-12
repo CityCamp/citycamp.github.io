@@ -5,21 +5,17 @@ docs:
   icon: fa-solid fa-info-circle
   url: /topics/about
 
+- title: Cities
+  icon: fa-solid fa-calendar
+  url: /cities
+
 - title: Events
   icon: fa-solid fa-calendar
   url: /events
 
-- title: Organize
-  icon: fa-solid fa-compass
-  url: /topics/organize
-
-- title: Participate
-  icon: fa-solid fa-hands-helping
-  url: /topics/participate
-
-- title: Sponsor
-  icon: fa-solid fa-gift
-  url: /topics/sponsor
+- title: News
+  icon: fa-solid fa-newspaper
+  url: /news
 
 - title: Help
   icon: fa-solid fa-question-circle

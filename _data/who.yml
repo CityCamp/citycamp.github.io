@@ -1,0 +1,26 @@
+docs_list_title: who
+docs:
+
+- title: Residents
+  icon: fa-solid fa-users
+
+- title: Elected officials
+  icon: fa-solid fa-check-to-slot
+
+- title: Government staff
+  icon: fa-solid fa-landmark
+
+- title: Civic leaders
+  icon: fa-solid fa-hand-holding-heart
+
+- title: Entrepreneurs
+  icon: fa-solid fa-building
+
+- title: Designers
+  icon: fa-solid fa-object-group
+
+- title: Developers
+  icon: fa-solid fa-code
+
+- title: Journalists
+  icon: fa-solid fa-newspaper
