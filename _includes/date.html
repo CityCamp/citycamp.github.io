@@ -1,4 +1,6 @@
-{% if item %}
+{% if event %}
+  {{ event.startDate | date: site.date }}
+{% elsif item %}
   {{ item.date | date: site.date }}
 {% elsif page %}
   {{ page.date | date: site.date }}

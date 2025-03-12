@@ -14,7 +14,7 @@ The CityCamp brand is maintained as a pattern that is easily repeatable and for 
 Type:
 
 - CityCamp (one word)
-- CityCamp Tulsa (two words)
+- CityCamp Your City (two words - ex: CityCamp Tulsa)
 
 Color:
 
@@ -25,11 +25,11 @@ Visual:
 
 - Logo font: [Public Sans](https://public-sans.digital.gov/)
 - CityCamp font: Public Sans ExtraBold
-- City font Public Sans Regular
+- City font: Public Sans Regular
 
 ## Assets
 
-- [Brand files](https://www.figma.com/community/file/1479330975655311306) (Figma)
+- [Brand files](https://www.figma.com/design/Mr9CVVPOvNm2HdAfirnqQd/CityCamp-brand-assets-(Community)?node-id=0-1&t=tFQQjITroFf9OK2g-1) (Figma)
 
 ## License
 

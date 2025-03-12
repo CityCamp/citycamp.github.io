@@ -1,14 +1,9 @@
 [
   {
-    "name": "test",
+    "name": "CityCamp Lafayette",
     "location": "Lafayette, CA",
-    "startDate": "2025-03-14",
-    "organizer": "Eleanor Roosevelt",
-  },
-  {
-    "name": "two",
-    "location": "Tulsa, AZ",
-    "startDate": "2025-04-20",
-    "organizer": "Ben Franklin",
+    "startDate": "2025-09-20",
+    "url": "https://lafayette.citycamp.com",
+    "organizer": "Civic Hacking Agency",
   },
 ]
