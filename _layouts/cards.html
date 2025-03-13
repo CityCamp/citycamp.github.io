@@ -42,7 +42,8 @@ layout: cards
             </div>
           {% endfor %}
         {% elsif page.title == "Events" %}
-          {% for event in site.data.events %}
+          {% assign events = site.data.events | sort: "start_time" %}
+          {% for event in events %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
               <div class="card p-0 text-center mx-1 mb-3 shadow">
                 <div class="card-body p-4">
@@ -57,7 +58,7 @@ layout: cards
                   <p class="card-text">{{ event.location }}</p>
                 </div>
                 <div class="card-footer text-muted small">
-                  {{ event.startDate | date: "%B %d, %Y" }}
+                  {{ event.start_time | date: "%B %d, %Y" }}
                 </div>
               </div>
             </div>
