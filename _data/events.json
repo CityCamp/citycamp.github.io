@@ -1,9 +1,25 @@
 [
   {
-    "name": "CityCamp Lafayette",
-    "location": "Lafayette, CA",
-    "startDate": "2025-09-20",
-    "url": "https://lafayette.citycamp.com",
-    "organizer": "Civic Hacking Agency",
+    "Name": "CityCamp Lafayette",
+    "Location": "City Hall",
+    "Start time": "2025-09-20T15:30:00.000Z",
+    "End time": "2025-09-21T00:00:00.000Z",
+    "Organizer email": "luke@lukefretwell.com",
+    "City": "Lafayette",
+    "State": "CA",
+    "URL": "https://lafayette.citycamp.com",
+    "Country": "US"
   },
+  {
+    "Name": "CityCamp Idealville",
+    "Notes": "Coffee will be served. No lunch. Topics include economics and social technology.",
+    "Location": "The park",
+    "Start time": "2025-03-14T16:00:00.000Z",
+    "End time": "2025-03-14T23:00:00.000Z",
+    "Organizer email": "wold@afomi.com",
+    "City": "Vacaville",
+    "State": "CA",
+    "URL": "https://vacaville.citycamp.com",
+    "Country": "US"
+  }
 ]
