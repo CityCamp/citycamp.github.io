@@ -17,10 +17,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3.6'
+          bundler-cache: true
 
       - name: Fetch Data from Airtable and Create a branch if events.json data changes
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
           AIRTABLE_TABLE_NAME: ${{ secrets.AIRTABLE_TABLE_NAME }}
-        run: ruby lib/airtable.rb
+        run: bundle exec ruby lib/airtable.rb

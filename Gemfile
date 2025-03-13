@@ -27,6 +27,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
+gem 'airrecord'
 gem 'logger'
 gem 'csv'
 gem 'ostruct'
@@ -38,4 +39,3 @@ gem 'jekyll-redirect-from'
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
