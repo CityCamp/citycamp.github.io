@@ -1,17 +1,21 @@
 docs_list_title: connect
 docs:
 
+- title: Substack
+  url: https://citycamp.substack.com
+  icon: fa-solid fa-envelope-open
+
 - title: Slack
   url: https://join.slack.com/t/citycamp-team/shared_invite/zt-30wn3ct2a-zzxhCRYLdlKlDLvjqv~dBA
   icon: fa-brands fa-slack
 
-- title: RSS
-  url: https://citycamp.com/feed.xml
-  icon: fa-solid fa-rss
-  
 - title: Bluesky
   url: https://citycamp.bsky.social
   icon: fa-brands fa-bluesky
+
+- title: Instagram
+  url: https://www.instagram.com/citycamp_/
+  icon: fa-brands fa-instagram
 
 - title: GitHub
   url: https://github.com/citycamp
@@ -24,3 +28,7 @@ docs:
 - title: X
   url: https://x.com/citycamp
   icon: fa-brands fa-x-twitter
+
+- title: RSS
+  url: https://citycamp.com/feed.xml
+  icon: fa-solid fa-rss

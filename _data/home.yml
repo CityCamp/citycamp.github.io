@@ -4,17 +4,17 @@ docs:
   - title: Organize
     description: "Lead a CityCamp where you live."
     icon: fa-solid fa-compass
-    url: /topics/organize
+    url: /organize
 
   - title: Participate
     description: "Get involved with a CityCamp near you."
     icon: fa-solid fa-hands-helping
-    url: /topics/participate
+    url: /participate
 
   - title: Sponsor
     description: "Support a CityCamp in-kind or financially."
     icon: fa-solid fa-gift
-    url: /topics/sponsor
+    url: /sponsor
 
   - title: Community
     description: "Join the CityCamp community."

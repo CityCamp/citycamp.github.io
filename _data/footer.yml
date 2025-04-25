@@ -26,13 +26,13 @@ docs:
    url: /events
 
  - title: Organize
-   url: /topics/organize
+   url: /organize
 
  - title: Participate
-   url: /topics/participate
+   url: /participate
 
  - title: Sponsor
-   url: /topics/sponsor
+   url: /sponsor
 
 -
 
@@ -42,8 +42,8 @@ docs:
  - title: Community
    url: /community
 
- - title: RSS
-   url: https://citycamp.com/feed.xml
+ - title: Instagram
+   url: https://www.instagram.com/citycamp_/
 
  - title: Bluesky
    url: https://citycamp.bsky.social/
@@ -56,6 +56,9 @@ docs:
 
  - title: X
    url: https://x.com/citycamp
+
+ - title: RSS
+   url: https://citycamp.com/feed.xml
 
 -
 

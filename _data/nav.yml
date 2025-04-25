@@ -3,7 +3,7 @@ docs:
 
 - title: About
   icon: fa-solid fa-info-circle
-  url: /topics/about
+  url: /about
 
 - title: Cities
   icon: fa-solid fa-calendar
