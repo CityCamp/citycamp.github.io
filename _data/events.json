@@ -11,15 +11,15 @@
     "country": "US"
   },
   {
-    "name": "CityCamp Idealville",
-    "notes": "Coffee will be served. No lunch. Topics include economics and social technology.",
-    "location": "The park",
-    "start_time": "2025-03-14T16:00:00.000Z",
-    "end_time": "2025-03-14T23:00:00.000Z",
-    "organizer": "wold@afomi.com",
-    "city": "Vacaville",
-    "state": "CA",
-    "website": "https://vacaville.citycamp.com",
+    "name": "Atlanta CityCamp",
+    "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
+    "location": "TBD",
+    "start_time": "2025-09-20T13:00:00.000Z",
+    "end_time": "2025-09-20T22:00:00.000Z",
+    "organizer": "Civic Tech Atlanta",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "website": "https://www.civictechatlanta.org/",
     "country": "US"
   }
 ]
