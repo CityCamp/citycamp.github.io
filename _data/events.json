@@ -1,6 +1,7 @@
 [
   {
     "name": "CityCamp Lafayette",
+    "Status": "In progress",
     "location": "City Hall",
     "start_time": "2025-09-20T15:30:00.000Z",
     "end_time": "2025-09-21T00:00:00.000Z",
@@ -13,13 +14,14 @@
   {
     "name": "Atlanta CityCamp",
     "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
+    "Status": "In progress",
     "location": "TBD",
     "start_time": "2025-09-20T13:00:00.000Z",
     "end_time": "2025-09-20T22:00:00.000Z",
     "organizer": "Civic Tech Atlanta",
     "city": "Atlanta",
     "state": "Georgia",
-    "website": "https://www.civictechatlanta.org/",
+    "website": "https://www.civictechatlanta.org",
     "country": "US"
   }
 ]
