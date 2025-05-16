@@ -1,11 +1,13 @@
 ---
-layout: cards
 ---
 {% include header.html %}
 {% include nav.html %}
 <main id="main-content">
   {% include jumbotron.html %}
   <div class="container">
+    <div class="row">
+      {{ content }}
+    </div>
     <div class="row">
       <div class="card-group">
         {% if include.limit %}
