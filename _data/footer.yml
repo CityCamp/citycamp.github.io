@@ -20,6 +20,9 @@ docs:
  - title: Connect
    url: /connect
 
+ - title: Contact
+   url: /contact
+
 -
 
  - title: Events
@@ -66,7 +69,7 @@ docs:
    url: /help
 
  - title: Feedback
-   url: /feedback
+   url: /help
 
  - title: Code of conduct
    url: /conduct

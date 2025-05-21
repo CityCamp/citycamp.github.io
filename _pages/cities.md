@@ -6,6 +6,8 @@ topics:
   - About
 ---
 
+For [events page](/events).
+
 ## Argentina
 
 * Buenos Aires

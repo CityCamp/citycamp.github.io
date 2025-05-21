@@ -13,6 +13,10 @@ docs:
   icon: fa-solid fa-calendar
   url: /events
 
+- title: Connect
+  icon: fa-solid fa-circle-nodes
+  url: /connect
+
 - title: News
   icon: fa-solid fa-newspaper
   url: /news

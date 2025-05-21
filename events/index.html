@@ -5,15 +5,3 @@ description: Calendar of CityCamp events.
 topics:
 - Organize
 ---
-
-{% for event in site.data.events %}
-  <div>
-    {{ event.start_time| date: "%B %d, %Y" }}
-    &mdash;
-    {{ event.name }}
-    &mdash;
-    {{ event.location }}
-    &mdash;
-    {{ event.organizer }}
-  </div>
-{% endfor %}
