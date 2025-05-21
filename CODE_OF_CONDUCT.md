@@ -59,15 +59,15 @@ If a community member engages in unacceptable behavior, the community organizers
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. https://citycamp.com/contact.
 
-[Reporting guidelines](https://citycamp.com/report)
+[Reporting guidelines](https://citycamp.com/contact)
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify CityCamp with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://citycamp.com/report)
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify CityCamp with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://citycamp.com/contact)
 
-https://citycamp.com/report
+https://citycamp.com/contact
 
 ## 9. Scope
 
