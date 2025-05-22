@@ -1,4 +1,21 @@
 <footer>
+  <a
+    href="/help"
+    id="subscribe-button"
+    aria-label="Help"
+    class="help btn btn-primary">
+    <i class="fa-solid fa-question-circle" aria-label="Help"></i>
+    Help
+  </a>
+  <script>
+      const feedbackButton = document.getElementById("subscribe-button");
+      window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > window.innerHeight * .4) 
+      feedbackButton.style.opacity = '1';
+    else
+      feedbackButton.style.opacity = '0';
+      });
+  </script>
   <div class="bg-dark mt-3 pt-5 pb-3">
     <div class="container">
       <div class="row">
