@@ -53,6 +53,7 @@ For [events page](/events).
   - Tuscon
 * California
   - Oakland
+  - Sacramento
   - San Francisco
 * Colorado
   - Arvada
