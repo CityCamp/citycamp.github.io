@@ -1,8 +1,17 @@
 [
   {
+    "name": "CityCamp NYC",
+    "location": "CUNY School of Law, Queens, New York City, New York",
+    "start_time": "2025-09-06T13:00:00.000Z",
+    "end_time": "2025-09-06T21:00:00.000Z",
+    "organizer": "Duncan Ballantine & Jordan Shapiro",
+    "website": "https://www.beta.nyc/citycamp-nyc/",
+    "Field 13": "duncan@beta.nyc"
+  },
+  {
     "name": "CityCamp Lafayette",
     "Status": "In progress",
-    "location": "City Hall",
+    "location": "TBD",
     "start_time": "2025-09-20T15:30:00.000Z",
     "end_time": "2025-09-21T00:00:00.000Z",
     "organizer": "luke@lukefretwell.com",
@@ -12,7 +21,7 @@
     "country": "US"
   },
   {
-    "name": "Atlanta CityCamp",
+    "name": "CityCamp Atlanta",
     "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
     "Status": "In progress",
     "location": "TBD",
