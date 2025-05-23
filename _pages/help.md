@@ -9,7 +9,6 @@ topics:
   - Sponsor
 redirect_from:
   - /feedback
-  - /support
 ---
 
 ## Support

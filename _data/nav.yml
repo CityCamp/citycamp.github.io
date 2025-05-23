@@ -5,17 +5,17 @@ docs:
   icon: fa-solid fa-info-circle
   url: /about
 
+- title: Support
+  icon: fa-solid fa-gift
+  url: /support
+
 - title: Cities
-  icon: fa-solid fa-calendar
+  icon: fa-solid fa-location-dot
   url: /cities
 
 - title: Events
   icon: fa-solid fa-calendar
   url: /events
-
-- title: Connect
-  icon: fa-solid fa-circle-nodes
-  url: /connect
 
 - title: News
   icon: fa-solid fa-newspaper

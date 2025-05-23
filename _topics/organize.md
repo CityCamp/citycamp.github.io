@@ -5,7 +5,5 @@ modified:
 author: CityCamp
 description: "Lead a CityCamp where you live."
 icon: "fa-solid fa-compass"
-redirect_from:
-  - /organize
 
 ---

@@ -1,6 +1,10 @@
 docs_list_title: connect
 docs:
 
+- title: Meet
+  url: /meet
+  icon: fa-solid fa-calendar
+
 - title: Substack
   url: https://citycamp.substack.com
   icon: fa-solid fa-envelope-open
@@ -20,14 +24,6 @@ docs:
 - title: GitHub
   url: https://github.com/citycamp
   icon: fa-brands fa-github
-
-- title: Facebook
-  url: https://www.facebook.com/citycamp
-  icon: fa-brands fa-facebook
-
-- title: X
-  url: https://x.com/citycamp
-  icon: fa-brands fa-x-twitter
 
 - title: RSS
   url: https://citycamp.com/feed.xml

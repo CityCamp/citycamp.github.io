@@ -5,6 +5,4 @@ modified:
 author: CityCamp
 description: "Get involved with a CityCamp near you."
 icon: "fa-solid fa-hands-helping"
-redirect_from:
-  - /participate
 ---

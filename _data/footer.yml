@@ -14,9 +14,6 @@ docs:
  - title: Press
    url: /press
 
- - title: Partners
-   url: /partners
-
  - title: Connect
    url: /connect
 
@@ -34,8 +31,11 @@ docs:
  - title: Participate
    url: /participate
 
- - title: Sponsor
-   url: /sponsor
+ - title: Support
+   url: /support
+
+ - title: Volunteer
+   url: /volunteer
 
 -
 
@@ -54,12 +54,6 @@ docs:
  - title: GitHub
    url: https://github.com/citycamp
 
- - title: Facebook
-   url: https://facebook.com/citycamp
-
- - title: X
-   url: https://x.com/citycamp
-
  - title: RSS
    url: https://citycamp.com/feed.xml
 
@@ -68,8 +62,8 @@ docs:
  - title: Help
    url: /help
 
- - title: Feedback
-   url: /help
+ - title: How we work
+   url: /how-we-work
 
  - title: Code of conduct
    url: /conduct

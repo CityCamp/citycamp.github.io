@@ -1,0 +1,19 @@
+{% if page.title == "Connect" or "Events" %}
+{% else %}
+  <div class="container border-top pt-4">
+    <div class="row">
+      <h2 class="h2 m-0 pt-1 pb-4">Connect</h2>
+      {% for item in site.data.connect.docs %}
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+          <div class="card text-center p-4 mx-2 mb-3 shadow">
+            <a href="{{ item.url }}" class="stretched-link nav-link">
+              <div>
+                <i class="{{ item.icon }} fa-2x text-shadow" aria-label="{{ item.title }}"></i>
+              </div>
+              {{ item.title }}</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

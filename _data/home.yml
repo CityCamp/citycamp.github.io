@@ -11,22 +11,7 @@ docs:
     icon: fa-solid fa-hands-helping
     url: /participate
 
-  - title: Sponsor
-    description: "Support a CityCamp in-kind or financially."
+  - title: Support
+    description: "Support CityCamp financially or in-kind."
     icon: fa-solid fa-gift
     url: /sponsor
-
-  - title: Community
-    description: "Join the CityCamp community."
-    icon: fa-solid fa-circle-nodes
-    url: /community
-
-  - title: Events
-    description: "Calendar of CityCamp events (+ add yours!)."
-    icon: fa-solid fa-calendar
-    url: /events
-
-  - title: Help
-    description: "Get CityCamp help."
-    icon: fa-solid fa-circle-question
-    url: /help

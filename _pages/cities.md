@@ -2,11 +2,10 @@
 title: Cities
 description: Communities that have hosted CityCamps.
 map: true
+event-buttons: true
 topics:
   - About
 ---
-
-For [events page](/events).
 
 ## Argentina
 
