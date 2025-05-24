@@ -1,0 +1,52 @@
+---
+title: Cities
+description: Communities that have hosted CityCamps.
+map: true
+event-buttons: true
+topics:
+  - About
+---
+
+{% assign events = site.data.events %}
+
+{%- assign countries = events | map: "country" | uniq | sort -%}
+
+{% for country in countries %}
+  <h2>{{ country }}</h2>
+
+  {% assign country_events = events | where: "country", country %}
+
+  {% if country == "US" %}
+    {%- assign states = country_events | map: "state" | uniq | sort -%}
+
+    {% for state in states %}
+      {% if state %}
+        <ul>
+          <li>{{ state }}
+            <ul>
+              {% assign state_events = country_events | where: "state", state %}
+              {% for event in state_events %}
+                <li>
+                  {{ event.city }}
+                  {% if event.Status == "In progress" %}
+                    &middot;
+                    <span
+                      class="text-success">
+                      In progress
+                    </span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <ul>
+      {% for event in country_events %}
+        <li>{{ event.city }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
