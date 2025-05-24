@@ -1,25 +1,252 @@
 [
   {
+    "name": "Tuscon",
+    "Status": "Done",
+    "city": "Tuscon",
+    "state": "AZ",
+    "website": "https://",
+    "country": "US"
+  },
+  {
     "name": "CityCamp NYC",
+    "Status": "In progress",
     "location": "CUNY School of Law, Queens, New York City, New York",
-    "start_time": "2025-09-06T13:00:00.000Z",
-    "end_time": "2025-09-06T21:00:00.000Z",
-    "organizer": "Duncan Ballantine & Jordan Shapiro",
+    "poc": "Duncan Ballantine & Jordan Shapiro",
     "city": "New York City",
-    "state": "New York",
+    "state": "NY",
     "website": "https://www.beta.nyc/citycamp-nyc/",
-    "Field 13": "duncan@beta.nyc"
+    "country": "US",
+    "email": "duncan@beta.nyc",
+    "date": "2025-09-06",
+    "active": [
+      "yes"
+    ]
+  },
+  {
+    "name": "Sfax",
+    "Status": "Done",
+    "city": "Sfax",
+    "website": "https://",
+    "country": "Tunisia"
+  },
+  {
+    "name": "Argentina",
+    "Status": "Done",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "latitude": "-34.6037",
+    "longitude": "-58.3816"
+  },
+  {
+    "name": "Raleigh",
+    "Status": "Done",
+    "city": "Raleigh",
+    "state": "NC",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Manchester",
+    "Status": "Done",
+    "city": "Manchester",
+    "website": "https://",
+    "country": "England"
+  },
+  {
+    "name": "Arvada",
+    "Status": "Done",
+    "city": "Arvada",
+    "state": "CO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Ulyanovsk",
+    "Status": "Done",
+    "city": "Ulyanovsk",
+    "website": "https://",
+    "country": "Russia"
+  },
+  {
+    "name": "Bizerte",
+    "Status": "Done",
+    "city": "Bizerte",
+    "website": "https://",
+    "country": "Tunisia"
+  },
+  {
+    "name": "Minneapolis",
+    "Status": "Done",
+    "city": "Minneapolis",
+    "state": "MN",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "St. Petersburg",
+    "Status": "Done",
+    "city": "St. Petersburg",
+    "website": "https://",
+    "country": "Russia"
+  },
+  {
+    "name": "San Francisco",
+    "Status": "Done",
+    "city": "San Francisco",
+    "state": "CA",
+    "website": "https://",
+    "country": "US"
   },
   {
     "name": "CityCamp Lafayette",
     "Status": "In progress",
     "location": "TBD",
-    "start_time": "2025-09-20T15:30:00.000Z",
-    "end_time": "2025-09-21T00:00:00.000Z",
-    "organizer": "luke@lukefretwell.com",
+    "poc": "Luke Fretwell",
     "city": "Lafayette",
     "state": "CA",
     "website": "https://lafayette.citycamp.com",
+    "country": "US",
+    "email": "luke@lukefretwell.com",
+    "date": "2025-09-20",
+    "active": [
+      "yes"
+    ]
+  },
+  {
+    "name": "Gafsa",
+    "Status": "Done",
+    "city": "Gafsa",
+    "website": "https://",
+    "country": "Tunisia"
+  },
+  {
+    "name": "Boulder",
+    "Status": "Done",
+    "city": "Boulder",
+    "state": "CO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Denver",
+    "Status": "Done",
+    "city": "Denver",
+    "state": "CO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Sacramento",
+    "Status": "Done",
+    "city": "Sacramento",
+    "state": "CA",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Brighton",
+    "Status": "Done",
+    "city": "Brighton",
+    "website": "https://",
+    "country": "England"
+  },
+  {
+    "name": "Perm",
+    "Status": "Done",
+    "city": "Perm",
+    "website": "https://",
+    "country": "Russia"
+  },
+  {
+    "name": "Hampton Roads",
+    "Status": "Done",
+    "city": "Hampton Roads",
+    "state": "VA",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Santiago",
+    "Status": "Done",
+    "city": "Santiago",
+    "website": "https://",
+    "country": "Chile"
+  },
+  {
+    "name": "Coventry",
+    "Status": "Done",
+    "city": "Coventry",
+    "website": "https://",
+    "country": "England"
+  },
+  {
+    "name": "Monterrey",
+    "Status": "Done",
+    "city": "Monterrey",
+    "website": "https://",
+    "country": "Mexico"
+  },
+  {
+    "name": "Madison",
+    "Status": "Done",
+    "city": "Madison",
+    "state": "WI",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Kansas City",
+    "Status": "Done",
+    "city": "Kansas City",
+    "state": "MO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Chandler",
+    "Status": "Done",
+    "city": "Chandler",
+    "state": "AZ",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Oakland",
+    "Status": "Done",
+    "city": "Oakland",
+    "state": "CA",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Golden",
+    "Status": "Done",
+    "city": "Golden",
+    "state": "CO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Castle Rock",
+    "Status": "Done",
+    "city": "Castle Rock",
+    "state": "CO",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Edmonton",
+    "Status": "Done",
+    "city": "Edmonton",
+    "website": "https://",
+    "country": "Canada"
+  },
+  {
+    "name": "Phoenix",
+    "Status": "Done",
+    "city": "Phoenix",
+    "state": "AZ",
+    "website": "https://",
     "country": "US"
   },
   {
@@ -27,12 +254,71 @@
     "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
     "Status": "In progress",
     "location": "TBD",
-    "start_time": "2025-09-20T13:00:00.000Z",
-    "end_time": "2025-09-20T22:00:00.000Z",
-    "organizer": "Civic Tech Atlanta",
+    "poc": "Shaun Mosley",
     "city": "Atlanta",
-    "state": "Georgia",
+    "state": "GA",
     "website": "https://www.civictechatlanta.org",
+    "country": "US",
+    "email": "shaun@civictechatlanta.org",
+    "date": "2025-09-20",
+    "active": [
+      "yes"
+    ]
+  },
+  {
+    "name": "Chicago",
+    "notes": "Inaugural CityCamp\n",
+    "Status": "Done",
+    "city": "Chicago",
+    "state": "IL",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Washington, D.C.",
+    "Status": "Done",
+    "city": "Washington, D.C.",
+    "state": "DC",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Alberta",
+    "Status": "Done",
+    "city": "Alberta",
+    "website": "https://",
+    "country": "Canada",
+    "latitude": "53.5461",
+    "longitude": "-113.4938"
+  },
+  {
+    "name": "London",
+    "Status": "Done",
+    "city": "London",
+    "website": "https://",
+    "country": "England"
+  },
+  {
+    "name": "Chelmsford",
+    "Status": "Done",
+    "city": "Chelmsford",
+    "website": "https://",
+    "country": "England"
+  },
+  {
+    "name": "Oklahoma City",
+    "Status": "Done",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "website": "https://",
+    "country": "US"
+  },
+  {
+    "name": "Honolulu",
+    "Status": "Done",
+    "city": "Honolulu",
+    "state": "HI",
+    "website": "https://",
     "country": "US"
   }
 ]
