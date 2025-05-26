@@ -26,12 +26,25 @@ topics:
             <ul>
               {% assign state_events = country_events | where: "state", state %}
               {% for event in state_events %}
-                <li>
-                  {{ event.city }}
+                <li
                   {% if event.Status == "In progress" %}
-                    &middot;
-                    <span class="text-success">
-                      In progress
+                  class="fw-bold"
+                  {% endif %}
+                  >
+                  {% if event.website  == "https://" %}
+                  {{event.city }}
+                  {% endif %}
+                  {% if event.website != "https://" %}
+                  <a
+                    href="{{event.website}}"
+                    >
+                    {{ event.city }}
+                  </a>
+                  {% endif %}
+
+                  {% if event.Status == "In progress" %}
+                    <span class="text-secondary">
+                      is being planned for {{ event.date }}
                     </span>
                   {% endif %}
                 </li>
