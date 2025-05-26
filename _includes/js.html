@@ -18,7 +18,9 @@
 <script>
   localStorage.setItem('theme', 'light'); // Always store light mode
   document.body.setAttribute('data-bs-theme', 'light');
-  document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
+  if (document.getElementById('theme-toggle-icon')) {
+    document.getElementById('theme-toggle-icon').outerHTML = `<i class='fa-solid fa-moon' id='theme-toggle-icon'></i>`;
+  }
 </script>
 
 <script>
