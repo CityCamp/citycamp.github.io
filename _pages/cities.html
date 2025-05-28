@@ -44,7 +44,7 @@ topics:
 
                   {% if event.Status == "In progress" %}
                     <span class="text-secondary">
-                      is being planned for {{ event.date }}
+                      is being planned for {{ event.date | date: "%B %d, %Y"}}
                     </span>
                   {% endif %}
                 </li>
