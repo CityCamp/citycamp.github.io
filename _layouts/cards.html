@@ -56,7 +56,7 @@ layout: cards
                 <div class="card-body p-4">
                   <i class="fa-solid fa-calendar mb-3 fa-2x" aria-label="hidden"></i>
                   {% if event.website %}
-                    <a href="{{ event.website }}" class="stretched-link nav-link">
+                    <a href="/events/{{ event.slug }}" class="stretched-link nav-link">
                       <h2 class="h4">{{ event.name }}</h2>
                     </a>
                   {% else %}
