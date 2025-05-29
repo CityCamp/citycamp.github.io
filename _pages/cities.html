@@ -31,12 +31,12 @@ topics:
                   class="fw-bold"
                   {% endif %}
                   >
-                  {% if event.website  == "https://" %}
+                  {% if event.website == nil %}
                   {{event.city }}
                   {% endif %}
-                  {% if event.website != "https://" %}
+                  {% if event.website %}
                   <a
-                    href="{{event.website}}"
+                    href="/events/{{event.slug}}"
                     >
                     {{ event.city }}
                   </a>
