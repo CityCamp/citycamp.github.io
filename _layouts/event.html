@@ -4,6 +4,8 @@ title: CityCamp Event page
 description: Event details
 ---
 
+{% assign event = page %}
+
 <div>
   City:
   {{ page.city }}
@@ -26,3 +28,5 @@ description: Event details
   Website:
   {{ page.website }}
 </div>
+
+{% include map-for-one-location.html %}

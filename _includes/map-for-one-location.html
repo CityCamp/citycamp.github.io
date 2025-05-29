@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/assets/js/TileLayer.Grayscale.js"></script>
+<style>
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+</style>
+<div id="map" class="mb-4"></div>
+
+<script>
+  // Initialize map
+  var map = L.map('map', {
+    fadeAnimation: false,
+    minZoom: 2
+  });
+
+  // Define bounds, so all events can be focused on after they are rendered
+  var bounds = new L.latLngBounds();
+
+  // Add OpenStreetMap tiles
+  L.tileLayer.grayscale('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // City locations
+    var cities = [
+    {
+      name: "{{ event.name }}",
+      lat: {{ event.latitude }},
+      lng: {{ event.longitude }},
+      state: "{{ event.state }}",
+      status: "{{ event.Status }}",
+    },
+  ];
+
+  // Custom black map pin
+  const blackPin = L.icon({
+      iconUrl: '/assets/img/map_pin_black.svg',
+      iconSize: [25, 41],
+      iconAnchor: [12, 31],
+      popupAnchor: [1, -34]
+    });
+
+    const activePin = L.icon({
+      iconUrl: '/assets/img/map_pin_active.svg',
+      iconSize: [25, 41],
+      iconAnchor: [12, 31],
+      popupAnchor: [1, -34]
+    });
+
+  // Add markers with popups
+  cities.forEach(city => {
+      // Extend bounds to include all cities
+      bounds.extend([city.lat, city.lng]);
+
+      let pinChoice;
+      if (city.status == "In progress") {
+        pinChoice = activePin
+      } else {
+        pinChoice = blackPin
+      }
+
+      L.marker([city.lat, city.lng], { icon: pinChoice })
+          .addTo(map)
+          .bindPopup(`<b>${city.name}</b>`);
+  });
+
+  // Fit the map view to the bounds to show all markers
+  map.fitBounds(bounds, { padding: [20, 20] });
+</script>
