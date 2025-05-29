@@ -16,6 +16,11 @@ events = Event.all.map(&:fields)
 # Sort by State then City
 events = events.sort_by { |h| [h["State"], h["City"]] }
 
+# don't write `poc` and `email` fields
+events = events.map do |row|
+  row.reject { |k, _| %w[poc email].include?(k.to_s.downcase) }
+end
+
 json_path = "_data/events.json"
 new_data = JSON.pretty_generate(events)
 
