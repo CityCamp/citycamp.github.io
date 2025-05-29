@@ -1,32 +1,38 @@
 ---
-layout: default
+layout: event
 title: CityCamp Event page
 description: Event details
 ---
 
-{% assign event = page %}
-
-<div>
-  City:
-  {{ page.city }}
-  <br>
-  State:
-  {{ page.state }}
-  <br>
-  Country:
-  {{ page.country }}
-  <br>
-  Date:
-  {{ page.date }}
-  <br>
-  Location:
-  {{ page.location }}
-  <br>
-  Point of Contact:
-  {{ page.poc }}
-  <br>
-  Website:
-  {{ page.website }}
+{% include header.html %}
+{% include nav.html %}
+{% include jumbotron.html %}
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      {% assign event = page %}
+      <h2 class="mb-3">Details</h2>
+      <ul class="list-unstyled">
+        <li class="mb-2">
+          <i class="fa-solid fa-calendar" aria-label="hidden"></i>
+          When: {{ page.date | date: "%B %d, %Y" }}</li>
+        <li class="mb-2">
+          <i class="fa-solid fa-location-dot" aria-label="hidden"></i>
+          Where: {{ page.location }}</li>
+        <li>
+          <i class="fa-solid fa-envelope" aria-label="hidden"></i>
+          Contact:
+          <a href="mailto:{{ page.email }}">{{ page.poc }}</a>
+        </li>
+      </ul>
+      <p>
+        <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+      </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <h2 class="mb-3">Map</h2>
+      {% include map-for-one-location.html %}
+    </div>
+  </div>
 </div>
-
-{% include map-for-one-location.html %}
+{% include footer.html %}

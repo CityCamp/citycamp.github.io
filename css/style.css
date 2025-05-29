@@ -35,7 +35,7 @@
     --bs-body-color: #000000;
     --bs-border-color: #dddddd !important;
     --bs-box-shadow: 0 0.25rem .5rem rgba(0, 0, 0, .15) !important;
-    --bs-border-radius: 0.25rem !important;
+    --bs-border-radius: 0.35rem !important;
     --bs-font-sans-serif: "Public Sans Regular", sans-serif;
     --bs-font-thin: "Public Sans Thin", sans-serif;
     --bs-font-light: "Public Sans Light", sans-serif;
@@ -154,16 +154,18 @@ a.btn-primary,
 a.btn-primary:active,
 a.btn-primary:hover,
 a.btn-primary:visited {
-    color: var(--bs-body-color);
-    background-color: var(--bs-gray-100);
+    color: var(--bs-body-bg);
+    background-color: var(--bs-body-color);
     border: 1px solid var(--bs-body-bg);
     border-radius: var(--bs-border-radius);
+    font-family: var(--bs-font-bold) !important;
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding: 0.75rem;
     text-decoration: none;
     text-align: center;
     font-family: var(--bs-font-regular);
+    box-shadow: var(--bs-box-shadow);
 }
 
 a.btn-primary:hover {
