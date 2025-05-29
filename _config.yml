@@ -80,6 +80,6 @@ page_gen:
     template: event
     dir: /events/
     index_files: true
-    name_expr: "record['city'].downcase + '-' + record['state'].downcase"
+    name_expr: "record['slug']"
     title: 'name'
     filter_condition: "record['Status'] == 'In progress'"
