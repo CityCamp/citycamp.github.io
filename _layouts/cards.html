@@ -47,9 +47,7 @@ layout: cards
             </div>
           {% endfor %}
         {% elsif page.title == "Events" %}
-          {% assign events = site.data.events
-            | where: "Status", "In progress"
-            | sort: "date" %}
+          {% assign events = site.data.events | where: "Status", "In progress" | sort: "date" %}
           {% for event in events %}
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
               <div class="card p-0 text-center mx-1 mb-3 shadow">

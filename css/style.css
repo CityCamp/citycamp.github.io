@@ -183,3 +183,10 @@ a.btn-primary:hover {
     right: 2rem;
     z-index: 1000;
 }
+
+/* Images */
+
+img.supporters {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}

@@ -1,0 +1,38 @@
+<div class="container border-top mt-5 pt-4">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="h3 mb-3">Supporters</h2>
+      <p class="lead">
+        Thank you to these organizations for supporting CityCamp:
+      </p>
+      <div class="card-group mt-4 mb-4">
+        {% assign sorted_docs = site.data.supporters.docs | sort: 'title' %}
+        {% for item in sorted_docs %}
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+            <div class="card shadow mx-1">
+              <div class="card-img-top">
+                <a href="{{ item.url }}" class="stretched-link">
+                  <img
+                    src="{{ site.baseurl }}/assets/img/supporters/{{ item.img }}"
+                    alt="{{ item.title }}"
+                    class="img-fluid border-bottom supporters">
+                </a>
+              </div>
+              <div class="card-body">
+                <h2 class="h5 mb-2">
+                  <a href="{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
+                </h2>
+                <p>{{ item.description }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% unless page.title == 'Support' %}
+        <p>
+          <a href="{{ site.baseurl }}/support" class="btn btn-primary">Support</a>
+        </p>
+      {% endunless %}
+    </div>
+  </div>
+</div>

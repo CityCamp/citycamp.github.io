@@ -1,7 +1,15 @@
-{% if page.event-buttons == true %}
+{% if page.event-buttons == true or page.layout == "event" or page.layout == "cards" %}
   <ul class="list-inline">
-    <li class="list-inline-item mr-1">
-      <a href="{{ site.baseurl }}/events" class="btn btn-primary">Events</a>
+    {% if page.title == "Cities" or page.layout == "event" %}
+      <li class="list-inline-item mr-1 mb-3">
+        <a href="{{ site.baseurl }}/events" class="btn btn-primary">Events</a>
+      </li>
+    {% endif %}
+    <li class="list-inline-item mr-1 mb-3">
+      <a href="{{ site.baseurl }}/events/new" class="btn btn-primary">Add your event</a>
+    </li>
+    <li class="list-inline-item mr-1 mb-3">
+      <a href="{{ site.baseurl }}/organize" class="btn btn-primary">Organize a CityCamp</a>
     </li>
   </ul>
 {% endif %}
