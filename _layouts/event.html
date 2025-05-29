@@ -1,0 +1,32 @@
+---
+layout: default
+title: CityCamp Event page
+description: Event details
+---
+
+{% assign event = page %}
+
+<div>
+  City:
+  {{ page.city }}
+  <br>
+  State:
+  {{ page.state }}
+  <br>
+  Country:
+  {{ page.country }}
+  <br>
+  Date:
+  {{ page.date }}
+  <br>
+  Location:
+  {{ page.location }}
+  <br>
+  Point of Contact:
+  {{ page.poc }}
+  <br>
+  Website:
+  {{ page.website }}
+</div>
+
+{% include map-for-one-location.html %}

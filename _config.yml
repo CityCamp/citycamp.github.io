@@ -8,12 +8,13 @@ email:
 theme:
 markdown: kramdown
 plugins:
+  - jekyll-datapage-generator
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
-  
+
 # Date/time
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
@@ -71,3 +72,14 @@ collections:
 # Pagination
 paginate: 12
 paginate_path: "/news/page:num/"
+
+# For jekyll-datapage-generator
+# Generates /events/atlanta-ga pages for events.json records with a Status of "In progress"
+page_gen:
+  - data: events
+    template: event
+    dir: /events/
+    index_files: true
+    name_expr: "record['city'].downcase + '-' + record['state'].downcase"
+    title: 'name'
+    filter_condition: "record['Status'] == 'In progress'"
