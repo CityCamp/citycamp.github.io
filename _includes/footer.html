@@ -17,7 +17,9 @@
       feedbackButton.style.opacity = '0';
       });
     </script>
-    {% include connect.html %}
+    {% unless page.title == "Supporters" %}
+      {% include connect.html %}
+    {% endunless %}
   {% endunless %}
   {% include supporters.html %}
   <div class="bg-dark mt-3 pt-5 pb-5">
