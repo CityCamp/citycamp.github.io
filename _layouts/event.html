@@ -31,6 +31,26 @@ description: Event details
         </ul>
         <h2>About</h2>
         <p>{{ page.title }} is a civic-focused event for the {{ page.city }} ({{ page.state }}) community. Everyone (space is limited) is welcome to join and share their ideas and skills to help make {{ page.city }} a better place.</p>
+        {% if site.data.who.docs %}
+          <h2>Who it's for</h2>
+          <div class="row">
+            {% assign half_size = site.data.who.docs.size | divided_by: 2 | ceil %}
+            <div class="col-md-6">
+              <ul>
+                {% for item in site.data.who.docs limit: half_size %}
+                  <li>{{ item.title }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                {% for item in site.data.who.docs offset: half_size %}
+                  <li>{{ item.title }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endif %}
         <h2>Format</h2>
         <p>
           <a href="https://citycamp.com">CityCamp</a>
