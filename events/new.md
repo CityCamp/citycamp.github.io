@@ -7,6 +7,7 @@ topics:
   - Organize
 ---
 
+1. Follow the [organizer instructions](/organize).
 1. Add your event using the form below.
 1. Within two business days, a CityCamp team member will follow up with you to ensure your event is posted at [https://citycamp.com/events](/events).
 

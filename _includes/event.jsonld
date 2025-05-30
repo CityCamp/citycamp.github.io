@@ -8,14 +8,14 @@
     "eventStatus": "https://schema.org/EventScheduled",
     "location": {
         "@type": "{{ page.event-type }}",
-        "name": "{{ page.event-location }}",
+        "name": "{{ page.venue }}",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "{{ page.street-address }}",
-            "addressLocality": "{{ page.city }}",
-            "postalCode": "{{ page.zip }}",
-            "addressRegion": "{{ page.state }}",
-            "addressCountry": "{{ page.country }}",
+            "streetAddress": "{{ page.streetAddress }}",
+            "addressLocality": "{{ page.addressLocality }}",
+            "postalCode": "{{ page.postalCode }}",
+            "addressRegion": "{{ page.addressRegion }}",
+            "addressCountry": "{{ page.addressCountry }}",
             "url": "{{ page.event-link }}"
         }
     },
@@ -27,7 +27,7 @@
     "priceCurrency": "{{ page.currency }}",
     "organizer": {
         "@type": "Organization",
-        "name": "{{ page.org }}",
-        "url": "{{ page.org-link }}"
+        "name": "{{ page.organizer }}",
+        "url": "{{ page.organizer-url }}"
     }
 }

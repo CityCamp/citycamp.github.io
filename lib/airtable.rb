@@ -20,8 +20,8 @@ events = events.sort_by { |h| [h["State"], h["City"]] }
 events = events.map do |row|
   parts = [
     row["city"].gsub(" ", "-"),
-    row["state"],
-    row["country"]
+    row["addressRegion"],
+    row["addressCountry"]
   ]
   .compact # remove nil
   .reject(&:empty?)
@@ -29,6 +29,9 @@ events = events.map do |row|
   row["slug"] = parts.map(&:downcase).join('-')
   row
 end
+
+# order by `slug`
+events = events.sort_by { |e| e["slug"] }
 
 json_path = "_data/events.json"
 new_data = JSON.pretty_generate(events)

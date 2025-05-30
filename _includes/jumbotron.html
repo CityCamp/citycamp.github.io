@@ -23,7 +23,18 @@
         <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
           <h1 class="display-4">{{ page.title }}</h1>
           {% if page.description %}
-            <p class="lead">{{ page.city }}, {{ page.state }}, {{ page.country }}</p>
+            <p class="lead">
+              {% if page.city %}
+                {{ page.city }}{% endif %}
+              {% if page.addressRegion %}
+                {% if page.city %},
+                {% endif %}
+                {{ page.addressRegion }}{% endif %}
+              {% if page.addressCountry %}
+                {% if page.city or page.addressRegion %},
+                {% endif %}
+                {{ page.addressCountry }}{% endif %}
+            </p>
           {% endif %}
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
