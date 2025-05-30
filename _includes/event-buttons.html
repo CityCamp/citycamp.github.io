@@ -1,6 +1,6 @@
-{% if page.event-buttons == true or page.layout == "event" or page.layout == "default-plain" %}
+{% if page.event-buttons == true or page.layout == "default-plain" %}
   <ul class="list-inline">
-    {% if page.title == "Cities" or page.layout == "event" %}
+    {% if page.title == "Cities" or page.schematype == "Event" %}
       <li class="list-inline-item mr-1 mb-3">
         <a href="{{ site.baseurl }}/events" class="btn btn-primary">Events</a>
       </li>

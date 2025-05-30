@@ -1,5 +1,5 @@
 <footer>
-  {% unless page.layout == "event" %}
+  {% unless page.schematype == "Event" %}
     <a
       href="/help"
       id="subscribe-button"
@@ -11,14 +11,16 @@
     <script>
       const feedbackButton = document.getElementById("subscribe-button");
       window.addEventListener('scroll', () => {
-          if (document.documentElement.scrollTop > window.innerHeight * .4) 
+          if (document.documentElement.scrollTop > window.innerHeight * .4)
       feedbackButton.style.opacity = '1';
           else
       feedbackButton.style.opacity = '0';
       });
     </script>
     {% unless page.title == "Supporters" %}
-      {% include connect.html %}
+      {% if page.title == "Connect" or page.title == "Events" or page.title == "Support" %}
+        {% include connect.html %}
+      {% endif %}
     {% endunless %}
   {% endunless %}
   {% include supporters.html %}
