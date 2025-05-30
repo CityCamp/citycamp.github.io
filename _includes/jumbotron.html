@@ -24,16 +24,17 @@
           <h1 class="display-4">{{ page.title }}</h1>
           {% if page.description %}
             <p class="lead">
+              {% assign address_parts = '' | split: ',' %}
               {% if page.city %}
-                {{ page.city }}{% endif %}
+                {% assign address_parts = address_parts | push: page.city %}
+              {% endif %}
               {% if page.addressRegion %}
-                {% if page.city %},
-                {% endif %}
-                {{ page.addressRegion }}{% endif %}
+                {% assign address_parts = address_parts | push: page.addressRegion %}
+              {% endif %}
               {% if page.addressCountry %}
-                {% if page.city or page.addressRegion %},
-                {% endif %}
-                {{ page.addressCountry }}{% endif %}
+                {% assign address_parts = address_parts | push: page.addressCountry %}
+              {% endif %}
+              {{ address_parts | join: ', ' }}
             </p>
           {% endif %}
         </div>
