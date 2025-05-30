@@ -69,41 +69,34 @@ schematype: "Event"
             </ul>
           </div>
         </div>
-        <div class="col-md-6">
-          <ul>
-            {% for item in site.data.who.docs offset: half_size %}
-              <li>{{ item.title }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    {% endif %}
-    <h2>Format</h2>
-    <p>
-      <a href="https://citycamp.com">CityCamp</a>
-      is a community-led
-      <a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>, where the people attending help plan the schedule.</p>
-    <ul>
-      <li>Participants create and organize the agenda, with help from facilitators.</li>
-      <li>Everyone takes part in the sessions instead of just listening.</li>
-      <li>This makes it easier to share ideas and take real action.</li>
-      <li>Focuses on local governments and community groups that affect our daily lives.</li>
-      <li>The goal is to build local teams that come up with smart ways to improve city life.</li>
-      <li>These ideas often involve design, better processes, and technology.</li>
-      <li>The purpose is to make communities more open, welcoming, and easy to use.</li>
-    </ul>
-    <h2>Code of conduct</h2>
-    <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
-      <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
-    </p>
-    <h2>Learn more</h2>
-    <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+      {% endif %}
+      <h2>Format</h2>
+      <p>
+        <a href="https://citycamp.com">CityCamp</a>
+        is a community-led
+        <a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>, where the people attending help plan the schedule.</p>
+      <ul>
+        <li>Participants create and organize the agenda, with help from facilitators.</li>
+        <li>Everyone takes part in the sessions instead of just listening.</li>
+        <li>This makes it easier to share ideas and take real action.</li>
+        <li>Focuses on local governments and community groups that affect our daily lives.</li>
+        <li>The goal is to build local teams that come up with smart ways to improve city life.</li>
+        <li>These ideas often involve design, better processes, and technology.</li>
+        <li>The purpose is to make communities more open, welcoming, and easy to use.</li>
+      </ul>
+      <h2>Code of conduct</h2>
+      <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
+        <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
+      </p>
+      <h2>Learn more</h2>
+      <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+    </div>
+    <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+      <h2 class="mb-3">Share</h2>
+      {% include share.html %}
+      <h2 class="mb-3">Map</h2>
+      {% include map-for-one-location.html %}
+    </div>
   </div>
-  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-    <h2 class="mb-3">Share</h2>
-    {% include share.html %}
-    <h2 class="mb-3">Map</h2>
-    {% include map-for-one-location.html %}
-  </div>
+  {% include register.html %}
 </div>
-{% include register.html %}
