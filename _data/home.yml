@@ -1,17 +1,22 @@
 docs_list_title: home
 docs:
 
+  - title: Events
+    description: "Calendar of CityCamp events."
+    icon: fa-solid fa-calendar
+    url: /events
+
   - title: Organize
     description: "Lead a CityCamp where you live."
     icon: fa-solid fa-compass
     url: /organize
 
   - title: Participate
-    description: "Get involved with a CityCamp near you."
+    description: "Attend your local CityCamp."
     icon: fa-solid fa-hands-helping
     url: /participate
 
   - title: Support
-    description: "Support CityCamp financially or in-kind."
+    description: "Help CityCamp financially or in-kind."
     icon: fa-solid fa-gift
     url: /sponsor

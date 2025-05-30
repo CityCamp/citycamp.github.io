@@ -1,23 +1,25 @@
 <footer>
-  <a
-    href="/help"
-    id="subscribe-button"
-    aria-label="Help"
-    class="help btn btn-primary">
-    <i class="fa-solid fa-question-circle" aria-label="Help"></i>
-    Help
-  </a>
-  <script>
+  {% unless page.layout == "event" %}
+    <a
+      href="/help"
+      id="subscribe-button"
+      aria-label="Help"
+      class="help btn btn-primary">
+      <i class="fa-solid fa-question-circle" aria-label="Help"></i>
+      Help
+    </a>
+    <script>
       const feedbackButton = document.getElementById("subscribe-button");
       window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > window.innerHeight * .4) 
+          if (document.documentElement.scrollTop > window.innerHeight * .4) 
       feedbackButton.style.opacity = '1';
-    else
+          else
       feedbackButton.style.opacity = '0';
       });
-  </script>
+    </script>
+    {% include connect.html %}
+  {% endunless %}
   {% include supporters.html %}
-  {% include connect.html %}
   <div class="bg-dark mt-3 pt-5 pb-3">
     <div class="container">
       <div class="row">

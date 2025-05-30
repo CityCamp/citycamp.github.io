@@ -184,9 +184,29 @@ a.btn-primary:hover {
     z-index: 1000;
 }
 
+/* Register */
+
+.register {
+    background-color: var(--bs-body-bg);
+}
+
 /* Images */
 
 img.supporters {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+}
+
+/* Event */
+
+.col-12>h2:first-child {
+    border-top: none;
+    margin-top: 0;
+}
+
+.event h2 {
+    border-top: 1px solid var(--bs-border-color);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
 }
