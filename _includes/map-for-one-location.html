@@ -28,10 +28,10 @@
   // City locations
     var cities = [
     {
-      name: "{{ event.city }}, {{ event.state }} - {{ event.location }}",
+      name: "{{ event.name }},{{ event.addressLocality }}, {{ event.addressRegion }} - {{ event.venue }}",
       lat: {{ event.latitude }},
       lng: {{ event.longitude }},
-      state: "{{ event.state }}",
+      state: "{{ event.addressRegion }}",
       status: "{{ event.Status }}",
     },
   ];

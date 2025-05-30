@@ -60,7 +60,7 @@ layout: cards
                   {% else %}
                     <h2 class="h4">{{ event.name }}</h2>
                   {% endif %}
-                  <p class="card-text">{{ event.city }}, {{ event.state }}</p>
+                  <p class="card-text">{{ event.city }}, {{ event.addressRegion }}</p>
                 </div>
                 <div class="card-footer text-muted small">
                   {{ event.date | date: "%B %d, %Y" }}
