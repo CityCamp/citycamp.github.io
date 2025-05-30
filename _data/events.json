@@ -1,407 +1,405 @@
 [
   {
-    "name": "Honolulu",
+    "name": "Tuscon",
     "Status": "Done",
-    "city": "Honolulu",
-    "state": "HI",
-    "country": "US",
-    "latitude": "21.3069",
-    "longitude": "-157.8583",
-    "slug": "honolulu-hi-us"
+    "city": "Tuscon",
+    "addressRegion": "AZ",
+    "addressCountry": "US",
+    "latitude": "32.2226",
+    "longitude": "-110.9747",
+    "slug": "tuscon"
   },
   {
     "name": "CityCamp NYC",
     "Status": "In progress",
-    "location": "CUNY School of Law, Queens, New York City, New York",
-    "poc": "Duncan Ballantine & Jordan Shapiro",
+    "venue": "CUNY School of Law",
+    "poc": "BetaNYC",
     "city": "New York City",
-    "state": "NY",
+    "addressRegion": "NY",
     "website": "https://www.beta.nyc/citycamp-nyc/",
-    "country": "US",
-    "email": "duncan@beta.nyc",
+    "addressCountry": "US",
+    "email": "citycamp@beta.nyc",
     "date": "2025-09-06",
-    "latitude": "40.730610",
-    "longitude": "-73.935242",
-    "slug": "new-york-city-ny-us"
+    "latitude": "40.746429",
+    "longitude": "-73.944069",
+    "organizer": "BetaNYC",
+    "organizer-url": "https://beta.nyc",
+    "streetAddress": "2 Ct Square W",
+    "price": "TBD",
+    "postalCode": "11101",
+    "addressLocality": "Long Island City",
+    "slug": "new-york-city"
   },
   {
     "name": "Sfax",
     "Status": "Done",
     "city": "Sfax",
-    "country": "Tunisia",
+    "addressCountry": "Tunisia",
     "latitude": "34.739",
     "longitude": "10.76",
-    "slug": "sfax-tunisia"
-  },
-  {
-    "name": "Civic Spark – Toronto",
-    "notes": "We are doing a two day event, the second day will be an unconference in the style of city camp. CityCamp came up from conversation with Christopher Whitaker.",
-    "poc": "Jordan Armstrong",
-    "city": "Toronto",
-    "state": "Ontario",
-    "website": "https://civic-spark.com",
-    "country": "Canada",
-    "email": "speak@civic-spark.com",
-    "date": "2025-08-17",
-    "latitude": "43.7417",
-    "longitude": "-79.3733",
-    "slug": "toronto-ontario-canada"
+    "slug": "sfax"
   },
   {
     "name": "Argentina",
     "Status": "Done",
     "city": "Buenos Aires",
-    "country": "Argentina",
+    "addressCountry": "Argentina",
     "latitude": "-34.6037",
     "longitude": "-58.3816",
-    "slug": "buenos-aires-argentina"
+    "slug": "buenos-aires"
   },
   {
     "name": "Raleigh",
     "Status": "Done",
     "city": "Raleigh",
-    "state": "NC",
-    "country": "US",
+    "addressRegion": "NC",
+    "addressCountry": "US",
     "latitude": "35.7796",
     "longitude": "-78.6382",
-    "slug": "raleigh-nc-us"
+    "slug": "raleigh"
   },
   {
     "name": "Manchester",
     "Status": "Done",
     "city": "Manchester",
-    "country": "England",
+    "addressCountry": "England",
     "latitude": "53.4808",
     "longitude": "-2.2426",
-    "slug": "manchester-england"
+    "slug": "manchester"
   },
   {
     "name": "Arvada",
     "Status": "Done",
     "city": "Arvada",
-    "state": "CO",
-    "country": "US",
+    "addressRegion": "CO",
+    "addressCountry": "US",
     "latitude": "39.8028",
     "longitude": "-105.0875",
-    "slug": "arvada-co-us"
+    "slug": "arvada"
   },
   {
     "name": "Ulyanovsk",
     "Status": "Done",
     "city": "Ulyanovsk",
-    "country": "Russia",
+    "addressCountry": "Russia",
     "latitude": "54.3182",
     "longitude": "48.3838",
-    "slug": "ulyanovsk-russia"
+    "slug": "ulyanovsk"
   },
   {
     "name": "Bizerte",
     "Status": "Done",
     "city": "Bizerte",
-    "country": "Tunisia",
+    "addressCountry": "Tunisia",
     "latitude": "37.2744",
     "longitude": "9.8739",
-    "slug": "bizerte-tunisia"
+    "slug": "bizerte"
   },
   {
     "name": "Minneapolis",
     "Status": "Done",
     "city": "Minneapolis",
-    "state": "MN",
-    "country": "US",
+    "addressRegion": "MN",
+    "addressCountry": "US",
     "latitude": "44.9778",
     "longitude": "-93.265",
-    "slug": "minneapolis-mn-us"
+    "slug": "minneapolis"
   },
   {
     "name": "St. Petersburg",
     "Status": "Done",
     "city": "St. Petersburg",
-    "country": "Russia",
+    "addressCountry": "Russia",
     "latitude": "59.9343",
     "longitude": " 30.3351",
-    "slug": "st.-petersburg-russia"
+    "slug": "st.-petersburg"
   },
   {
     "name": "San Francisco",
     "Status": "Done",
     "city": "San Francisco",
-    "state": "CA",
-    "country": "US",
+    "addressRegion": "CA",
+    "addressCountry": "US",
     "latitude": "37.7749",
     "longitude": "-122.4194",
-    "slug": "san-francisco-ca-us"
+    "slug": "san-francisco"
   },
   {
     "name": "CityCamp Lafayette",
     "Status": "In progress",
-    "location": "TBD",
+    "venue": "TBD",
     "poc": "Luke Fretwell",
     "city": "Lafayette",
-    "state": "CA",
+    "addressRegion": "CA",
     "website": "https://lafayette.citycamp.com",
-    "country": "US",
+    "addressCountry": "US",
     "email": "luke@lukefretwell.com",
     "date": "2025-09-20",
     "latitude": "37.890800",
     "longitude": "-122.127472",
-    "slug": "lafayette-ca-us"
+    "price": "TBD",
+    "addressLocality": "Lafayette",
+    "slug": "lafayette"
   },
   {
     "name": "Gafsa",
     "Status": "Done",
     "city": "Gafsa",
-    "country": "Tunisia",
+    "addressCountry": "Tunisia",
     "latitude": "34.425",
     "longitude": "8.7842",
-    "slug": "gafsa-tunisia"
+    "slug": "gafsa"
   },
   {
     "name": "Boulder",
     "Status": "Done",
     "city": "Boulder",
-    "state": "CO",
-    "country": "US",
+    "addressRegion": "CO",
+    "addressCountry": "US",
     "latitude": "40.015",
     "longitude": "-105.2705",
-    "slug": "boulder-co-us"
+    "slug": "boulder"
   },
   {
     "name": "Denver",
     "Status": "Done",
     "city": "Denver",
-    "state": "CO",
-    "country": "US",
+    "addressRegion": "CO",
+    "addressCountry": "US",
     "latitude": "39.7392",
     "longitude": "-104.9903",
-    "slug": "denver-co-us"
+    "slug": "denver"
   },
   {
     "name": "Sacramento",
     "Status": "Done",
     "city": "Sacramento",
-    "state": "CA",
-    "country": "US",
+    "addressRegion": "CA",
+    "addressCountry": "US",
     "latitude": "38.5781",
     "longitude": "-121.4944",
-    "slug": "sacramento-ca-us"
+    "slug": "sacramento"
   },
   {
     "name": "Brighton",
     "Status": "Done",
     "city": "Brighton",
-    "country": "England",
+    "addressCountry": "England",
     "latitude": "50.8225",
     "longitude": "-0.1372",
-    "slug": "brighton-england"
+    "slug": "brighton"
   },
   {
     "name": "Perm",
     "Status": "Done",
     "city": "Perm",
-    "country": "Russia",
+    "addressCountry": "Russia",
     "latitude": "58.0105",
     "longitude": "56.2502",
-    "slug": "perm-russia"
+    "slug": "perm"
   },
   {
     "name": "Hampton Roads",
     "Status": "Done",
     "city": "Hampton Roads",
-    "state": "VA",
-    "country": "US",
+    "addressRegion": "VA",
+    "addressCountry": "US",
     "latitude": "36.8508",
     "longitude": "-76.2859",
-    "slug": "hampton-roads-va-us"
+    "slug": "hampton-roads"
   },
   {
     "name": "Santiago",
     "Status": "Done",
     "city": "Santiago",
-    "country": "Chile",
+    "addressCountry": "Chile",
     "latitude": "-33.4489",
     "longitude": "-70.6693",
-    "slug": "santiago-chile"
+    "slug": "santiago"
   },
   {
     "name": "Coventry",
     "Status": "Done",
     "city": "Coventry",
-    "country": "England",
+    "addressCountry": "England",
     "latitude": "52.4068",
     "longitude": "-1.5197",
-    "slug": "coventry-england"
+    "slug": "coventry"
   },
   {
     "name": "Monterrey",
     "Status": "Done",
     "city": "Monterrey",
-    "country": "Mexico",
+    "addressCountry": "Mexico",
     "latitude": "25.6866",
     "longitude": "-100.3161",
-    "slug": "monterrey-mexico"
+    "slug": "monterrey"
   },
   {
     "name": "Madison",
     "Status": "Done",
     "city": "Madison",
-    "state": "WI",
-    "country": "US",
+    "addressRegion": "WI",
+    "addressCountry": "US",
     "latitude": "43.0731",
     "longitude": "-89.4012",
-    "slug": "madison-wi-us"
+    "slug": "madison"
   },
   {
     "name": "Kansas City",
     "Status": "Done",
     "city": "Kansas City",
-    "state": "MO",
-    "country": "US",
+    "addressRegion": "MO",
+    "addressCountry": "US",
     "latitude": "39.0997",
     "longitude": "-94.5786",
-    "slug": "kansas-city-mo-us"
+    "slug": "kansas-city"
   },
   {
     "name": "Chandler",
     "Status": "Done",
     "city": "Chandler",
-    "state": "AZ",
-    "country": "US",
+    "addressRegion": "AZ",
+    "addressCountry": "US",
     "latitude": "33.3062",
     "longitude": "-111.8413",
-    "slug": "chandler-az-us"
+    "slug": "chandler"
   },
   {
     "name": "Oakland",
     "Status": "Done",
     "city": "Oakland",
-    "state": "CA",
-    "country": "US",
+    "addressRegion": "CA",
+    "addressCountry": "US",
     "latitude": "37.8044",
     "longitude": "-122.2711",
-    "slug": "oakland-ca-us"
+    "slug": "oakland"
   },
   {
     "name": "Golden",
     "Status": "Done",
     "city": "Golden",
-    "state": "CO",
-    "country": "US",
+    "addressRegion": "CO",
+    "addressCountry": "US",
     "latitude": "39.7555",
     "longitude": "-105.2211",
-    "slug": "golden-co-us"
+    "slug": "golden"
   },
   {
     "name": "Castle Rock",
     "Status": "Done",
     "city": "Castle Rock",
-    "state": "CO",
-    "country": "US",
+    "addressRegion": "CO",
+    "addressCountry": "US",
     "latitude": "39.3722",
     "longitude": "-104.8561",
-    "slug": "castle-rock-co-us"
+    "slug": "castle-rock"
   },
   {
     "name": "Edmonton",
     "Status": "Done",
     "city": "Edmonton",
-    "country": "Canada",
+    "addressCountry": "Canada",
     "latitude": "53.5461",
     "longitude": "-113.4938",
-    "slug": "edmonton-canada"
+    "slug": "edmonton"
   },
   {
     "name": "Phoenix",
     "Status": "Done",
     "city": "Phoenix",
-    "state": "AZ",
-    "country": "US",
+    "addressRegion": "AZ",
+    "addressCountry": "US",
     "latitude": "33.4484",
     "longitude": "-112.074",
-    "slug": "phoenix-az-us"
+    "slug": "phoenix"
   },
   {
     "name": "CityCamp Atlanta",
     "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
     "Status": "In progress",
-    "location": "TBD",
+    "venue": "TBD",
     "poc": "Shaun Mosley",
     "city": "Atlanta",
-    "state": "GA",
+    "addressRegion": "GA",
     "website": "https://www.civictechatlanta.org",
-    "country": "US",
+    "addressCountry": "US",
     "email": "shaun@civictechatlanta.org",
     "date": "2025-09-20",
     "latitude": "33.753746",
     "longitude": "-84.386330",
-    "slug": "atlanta-ga-us"
+    "organizer": "Civic Tech Atlanta",
+    "organizer-url": "https://www.civictechatlanta.org",
+    "price": "TBD",
+    "addressLocality": "Atlanta",
+    "slug": "atlanta"
   },
   {
     "name": "Chicago",
     "notes": "Inaugural CityCamp\n",
     "Status": "Done",
     "city": "Chicago",
-    "state": "IL",
-    "country": "US",
+    "addressRegion": "IL",
+    "addressCountry": "US",
     "latitude": "41.8781",
     "longitude": "-87.6298",
-    "slug": "chicago-il-us"
+    "slug": "chicago"
   },
   {
     "name": "Washington, D.C.",
     "Status": "Done",
     "city": "Washington, D.C.",
-    "state": "DC",
-    "country": "US",
+    "addressRegion": "DC",
+    "addressCountry": "US",
     "latitude": "38.9072",
     "longitude": "-77.0369",
-    "slug": "washington,-d.c.-dc-us"
+    "slug": "washington,-d.c."
   },
   {
     "name": "Alberta",
     "Status": "Done",
     "city": "Alberta",
-    "country": "Canada",
+    "addressCountry": "Canada",
     "latitude": "53.93327",
     "longitude": "-116.57650",
-    "slug": "alberta-canada"
+    "slug": "alberta"
   },
   {
     "name": "London",
     "Status": "Done",
     "city": "London",
-    "country": "England",
+    "addressCountry": "England",
     "latitude": "51.5074",
     "longitude": "-0.1278",
-    "slug": "london-england"
+    "slug": "london"
   },
   {
     "name": "Chelmsford",
     "Status": "Done",
     "city": "Chelmsford",
-    "country": "England",
+    "addressCountry": "England",
     "latitude": "51.7356",
     "longitude": "0.4685",
-    "slug": "chelmsford-england"
+    "slug": "chelmsford"
   },
   {
     "name": "Oklahoma City",
     "Status": "Done",
     "city": "Oklahoma City",
-    "state": "OK",
-    "country": "US",
+    "addressRegion": "OK",
+    "addressCountry": "US",
     "latitude": "35.4676",
     "longitude": "-97.5164",
-    "slug": "oklahoma-city-ok-us"
+    "slug": "oklahoma-city"
   },
   {
-    "name": "Tuscon",
+    "name": "Honolulu",
     "Status": "Done",
-    "city": "Tuscon",
-    "state": "AZ",
-    "country": "US",
-    "latitude": "32.2226",
-    "longitude": "-110.9747",
-    "slug": "tuscon-az-us"
+    "city": "Honolulu",
+    "addressRegion": "HI",
+    "addressCountry": "US",
+    "latitude": "21.3069",
+    "longitude": "-157.8583",
+    "slug": "honolulu"
   }
 ]
