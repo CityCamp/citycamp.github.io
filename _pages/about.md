@@ -1,4 +1,5 @@
 ---
+layout: default
 title: About
 description: Overview of CityCamp.
 topics:

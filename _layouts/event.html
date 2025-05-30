@@ -1,108 +1,109 @@
 ---
-layout: event
+layout: default-plain
 title: CityCamp Event page
 description: Event details
 schematype: "Event"
 ---
 
-{% include header.html %}
-{% include nav.html %}
-<main id="main-content">
-  {% include jumbotron.html %}
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-        {% assign event = page %}
-        <h2 class="mb-3">Details</h2>
-        <ul class="list-unstyled">
-          {% if page.date %}
-            <li class="mb-2">
-              <i class="fa-solid fa-calendar" aria-label="hidden"></i>
-              When: {{ page.date | date: "%B %d, %Y" }}</li>
-          {% endif %}
-          {% if page.streetAddress %}
-            <li class="mb-2">
-              <i class="fa-solid fa-location-dot" aria-label="Location"></i>
-              <a href="https://www.google.com/maps/search/{{ page.streetAddress }}{% if page.addressLocality %}+{{ page.addressLocality }}{% endif %}{% if page.addressRegion %}+{{ page.addressRegion }}{% endif %}{% if page.postalCode %}+{{ page.postalCode }}{% endif %}{% if page.addressCountry %}+{{ page.addressCountry }}{% endif %}" target="_blank">
-                {{ page.streetAddress }}{% if page.addressLocality %}, {{ page.addressLocality }}{% endif %}
-                {% if page.addressRegion %}, {{ page.addressRegion }}{% endif %}
-                {% if page.postalCode %}
-                  {{ page.postalCode }}{% endif %}
-                {% if page.addressCountry %}, {{ page.addressCountry }}{% endif %}
-              </a>
-            </li>
-          {% endif %}
-          {% if page.price %}
-            <li class="mb-2">
-              <i class="fa-solid fa-ticket" aria-label="hidden"></i>
-              Price: {{ page.price }}</li>
-          {% endif %}
-          {% if page.email %}
-            <li class="mb-2">
-              <i class="fa-solid fa-envelope" aria-label="hidden"></i>
-              Contact:
-              <a href="mailto:{{ page.email }}">{{ page.poc }}</a>
-            </li>
-          {% endif %}
-          {% if page.organizer %}
-            <li class="mb-2">
-              <i class="fa-solid fa-building" aria-label="hidden"></i>
-              Organizer:
-              <a href="{{ page.organizer-url }}">{{ page.organizer }}</a>
-            </li>
-          {% endif %}
-        </ul>
-        <h2>About</h2>
-        <p>{{ page.title }} is a civic-focused event for the {{ page.city }} ({{ page.state }}) community. While space is limited, everyone is welcome to join and share their ideas and skills to help make {{ page.city }} a better place.</p>
-        {% if site.data.who.docs %}
-          <h2>Who it's for</h2>
-          <div class="row">
-            {% assign half_size = site.data.who.docs.size | divided_by: 2 | ceil %}
-            <div class="col-md-6">
-              <ul>
-                {% for item in site.data.who.docs limit: half_size %}
-                  <li>{{ item.title }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <ul>
-                {% for item in site.data.who.docs offset: half_size %}
-                  <li>{{ item.title }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+      {% assign event = page %}
+      <h2 class="mb-3">Details</h2>
+      <ul class="list-unstyled">
+        {% if page.date %}
+          <li class="mb-2">
+            <i class="fa-solid fa-calendar" aria-label="hidden"></i>
+            When: {{ page.date | date: "%B %d, %Y" }}</li>
         {% endif %}
-        <h2>Format</h2>
-        <p>
-          <a href="https://citycamp.com">CityCamp</a>
-          is a community-led
-          <a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>, where the people attending help plan the schedule.</p>
-        <ul>
-          <li>Participants create and organize the agenda, with help from facilitators.</li>
-          <li>Everyone takes part in the sessions instead of just listening.</li>
-          <li>This makes it easier to share ideas and take real action.</li>
-          <li>Focuses on local governments and community groups that affect our daily lives.</li>
-          <li>The goal is to build local teams that come up with smart ways to improve city life.</li>
-          <li>These ideas often involve design, better processes, and technology.</li>
-          <li>The purpose is to make communities more open, welcoming, and easy to use.</li>
-        </ul>
-        <h2>Code of conduct</h2>
-        <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
-          <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
-        </p>
-        <h2>Learn more</h2>
-        <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+        {% if page.streetAddress %}
+          <li class="mb-2">
+            <i class="fa-solid fa-location-dot" aria-label="Location"></i>
+            <a href="https://www.google.com/maps/search/{{ page.streetAddress }}{% if page.addressLocality %}+{{ page.addressLocality }}{% endif %}{% if page.addressRegion %}+{{ page.addressRegion }}{% endif %}{% if page.postalCode %}+{{ page.postalCode }}{% endif %}{% if page.addressCountry %}+{{ page.addressCountry }}{% endif %}" target="_blank">
+              {{ page.streetAddress }}{% if page.addressLocality %}, {{ page.addressLocality }}{% endif %}
+              {% if page.addressRegion %}, {{ page.addressRegion }}{% endif %}
+              {% if page.postalCode %}
+                {{ page.postalCode }}{% endif %}
+              {% if page.addressCountry %}, {{ page.addressCountry }}{% endif %}
+            </a>
+          </li>
+        {% endif %}
+        {% if page.price %}
+          <li class="mb-2">
+            <i class="fa-solid fa-ticket" aria-label="hidden"></i>
+            Price: {{ page.price }}</li>
+        {% endif %}
+        {% if page.email %}
+          <li class="mb-2">
+            <i class="fa-solid fa-envelope" aria-label="hidden"></i>
+            Contact:
+            <a href="mailto:{{ page.email }}">{{ page.poc }}</a>
+          </li>
+        {% endif %}
+        {% if page.organizer %}
+          <li class="mb-2">
+            <i class="fa-solid fa-building" aria-label="hidden"></i>
+            Organizer:
+            <a href="{{ page.organizer-url }}">{{ page.organizer }}</a>
+          </li>
+        {% endif %}
+      </ul>
+      <h2>About</h2>
+      <p>{{ page.title }} is a civic-focused event for the {{ page.city }} ({{ page.state }}) community. While space is limited, everyone is welcome to join and share their ideas and skills to help make {{ page.city }} a better place.</p>
+      {% if site.data.who.docs %}
+        <h2>Who it's for</h2>
+        <div class="row">
+          {% assign half_size = site.data.who.docs.size | divided_by: 2 | ceil %}
+          <div class="col-md-6">
+            <ul>
+              {% for item in site.data.who.docs limit: half_size %}
+                <li>{{ item.title }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              {% for item in site.data.who.docs offset: half_size %}
+                <li>{{ item.title }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            {% for item in site.data.who.docs offset: half_size %}
+              <li>{{ item.title }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-        <h2 class="mb-3">Share</h2>
-        {% include share.html %}
-        <h2 class="mb-3">Map</h2>
-        {% include map-for-one-location.html %}
-      </div>
-    </div>
-    {% include register.html %}
+    {% endif %}
+    <h2>Format</h2>
+    <p>
+      <a href="https://citycamp.com">CityCamp</a>
+      is a community-led
+      <a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>, where the people attending help plan the schedule.</p>
+    <ul>
+      <li>Participants create and organize the agenda, with help from facilitators.</li>
+      <li>Everyone takes part in the sessions instead of just listening.</li>
+      <li>This makes it easier to share ideas and take real action.</li>
+      <li>Focuses on local governments and community groups that affect our daily lives.</li>
+      <li>The goal is to build local teams that come up with smart ways to improve city life.</li>
+      <li>These ideas often involve design, better processes, and technology.</li>
+      <li>The purpose is to make communities more open, welcoming, and easy to use.</li>
+    </ul>
+    <h2>Code of conduct</h2>
+    <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
+      <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
+    </p>
+    <h2>Learn more</h2>
+    <a href="{{ page.website }}" class="btn btn-primary">Website</a>
   </div>
-</main>
-{% include footer.html %}
+  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+    <h2 class="mb-3">Share</h2>
+    {% include share.html %}
+    <h2 class="mb-3">Map</h2>
+    {% include map-for-one-location.html %}
+  </div>
+</div>
+{% include register.html %}
