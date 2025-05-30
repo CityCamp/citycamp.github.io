@@ -6,36 +6,33 @@ topics:
 - Organize
 ---
 
-<main id="main-content">
-  {% include jumbotron.html %}
-  <div class="container post-main">
-    <div class="row">
-      <div class="card-group">
-        {% if include.limit %}
-          {% assign limitVar = include.limit | plus: 0 %}
-        {% endif %}
-        {% assign events = site.data.events | where: "Status", "In progress" | sort: "date" %}
-        {% for event in events %}
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-            <div class="card p-0 text-center mx-1 mb-3 shadow">
-              <div class="card-body p-4">
-                <i class="fa-solid fa-calendar mb-3 fa-2x" aria-label="hidden"></i>
-                {% if event.website %}
-                  <a href="/events/{{ event.slug }}" class="stretched-link nav-link">
-                    <h2 class="h4">{{ event.name }}</h2>
-                  </a>
-                {% else %}
+<div class="container post-main">
+  <div class="row">
+    <div class="card-group">
+      {% if include.limit %}
+        {% assign limitVar = include.limit | plus: 0 %}
+      {% endif %}
+      {% assign events = site.data.events | where: "Status", "In progress" | sort: "date" %}
+      {% for event in events %}
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+          <div class="card p-0 text-center mx-1 mb-3 shadow">
+            <div class="card-body p-4">
+              <i class="fa-solid fa-calendar mb-3 fa-2x" aria-label="hidden"></i>
+              {% if event.website %}
+                <a href="/events/{{ event.slug }}" class="stretched-link nav-link">
                   <h2 class="h4">{{ event.name }}</h2>
-                {% endif %}
-                <p class="card-text">{{ event.city }}, {{ event.state }}</p>
-              </div>
-              <div class="card-footer text-muted small">
-                {{ event.date | date: "%B %d, %Y" }}
-              </div>
+                </a>
+              {% else %}
+                <h2 class="h4">{{ event.name }}</h2>
+              {% endif %}
+              <p class="card-text">{{ event.city }}, {{ event.state }}</p>
+            </div>
+            <div class="card-footer text-muted small">
+              {{ event.date | date: "%B %d, %Y" }}
             </div>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
-</main>
+</div>

@@ -6,22 +6,19 @@ topics:
   - About
 ---
 
-<main id="main-content">
-  {% include jumbotron.html %}
-  <div class="container post-main">
-    <div class="row">
-      <div class="col-12">
-        {{ content }}
-      </div>
-    </div>
-    <div class="row">
-      <div class="card-group">
-        {% if include.limit %}
-          {% assign limitVar = include.limit | plus: 0 %}
-        {% endif %}
-
-        {% include news.html %}
-      </div>
+<div class="container post-main">
+  <div class="row">
+    <div class="col-12">
+      {{ content }}
     </div>
   </div>
-</main>
+  <div class="row">
+    <div class="card-group">
+      {% if include.limit %}
+        {% assign limitVar = include.limit | plus: 0 %}
+      {% endif %}
+
+      {% include news.html %}
+    </div>
+  </div>
+</div>

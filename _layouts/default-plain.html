@@ -3,5 +3,8 @@
 
 {% include header.html %}
 {% include nav.html %}
-{{ content }}
+<main id="main-content">
+  {% include jumbotron.html %}
+  {{ content }}
+</main>
 {% include footer.html %}
