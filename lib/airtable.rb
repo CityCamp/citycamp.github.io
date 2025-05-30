@@ -20,8 +20,8 @@ events = events.sort_by { |h| [h["State"], h["City"]] }
 events = events.map do |row|
   parts = [
     row["city"].gsub(" ", "-"),
-    row["state"],
-    row["country"]
+    row["addressRegion"],
+    row["addressCountry"]
   ]
   .compact # remove nil
   .reject(&:empty?)
