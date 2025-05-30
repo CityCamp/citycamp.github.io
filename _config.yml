@@ -53,6 +53,14 @@ defaults:
       layout: "topic"
       parent: "topics"
       short: "true"
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      folder: "Events"
+      parent: "events"
+      layout: "event"
+      schematype: "Event"
 
 # Collections
 collections:

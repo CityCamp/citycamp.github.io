@@ -2,6 +2,7 @@
 layout: event
 title: CityCamp Event page
 description: Event details
+schematype: "Event"
 ---
 
 {% include header.html %}
@@ -22,7 +23,7 @@ description: Event details
             Where: {{ page.location }}</li>
           <li class="mb-2">
             <i class="fa-solid fa-ticket" aria-label="hidden"></i>
-            Price: Free</li>
+            Price: {{ page.price }}</li>
           <li>
             <i class="fa-solid fa-envelope" aria-label="hidden"></i>
             Contact:

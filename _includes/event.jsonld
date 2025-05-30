@@ -1,0 +1,33 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "{{ page.title }}",
+    "startDate": "{{ page.date }}",
+    "endDate": "{{ page.date }}",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+        "@type": "{{ page.event-type }}",
+        "name": "{{ page.event-location }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ page.street-address }}",
+            "addressLocality": "{{ page.city }}",
+            "postalCode": "{{ page.zip }}",
+            "addressRegion": "{{ page.state }}",
+            "addressCountry": "{{ page.country }}",
+            "url": "{{ page.event-link }}"
+        }
+    },
+    "image": [
+        "{{ site.url }}/assets/img/avatar-og.png"
+    ],
+    "description": "{{ page.description }}",
+    "price": "{{ page.price }}",
+    "priceCurrency": "{{ page.currency }}",
+    "organizer": {
+        "@type": "Organization",
+        "name": "{{ page.org }}",
+        "url": "{{ page.org-link }}"
+    }
+}

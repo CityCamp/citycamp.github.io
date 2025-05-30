@@ -60,6 +60,12 @@
     <meta property="og:image:alt" content="{{ page.title }} image">
     {% endif %}
     {% endif %}
+  <!-- Schema -->
+    {% if page.schematype == "Event" %}
+        <script type="application/ld+json">
+        {% include event.jsonld %}
+        </script>
+    {% endif %}
     <!-- Favicon -->
     {% include favicon.html %}
     <!-- CSS -->
