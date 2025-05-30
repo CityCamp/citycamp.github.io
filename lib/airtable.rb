@@ -30,6 +30,9 @@ events = events.map do |row|
   row
 end
 
+# order by `slug`
+events = events.sort_by { |e| e["slug"] }
+
 json_path = "_data/events.json"
 new_data = JSON.pretty_generate(events)
 
