@@ -3,5 +3,12 @@ docs:
 
 - title: "ScanGov"
   url: https://scangov.com
-  img: scangov-logo.png
-  description: "Government. Digital. Experience."
+  description: "Government digital experience monitoring, reporting, remediation."
+
+- title: "Alliance of Civic Technologists"
+  url: https://www.civictechnologists.org/
+  description: "A decentralized network of civic tech volunteer organizations."
+
+- title: "GovFresh"
+  url: https://www.govfresh.com
+  description: "Design / Technology / Democracy"
