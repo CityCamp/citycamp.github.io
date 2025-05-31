@@ -16,7 +16,7 @@ events = Event.all.map(&:fields)
 # Sort by State then City
 events = events.sort_by { |h| [h["State"], h["City"]] }
 
-# set slug
+# for each Event, set custom `slug`` & `description` attribute
 events = events.map do |row|
   parts = [
     row["city"].gsub(" ", "-"),
@@ -28,15 +28,15 @@ events = events.map do |row|
 
   description_parts = [
     row["date"],
-    row["city"].gsub(" ", "-"),
+    row["city"],
     row["addressRegion"],
     row["addressCountry"]
   ]
   .compact # remove nil
   .reject(&:empty?)
 
-  row["slug"] = parts.map(&:downcase).join('-')
-  row["description"] = parts.join(', ')
+  row["slug"] = parts.map { |part| part.gsub(".", "").gsub(",", "").downcase }.join('-')
+  row["description"] = description_parts.join(', ')
   row
 end
 
