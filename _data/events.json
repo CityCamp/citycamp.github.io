@@ -7,7 +7,7 @@
     "latitude": "53.93327",
     "longitude": "-116.57650",
     "slug": "alberta-canada",
-    "description": "Alberta,Canada"
+    "description": "Alberta, Canada"
   },
   {
     "name": "Arvada",
@@ -18,7 +18,7 @@
     "latitude": "39.8028",
     "longitude": "-105.0875",
     "slug": "arvada-co-us",
-    "description": "Arvada,CO,US"
+    "description": "Arvada, CO, US"
   },
   {
     "name": "CityCamp Atlanta",
@@ -39,7 +39,7 @@
     "price": "TBD",
     "addressLocality": "Atlanta",
     "slug": "atlanta-ga-us",
-    "description": "Atlanta,GA,US"
+    "description": "Atlanta, GA, US"
   },
   {
     "name": "Bizerte",
@@ -49,7 +49,7 @@
     "latitude": "37.2744",
     "longitude": "9.8739",
     "slug": "bizerte-tunisia",
-    "description": "Bizerte,Tunisia"
+    "description": "Bizerte, Tunisia"
   },
   {
     "name": "Boulder",
@@ -60,7 +60,7 @@
     "latitude": "40.015",
     "longitude": "-105.2705",
     "slug": "boulder-co-us",
-    "description": "Boulder,CO,US"
+    "description": "Boulder, CO, US"
   },
   {
     "name": "Brighton",
@@ -70,7 +70,7 @@
     "latitude": "50.8225",
     "longitude": "-0.1372",
     "slug": "brighton-england",
-    "description": "Brighton,England"
+    "description": "Brighton, England"
   },
   {
     "name": "Argentina",
@@ -80,7 +80,7 @@
     "latitude": "-34.6037",
     "longitude": "-58.3816",
     "slug": "buenos-aires-argentina",
-    "description": "Buenos-Aires,Argentina"
+    "description": "Buenos-Aires, Argentina"
   },
   {
     "name": "Castle Rock",
@@ -91,7 +91,7 @@
     "latitude": "39.3722",
     "longitude": "-104.8561",
     "slug": "castle-rock-co-us",
-    "description": "Castle-Rock,CO,US"
+    "description": "Castle-Rock, CO, US"
   },
   {
     "name": "Chandler",
@@ -102,7 +102,7 @@
     "latitude": "33.3062",
     "longitude": "-111.8413",
     "slug": "chandler-az-us",
-    "description": "Chandler,AZ,US"
+    "description": "Chandler, AZ, US"
   },
   {
     "name": "Chelmsford",
@@ -112,7 +112,7 @@
     "latitude": "51.7356",
     "longitude": "0.4685",
     "slug": "chelmsford-england",
-    "description": "Chelmsford,England"
+    "description": "Chelmsford, England"
   },
   {
     "name": "Chicago",
@@ -124,7 +124,7 @@
     "latitude": "41.8781",
     "longitude": "-87.6298",
     "slug": "chicago-il-us",
-    "description": "Chicago,IL,US"
+    "description": "Chicago, IL, US"
   },
   {
     "name": "Coventry",
@@ -134,7 +134,7 @@
     "latitude": "52.4068",
     "longitude": "-1.5197",
     "slug": "coventry-england",
-    "description": "Coventry,England"
+    "description": "Coventry, England"
   },
   {
     "name": "Denver",
@@ -145,7 +145,7 @@
     "latitude": "39.7392",
     "longitude": "-104.9903",
     "slug": "denver-co-us",
-    "description": "Denver,CO,US"
+    "description": "Denver, CO, US"
   },
   {
     "name": "Edmonton",
@@ -155,7 +155,7 @@
     "latitude": "53.5461",
     "longitude": "-113.4938",
     "slug": "edmonton-canada",
-    "description": "Edmonton,Canada"
+    "description": "Edmonton, Canada"
   },
   {
     "name": "Gafsa",
@@ -165,7 +165,7 @@
     "latitude": "34.425",
     "longitude": "8.7842",
     "slug": "gafsa-tunisia",
-    "description": "Gafsa,Tunisia"
+    "description": "Gafsa, Tunisia"
   },
   {
     "name": "Golden",
@@ -176,7 +176,7 @@
     "latitude": "39.7555",
     "longitude": "-105.2211",
     "slug": "golden-co-us",
-    "description": "Golden,CO,US"
+    "description": "Golden, CO, US"
   },
   {
     "name": "Hampton Roads",
@@ -187,7 +187,7 @@
     "latitude": "36.8508",
     "longitude": "-76.2859",
     "slug": "hampton-roads-va-us",
-    "description": "Hampton-Roads,VA,US"
+    "description": "Hampton-Roads, VA, US"
   },
   {
     "name": "Honolulu",
@@ -198,7 +198,7 @@
     "latitude": "21.3069",
     "longitude": "-157.8583",
     "slug": "honolulu-hi-us",
-    "description": "Honolulu,HI,US"
+    "description": "Honolulu, HI, US"
   },
   {
     "name": "Kansas City",
@@ -209,7 +209,7 @@
     "latitude": "39.0997",
     "longitude": "-94.5786",
     "slug": "kansas-city-mo-us",
-    "description": "Kansas-City,MO,US"
+    "description": "Kansas-City, MO, US"
   },
   {
     "name": "CityCamp Lafayette",
@@ -227,7 +227,7 @@
     "price": "TBD",
     "addressLocality": "Lafayette",
     "slug": "lafayette-ca-us",
-    "description": "Lafayette,CA,US"
+    "description": "Lafayette, CA, US"
   },
   {
     "name": "London",
@@ -237,7 +237,7 @@
     "latitude": "51.5074",
     "longitude": "-0.1278",
     "slug": "london-england",
-    "description": "London,England"
+    "description": "London, England"
   },
   {
     "name": "Madison",
@@ -248,7 +248,7 @@
     "latitude": "43.0731",
     "longitude": "-89.4012",
     "slug": "madison-wi-us",
-    "description": "Madison,WI,US"
+    "description": "Madison, WI, US"
   },
   {
     "name": "Manchester",
@@ -258,7 +258,7 @@
     "latitude": "53.4808",
     "longitude": "-2.2426",
     "slug": "manchester-england",
-    "description": "Manchester,England"
+    "description": "Manchester, England"
   },
   {
     "name": "Minneapolis",
@@ -269,7 +269,7 @@
     "latitude": "44.9778",
     "longitude": "-93.265",
     "slug": "minneapolis-mn-us",
-    "description": "Minneapolis,MN,US"
+    "description": "Minneapolis, MN, US"
   },
   {
     "name": "Monterrey",
@@ -279,7 +279,7 @@
     "latitude": "25.6866",
     "longitude": "-100.3161",
     "slug": "monterrey-mexico",
-    "description": "Monterrey,Mexico"
+    "description": "Monterrey, Mexico"
   },
   {
     "name": "CityCamp NYC",
@@ -301,7 +301,7 @@
     "postalCode": "11101",
     "addressLocality": "Long Island City",
     "slug": "new-york-city-ny-us",
-    "description": "New-York-City,NY,US"
+    "description": "New-York-City, NY, US"
   },
   {
     "name": "Oakland",
@@ -312,7 +312,7 @@
     "latitude": "37.8044",
     "longitude": "-122.2711",
     "slug": "oakland-ca-us",
-    "description": "Oakland,CA,US"
+    "description": "Oakland, CA, US"
   },
   {
     "name": "Oklahoma City",
@@ -323,7 +323,7 @@
     "latitude": "35.4676",
     "longitude": "-97.5164",
     "slug": "oklahoma-city-ok-us",
-    "description": "Oklahoma-City,OK,US"
+    "description": "Oklahoma-City, OK, US"
   },
   {
     "name": "Perm",
@@ -333,7 +333,7 @@
     "latitude": "58.0105",
     "longitude": "56.2502",
     "slug": "perm-russia",
-    "description": "Perm,Russia"
+    "description": "Perm, Russia"
   },
   {
     "name": "Phoenix",
@@ -344,7 +344,7 @@
     "latitude": "33.4484",
     "longitude": "-112.074",
     "slug": "phoenix-az-us",
-    "description": "Phoenix,AZ,US"
+    "description": "Phoenix, AZ, US"
   },
   {
     "name": "Raleigh",
@@ -355,7 +355,7 @@
     "latitude": "35.7796",
     "longitude": "-78.6382",
     "slug": "raleigh-nc-us",
-    "description": "Raleigh,NC,US"
+    "description": "Raleigh, NC, US"
   },
   {
     "name": "Sacramento",
@@ -366,7 +366,7 @@
     "latitude": "38.5781",
     "longitude": "-121.4944",
     "slug": "sacramento-ca-us",
-    "description": "Sacramento,CA,US"
+    "description": "Sacramento, CA, US"
   },
   {
     "name": "San Francisco",
@@ -377,7 +377,7 @@
     "latitude": "37.7749",
     "longitude": "-122.4194",
     "slug": "san-francisco-ca-us",
-    "description": "San-Francisco,CA,US"
+    "description": "San-Francisco, CA, US"
   },
   {
     "name": "Santiago",
@@ -387,7 +387,7 @@
     "latitude": "-33.4489",
     "longitude": "-70.6693",
     "slug": "santiago-chile",
-    "description": "Santiago,Chile"
+    "description": "Santiago, Chile"
   },
   {
     "name": "Sfax",
@@ -397,7 +397,7 @@
     "latitude": "34.739",
     "longitude": "10.76",
     "slug": "sfax-tunisia",
-    "description": "Sfax,Tunisia"
+    "description": "Sfax, Tunisia"
   },
   {
     "name": "St. Petersburg",
@@ -407,7 +407,7 @@
     "latitude": "59.9343",
     "longitude": " 30.3351",
     "slug": "st.-petersburg-russia",
-    "description": "St.-Petersburg,Russia"
+    "description": "St.-Petersburg, Russia"
   },
   {
     "name": "Tuscon",
@@ -418,7 +418,7 @@
     "latitude": "32.2226",
     "longitude": "-110.9747",
     "slug": "tuscon-az-us",
-    "description": "Tuscon,AZ,US"
+    "description": "Tuscon, AZ, US"
   },
   {
     "name": "Ulyanovsk",
@@ -428,7 +428,7 @@
     "latitude": "54.3182",
     "longitude": "48.3838",
     "slug": "ulyanovsk-russia",
-    "description": "Ulyanovsk,Russia"
+    "description": "Ulyanovsk, Russia"
   },
   {
     "name": "Washington, D.C.",
@@ -439,6 +439,6 @@
     "latitude": "38.9072",
     "longitude": "-77.0369",
     "slug": "washington,-d.c.-dc-us",
-    "description": "Washington,-D.C.,DC,US"
+    "description": "Washington,-D.C., DC, US"
   }
 ]
