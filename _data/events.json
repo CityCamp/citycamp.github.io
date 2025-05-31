@@ -406,7 +406,7 @@
     "addressCountry": "Russia",
     "latitude": "59.9343",
     "longitude": " 30.3351",
-    "slug": "st.-petersburg-russia",
+    "slug": "st-petersburg-russia",
     "description": "St.-Petersburg, Russia"
   },
   {
@@ -438,7 +438,7 @@
     "addressCountry": "US",
     "latitude": "38.9072",
     "longitude": "-77.0369",
-    "slug": "washington,-d.c.-dc-us",
+    "slug": "washington,-dc-dc-us",
     "description": "Washington,-D.C., DC, US"
   }
 ]
