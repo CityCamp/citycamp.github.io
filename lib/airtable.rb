@@ -26,7 +26,17 @@ events = events.map do |row|
   .compact # remove nil
   .reject(&:empty?)
 
+  description_parts = [
+    row["date"],
+    row["city"].gsub(" ", "-"),
+    row["addressRegion"],
+    row["addressCountry"]
+  ]
+  .compact # remove nil
+  .reject(&:empty?)
+
   row["slug"] = parts.map(&:downcase).join('-')
+  row["description"] = parts.join(', ')
   row
 end
 
