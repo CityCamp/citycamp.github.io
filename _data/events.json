@@ -80,7 +80,7 @@
     "latitude": "-34.6037",
     "longitude": "-58.3816",
     "slug": "buenos-aires-argentina",
-    "description": "Buenos-Aires, Argentina"
+    "description": "Buenos Aires, Argentina"
   },
   {
     "name": "Castle Rock",
@@ -91,7 +91,7 @@
     "latitude": "39.3722",
     "longitude": "-104.8561",
     "slug": "castle-rock-co-us",
-    "description": "Castle-Rock, CO, US"
+    "description": "Castle Rock, CO, US"
   },
   {
     "name": "Chandler",
@@ -187,7 +187,7 @@
     "latitude": "36.8508",
     "longitude": "-76.2859",
     "slug": "hampton-roads-va-us",
-    "description": "Hampton-Roads, VA, US"
+    "description": "Hampton Roads, VA, US"
   },
   {
     "name": "Honolulu",
@@ -209,7 +209,7 @@
     "latitude": "39.0997",
     "longitude": "-94.5786",
     "slug": "kansas-city-mo-us",
-    "description": "Kansas-City, MO, US"
+    "description": "Kansas City, MO, US"
   },
   {
     "name": "CityCamp Lafayette",
@@ -301,7 +301,7 @@
     "postalCode": "11101",
     "addressLocality": "Long Island City",
     "slug": "new-york-city-ny-us",
-    "description": "2025-09-06, New-York-City, NY, US"
+    "description": "2025-09-06, New York City, NY, US"
   },
   {
     "name": "Oakland",
@@ -323,7 +323,7 @@
     "latitude": "35.4676",
     "longitude": "-97.5164",
     "slug": "oklahoma-city-ok-us",
-    "description": "Oklahoma-City, OK, US"
+    "description": "Oklahoma City, OK, US"
   },
   {
     "name": "Perm",
@@ -377,7 +377,7 @@
     "latitude": "37.7749",
     "longitude": "-122.4194",
     "slug": "san-francisco-ca-us",
-    "description": "San-Francisco, CA, US"
+    "description": "San Francisco, CA, US"
   },
   {
     "name": "Santiago",
@@ -407,7 +407,7 @@
     "latitude": "59.9343",
     "longitude": " 30.3351",
     "slug": "st-petersburg-russia",
-    "description": "St.-Petersburg, Russia"
+    "description": "St. Petersburg, Russia"
   },
   {
     "name": "Tuscon",
@@ -439,6 +439,6 @@
     "latitude": "38.9072",
     "longitude": "-77.0369",
     "slug": "washington-dc-dc-us",
-    "description": "Washington,-D.C., DC, US"
+    "description": "Washington, D.C., DC, US"
   }
 ]
