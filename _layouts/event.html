@@ -93,8 +93,10 @@ schematype: "Event"
       <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
         <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
       </p>
+      {% if page.website %}
       <h2>Learn more</h2>
       <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+      {% endif %}
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
       <h2 class="mb-3">Share</h2>
