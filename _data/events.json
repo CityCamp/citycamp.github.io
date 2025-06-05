@@ -158,6 +158,17 @@
     "description": "Edmonton, Canada"
   },
   {
+    "name": "CityCamp Eugene",
+    "poc": "Mark Davis",
+    "city": "Eugene",
+    "website": "https://",
+    "email": "info@openeugene.org",
+    "date": "2025-09-20",
+    "price": "TBD",
+    "slug": "eugene",
+    "description": "2025-09-20, Eugene"
+  },
+  {
     "name": "Gafsa",
     "Status": "Done",
     "city": "Gafsa",
