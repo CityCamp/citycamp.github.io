@@ -159,13 +159,18 @@
   },
   {
     "name": "CityCamp Eugene",
+    "Status": "In progress",
     "poc": "Mark Davis",
     "city": "Eugene",
+    "addressRegion": "OR",
+    "addressCountry": "US",
     "email": "info@openeugene.org",
     "date": "2025-09-20",
+    "latitude": "44.052222",
+    "longitude": "-123.092500",
     "price": "TBD",
-    "slug": "eugene",
-    "description": "2025-09-20, Eugene"
+    "slug": "eugene-or-us",
+    "description": "2025-09-20, Eugene, OR, US"
   },
   {
     "name": "Gafsa",
