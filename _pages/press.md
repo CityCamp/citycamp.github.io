@@ -12,15 +12,15 @@ topics:
       {% for item in site.data.press.docs %}
         {% assign sorted_items = site.data.press.docs | sort: 'date' | reverse %}
         {% for item in sorted_items %}
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
             <div class="card shadow mx-2 my-2">
               <div class="card-body">
-                <h3 class="card-title">
+                <h2 class="card-title h5 m-0 p-0">
                   <a href="{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
-                </h3>
+                </h2>
               </div>
               <div class="card-footer text-muted small">
-                {{ item.source }}
+                {{ item.source }} / {{ item.date | date: "%b %-d, %Y" }}
               </div>
             </div>
           </div>
