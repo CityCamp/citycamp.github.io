@@ -26,9 +26,9 @@
   }).addTo(map);
 
   // City locations
-    var cities = [
+    var events = [
     {
-      name: "{{ event.name }},{{ event.addressLocality }}, {{ event.addressRegion }} - {{ event.venue }}",
+      name: "{{ event.addressLocality }}, {{ event.addressRegion }} - {{ event.venue }}",
       lat: {{ event.latitude }},
       lng: {{ event.longitude }},
       state: "{{ event.addressRegion }}",
@@ -52,20 +52,20 @@
     });
 
   // Add markers with popups
-  cities.forEach(city => {
+  events.forEach(event => {
       // Extend bounds to include all cities
-      bounds.extend([city.lat, city.lng]);
+      bounds.extend([event.lat, event.lng]);
 
       let pinChoice;
-      if (city.status == "In progress") {
+      if (event.status == "In progress") {
         pinChoice = activePin
       } else {
         pinChoice = blackPin
       }
 
-      L.marker([city.lat, city.lng], { icon: pinChoice })
+      L.marker([event.lat, event.lng], { icon: pinChoice })
           .addTo(map)
-          .bindPopup(`<b>${city.name}</b>`);
+          .bindPopup(`<b>${event.name}</b>`);
   });
 
   // Fit the map view to the bounds to show all markers

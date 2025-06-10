@@ -9,36 +9,35 @@ topics:
 
 {% assign events = site.data.events %}
 
-{%- assign countries = events | map: "country" | uniq | sort -%}
+{%- assign countries = events | map: "addressCountry" | uniq | sort -%}
 
 {% for country in countries %}
   <h2>{{ country }}</h2>
 
-  {% assign country_events = events | where: "country", country %}
+  {% assign country_events = events | where: "addressCountry", country %}
 
   {% if country == "US" %}
-    {%- assign states = country_events | map: "state" | uniq | sort -%}
+    {%- assign states = country_events | map: "addressRegion" | uniq | sort -%}
 
     {% for state in states %}
       {% if state %}
         <ul>
           <li>{{ state }}
             <ul>
-              {% assign state_events = country_events | where: "state", state %}
+              {% assign state_events = country_events | where: "addressRegion", state %}
               {% for event in state_events %}
                 <li
                   {% if event.Status == "In progress" %}
                   class="fw-bold"
                   {% endif %}
                   >
-                  {% if event.website == nil %}
-                  {{event.city }}
-                  {% endif %}
                   {% if event.website %}
                   <a
                     href="/events/{{event.slug}}"
                     >
                     {{ event.city }}</a>
+                  {% else %}
+                  {{event.city }}
                   {% endif %}
 
                   {% if event.Status == "In progress" %}

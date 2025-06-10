@@ -18,13 +18,9 @@ topics:
           <div class="card p-0 text-center mx-1 mb-3 shadow">
             <div class="card-body p-4">
               <i class="fa-solid fa-calendar mb-3 fa-2x" aria-label="hidden"></i>
-              {% if event.website %}
-                <a href="/events/{{ event.slug }}" class="stretched-link nav-link">
-                  <h2 class="h4">{{ event.name }}</h2>
-                </a>
-              {% else %}
+              <a href="/events/{{ event.slug }}" class="stretched-link nav-link">
                 <h2 class="h4">{{ event.name }}</h2>
-              {% endif %}
+              </a>
               <p class="card-text">{{ event.city }}, {{ event.addressRegion }}</p>
             </div>
             <div class="card-footer text-muted small">

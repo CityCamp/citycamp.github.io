@@ -15,24 +15,30 @@ schematype: "Event"
             <i class="fa-solid fa-calendar" aria-label="hidden"></i>
             When: {{ page.date | date: "%B %d, %Y" }}</li>
         {% endif %}
-        {% if page.venue %}
-          <li class="mb-2">
-            <i class="fa-solid fa-building" aria-label="hidden"></i>
-            Venue: {{ page.venue }}</li>
-        {% endif %}
-        {% if page.streetAddress %}
+        <li class="mb-2">
+          <i class="fa-solid fa-building" aria-label="hidden"></i>
+          Venue:
+          {% if page.venue %}
+            {{ page.venue }}
+          {% else %}
+            TBD
+          {% endif %}
+          </li>
           <li class="mb-2">
             <i class="fa-solid fa-location-dot" aria-label="Location"></i>
             Address:
+            {% if page.streetAddress %}
             <a href="https://www.google.com/maps/search/{{ page.streetAddress }}{% if page.addressLocality %}+{{ page.addressLocality }}{% endif %}{% if page.addressRegion %}+{{ page.addressRegion }}{% endif %}{% if page.postalCode %}+{{ page.postalCode }}{% endif %}{% if page.addressCountry %}+{{ page.addressCountry }}{% endif %}" target="_blank">
               {{ page.streetAddress }}{% if page.addressLocality %}, {{ page.addressLocality }}{% endif %}
               {% if page.addressRegion %}, {{ page.addressRegion }}{% endif %}
               {% if page.postalCode %}
                 {{ page.postalCode }}{% endif %}
               {% if page.addressCountry %}, {{ page.addressCountry }}{% endif %}
+              {% else %}
+              TBD
+              {% endif %}
             </a>
           </li>
-        {% endif %}
         {% if page.price %}
           <li class="mb-2">
             <i class="fa-solid fa-ticket" aria-label="hidden"></i>
@@ -93,8 +99,10 @@ schematype: "Event"
       <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
         <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
       </p>
+      {% if page.website %}
       <h2>Learn more</h2>
       <a href="{{ page.website }}" class="btn btn-primary">Website</a>
+      {% endif %}
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
       <h2 class="mb-3">Share</h2>
