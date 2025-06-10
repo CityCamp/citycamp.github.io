@@ -305,7 +305,7 @@ docs:
 - title: "4 Cities Jumpstart Civic Tech Solutions with CityCamp"
   url: https://www.govtech.com/dc/articles/4-cities-jumpstart-civic-tech-solutions-with-citycamp.html
   source: "Government Technology"
-  source: "Jason Shueh"
+  author: "Jason Shueh"
   date: 2015-01-07
   type: article
   
@@ -318,21 +318,21 @@ docs:
 - title: "Families flock to Palo Alto’s ‘civic hacking’ celebration"
   url: https://www.paloaltoonline.com/news/2013/06/01/hackathon-takes-over-downtown-palo-alto/
   source: "Palo Alto Online"
-  source: "Gennady Sheyner"
+  author: "Gennady Sheyner"
   date: 2013-06-01
   type: article
 
 - title: "Palo Alto tries to make hackathon a family affair"
   url: https://www.paloaltoonline.com/news/2013/05/24/palo-alto-tries-to-make-hackathon-a-family-affair/
   source: "Palo Alto Online"
-  source: "Gennady Sheyner"
+  author: "Gennady Sheyner"
   date: 2013-05-24
   type: article
 
 - title: "OpenOakland brigade encourages collaboration between government and community using technology"
   url: https://oaklandnorth.net/2012/12/03/openoakland-brigade-encourages-collaboration-between-government-and-community-using-technology/
   source: "Oakland North"
-  source: "Nausheen Husain"
+  author: "Nausheen Husain"
   date: 2012-12-03
   type: article
 
@@ -345,21 +345,21 @@ docs:
 - title: "What open source can teach government officials"
   url: https://opensource.com/government/12/6/what-open-source-can-teach-government-officials
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2012-06-07
   type: article
 
 - title: "The merits of failing faster"
   url: https://opensource.com/business/12/6/merits-failing-faster
   source: Opensource.com
-  source: "Casey Brown"
+  author: "Casey Brown"
   date: 2012-06-05
   type: article
 
 - title: "CityCamp Raleigh sets up for year two this weekend, $5000 prize"
   url: https://dtraleigh.com/2012/05/citycamp-raleigh-sets-up-for-year-2-this-weekend-5000-prize/
   source: DTRaleigh
-  source: "Leo Suarez"
+  author: "Leo Suarez"
   date: 2012-05-29
   type: article
 
@@ -372,21 +372,21 @@ docs:
 - title: "Why Non-Technical Citizens should attend CityCamp Raleigh 2012"
   url: https://www.youtube.com/watch?v=pq_0I99waiw
   source: Opensource.com
-  source: "CityCamp NC"
+  author: "CityCamp NC"
   date: 2012-05-21
   type: video
 
 - title: "Sharing the open source journey with Kansas City"
   url: https://opensource.com/government/12/4/sharing-open-source-journey-kansas-city
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2012-04-28
   type: article
 
 - title: "Kansas City explores open government, civic life, and innovation"
   url: https://opensource.com/government/12/4/kansas-city-explores-civic-life-and-innovation
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2012-04-25
   type: article
 
@@ -399,119 +399,119 @@ docs:
 - title: "Five essential elements of an open government unconference"
   url: https://opensource.com/government/12/1/five-essential-elements-open-government-unconference
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2012-01-05
   type: article
 
 - title: "Code for America: CityCamp is seriously local"
   url: https://opensource.com/government/11/12/code-america-citycamp-seriously-local
   source: Opensource.com
-  source: "Alissa Black"
+  author: "Alissa Black"
   date: 2011-12-21
   type: article
 
 - title: "Restoring trust in government"
   url: https://opensource.com/government/11/12/restoring-trust-government
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2011-12-05
   type: article
 
 - title: "CityCamp Honolulu"
   url: https://www.youtube.com/watch?v=YlOYP42ngjY
   source: Opensource.com
-  source: "Ryan Kawailani Ozawa"
+  author: "Ryan Kawailani Ozawa"
   date: 2011-12-05
   type: video
 
 - title: "CityCamp Honolulu"
   url: https://www.flickr.com/photos/bytemarks/albums/72157628270251487/
   source: Flickr
-  source: Bytemarks
+  author: Bytemarks
   date: 2011-12-04
   type: images
 
 - title: "City Camp Honolulu"
   url: https://www.flickr.com/photos/bytemarks/albums/72157628270251487/
   source: Flickr
-  source: madmarv00
+  author: madmarv00
   date: 2011-12-03
   type: images
 
 - title: "CityCamp Honolulu"
   url: https://www.flickr.com/photos/bytemarks/albums/72157628270251487/
   source: Flickr
-  source: hawaii
+  author: hawaii
   date: 2011-12-03
   type: images
 
 - title: "Showing aloha through open government"
   url: https://opensource.com/government/11/11/showing-aloha-through-open-government
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2011-11-28
   type: article
 
 - title: "Maximizing possibilities at CityCampMN"
   url: https://opensource.com/government/11/11/maximizing-possibilities-citycampmn
   source: Opensource.com
-  source: "Dennis Still"
+  author: "Dennis Still"
   date: 2011-11-16
   type: article
 
 - title: "CityCamp Minnesota: Where web 2.0 meets all things local"
   url: https://opensource.com/government/11/11/citycamp-minnesota-where-web-20-meets-all-things-local
   source: Opensource.com
-  source: "Emily Kampa"
+  author: "Emily Kampa"
   date: 2011-11-11
   type: article
 
 - title: "Changing government culture the open source way"
   url: https://opensource.com/government/11/10/changing-government-culture-open-source-way
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2011-10-20
   type: article
 
 - title: "Enhancing access to government at CityCamp Colorado"
   url: https://opensource.com/government/11/10/enhancing-access-government-citycamp-colorado
   source: Opensource.com
-  source: "Brian Gryth"
+  author: "Brian Gryth"
   date: 2011-10-18
   type: article
 
 - title: "Creating a citizen movement for open government"
   url: https://opensource.com/government/11/6/citycamp-raleigh-creating-citizen-movement-open-government
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2011-06-27
   type: article
 
 - title: "Solving city problems the open source way"
   url: https://opensource.com/government/11/6/solving-city-problems-open-source-way
   source: Opensource.com
-  source: "David Both"
+  author: "David Both"
   date: 2011-06-10
   type: article
 
 - title: "Keeping an open mind on open government"
   url: https://opensource.com/government/11/6/open-mind-open-government
   source: Opensource.com
-  source: "Harrison Gilbert"
+  author: "Harrison Gilbert"
   date: 2011-06-07
   type: article
 
 - title: "CityCamp: Organizing an unconference for a transparent city government"
   url: https://opensource.com/government/11/6/citycamp-organizing-unconference-transparent-city-government
   source: Opensource.com
-  source: "Jason Hibbets"
+  author: "Jason Hibbets"
   date: 2011-06-03
   type: article
 
 - title: "How CityCamp became an open source brand"
   url: https://opensource.com/government/11/5/how-citycamp-became-open-source-brand
   source: Opensource.com
-  source: "Kevin Curry"
+  author: "Kevin Curry"
   date: 2011-05-03
   type: article
 
@@ -590,7 +590,7 @@ docs:
 - title: "City Camp DC @DCWEEK"
   url: https://www.flickr.com/photos/shinyheart/4697009709/
   source: Flickr
-  source: ShinyHeartVentures
+  author: ShinyHeartVentures
   date: 2010-06-13
   type: images
 
