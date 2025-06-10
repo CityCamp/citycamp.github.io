@@ -20,6 +20,12 @@ topics:
                 </h2>
               </div>
               <div class="card-footer text-muted small">
+                {% if item.type == "article" %}
+                  <i class="fa-solid fa-newspaper fa-fw" aria-label="hidden"></i>
+                {% endif %}
+                {% if item.type == "video" %}
+                  <i class="fa-solid fa-video fa-fw" aria-label="hidden"></i>
+                {% endif %}
                 {{ item.source }} / {{ item.date | date: "%b %-d, %Y" }}
               </div>
             </div>
