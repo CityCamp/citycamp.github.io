@@ -18,8 +18,12 @@ docs:
   url: /events
 
 - title: News
-  icon: fa-solid fa-newspaper
+  icon: fa-solid fa-satellite-dish
   url: /news
+
+- title: Press
+  icon: fa-solid fa-newspaper
+  url: /press
 
 - title: Help
   icon: fa-solid fa-question-circle
