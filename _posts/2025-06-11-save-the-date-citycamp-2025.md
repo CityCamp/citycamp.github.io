@@ -4,7 +4,7 @@ description: "A global movement of community-focused events that foster civic co
 date: 2025-06-11
 modified: 
 author: CityCamp
-img-og: default-og.png
+img-og: save-the-date-og.png
 topics:
   - Organizing
   - Participating
