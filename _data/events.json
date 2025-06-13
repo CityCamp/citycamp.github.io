@@ -183,6 +183,21 @@
     "description": "Gafsa, Tunisia"
   },
   {
+    "name": "CityCamp Gainesville",
+    "poc": "Nicole Dan",
+    "city": "Gainesville",
+    "addressRegion": "Florida",
+    "addressCountry": "United States",
+    "email": "nicole.dan@floridainnovation.org",
+    "date": "2025-09-20",
+    "organizer": "Florida Community Innovation",
+    "organizer-url": "https://floridainnovation.org/",
+    "price": "N/A",
+    "addressLocality": "Gainesville",
+    "slug": "gainesville-florida-united states",
+    "description": "2025-09-20, Gainesville, Florida, United States"
+  },
+  {
     "name": "Golden",
     "Status": "Done",
     "city": "Golden",
@@ -233,13 +248,14 @@
     "poc": "Luke Fretwell",
     "city": "Lafayette",
     "addressRegion": "CA",
-    "website": "https://lafayette.citycamp.com",
+    "website": "https://ti.to/citycamp-lafayette/citycamp-lafayette",
     "addressCountry": "US",
     "email": "luke@lukefretwell.com",
     "date": "2025-09-20",
     "latitude": "37.890800",
     "longitude": "-122.127472",
     "price": "TBD",
+    "postalCode": "94549",
     "addressLocality": "Lafayette",
     "slug": "lafayette-ca-us",
     "description": "2025-09-20, Lafayette, CA, US"
