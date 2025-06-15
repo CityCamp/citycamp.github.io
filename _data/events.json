@@ -187,16 +187,18 @@
     "Status": "In progress",
     "poc": "Nicole Dan",
     "city": "Gainesville",
-    "addressRegion": "Florida",
-    "addressCountry": "United States",
+    "addressRegion": "FL",
+    "addressCountry": "US",
     "email": "nicole.dan@floridainnovation.org",
     "date": "2025-09-20",
+    "latitude": "29.665245",
+    "longitude": "−82.336097",
     "organizer": "Florida Community Innovation",
     "organizer-url": "https://floridainnovation.org/",
     "price": "N/A",
     "addressLocality": "Gainesville",
-    "slug": "gainesville-florida-united states",
-    "description": "2025-09-20, Gainesville, Florida, United States"
+    "slug": "gainesville-fl-us",
+    "description": "2025-09-20, Gainesville, FL, US"
   },
   {
     "name": "Golden",
