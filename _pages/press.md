@@ -7,29 +7,6 @@ topics:
 ---
 
 <div class="container post-main">
-  <div class="row">
-    <div class="card-group">
-      {% assign sorted_items = site.data.press.docs | sort: 'date' | reverse %}
-      {% for item in sorted_items %}
-        <div class="col-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-          <div class="card shadow mx-2 my-2">
-            <div class="card-body">
-              <h2 class="card-title h5 m-0 p-0">
-                <a href="{{ item.url }}" class="stretched-link nav-link">{{ item.title }}</a>
-              </h2>
-            </div>
-            <div class="card-footer text-muted small">
-              {% if item.type == "article" %}
-                <i class="fa-solid fa-newspaper fa-fw" aria-label="hidden"></i>
-              {% endif %}
-              {% if item.type == "video" %}
-                <i class="fa-solid fa-video fa-fw" aria-label="hidden"></i>
-              {% endif %}
-              {{ item.source }} / {{ item.date | date: "%b %-d, %Y" }}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+  {% assign sorted_items = site.data.press.docs | sort: 'date' | reverse %}
+  {% include press-cards.html %}
 </div>

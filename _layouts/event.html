@@ -113,3 +113,15 @@ schematype: "Event"
   </div>
   {% include register.html %}
 </div>
+{% assign sorted_items = site.data.press.docs | sort: 'date' | reverse | where: "state", page.addressRegion %}
+{% if sorted_items.size > 0 %}
+  <div class="container border-top mt-5 pt-4">
+    <div class="row">
+      <h2>Press</h2>
+      <p class="lead">
+          Related {{ page.addressRegion }} CityCamp events in the news.
+      </p>
+    </div>
+    {% include press-cards.html %}
+  </div>
+{% endif %}
