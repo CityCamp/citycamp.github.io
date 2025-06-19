@@ -31,15 +31,10 @@ topics:
                   class="fw-bold"
                   {% endif %}
                   >
-                  {% if event.website %}
                   <a
                     href="/events/{{event.slug}}"
                     >
                     {{ event.city }}</a>
-                  {% else %}
-                  {{event.city }}
-                  {% endif %}
-
                   {% if event.Status == "In progress" %}
                     <span class="text-secondary">
                       is being planned for {{ event.date | date: "%B %d, %Y"}}
@@ -55,7 +50,10 @@ topics:
   {% else %}
     <ul>
       {% for event in country_events %}
-        <li>{{ event.city }}</li>
+        <li>
+          <a href="/events/{{event.slug}}">
+            {{ event.city }}</a>
+        </li>
       {% endfor %}
     </ul>
   {% endif %}
