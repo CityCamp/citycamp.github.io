@@ -1,30 +1,34 @@
 [
   {
-    "name": "Alberta",
+    "name": "CityCamp Alberta",
     "Status": "Done",
     "city": "Alberta",
     "latitude": 53.93327,
     "longitude": -116.5765,
-    "addressCountry": [
+    "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "slug": "alberta-[\"recpqnvjcxeikujhl\"]",
-    "description": "Alberta, recpQnvjCxeIKuJhl"
+    "addressCountry": "Canada",
+    "addressRegion": null,
+    "slug": "alberta-canada",
+    "description": "Alberta, Canada"
   },
   {
-    "name": "Arvada",
+    "name": "CityCamp Arvada",
     "Status": "Done",
     "city": "Arvada",
     "latitude": 39.8028,
     "longitude": -105.0875,
-    "addressRegion": [
+    "address": [
       "rectO7NH2YTw1XFg0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "arvada-[\"recto7nh2ytw1xfg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Arvada, rectO7NH2YTw1XFg0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CO",
+    "slug": "arvada-co-united-states",
+    "description": "Arvada, CO, United States"
   },
   {
     "name": "CityCamp Atlanta",
@@ -42,53 +46,61 @@
     "organizer-url": "https://www.civictechatlanta.org",
     "price": "TBD",
     "addressLocality": "Atlanta",
-    "addressRegion": [
+    "address": [
       "rec6Cq5o2GjXdkdkT"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "atlanta-[\"rec6cq5o2gjxdkdkt\"]-[\"rec45yssrulp5r735\"]",
-    "description": "2025-09-20, Atlanta, rec6Cq5o2GjXdkdkT, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "GA",
+    "slug": "atlanta-ga-united-states",
+    "description": "September 20, 2025, Atlanta, GA, United States"
   },
   {
-    "name": "Bizerte",
+    "name": "CityCamp Bizerte",
     "Status": "Done",
     "city": "Bizerte",
     "latitude": 37.2744,
     "longitude": 9.8739,
-    "addressCountry": [
+    "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "slug": "bizerte-[\"recqydt7pdhysu9d1\"]",
-    "description": "Bizerte, recqYdT7PdHySu9D1"
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
+    "slug": "bizerte-tunisia",
+    "description": "Bizerte, Tunisia"
   },
   {
-    "name": "Boulder",
+    "name": "CityCamp Boulder",
     "Status": "Done",
     "city": "Boulder",
     "latitude": 40.015,
     "longitude": -105.2705,
-    "addressRegion": [
+    "address": [
       "rectO7NH2YTw1XFg0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "boulder-[\"recto7nh2ytw1xfg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Boulder, rectO7NH2YTw1XFg0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CO",
+    "slug": "boulder-co-united-states",
+    "description": "Boulder, CO, United States"
   },
   {
-    "name": "Brighton",
+    "name": "CityCamp Brighton",
     "Status": "Done",
     "city": "Brighton",
     "latitude": 50.8225,
     "longitude": -0.1372,
-    "addressCountry": [
+    "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "slug": "brighton-[\"recspfngjfj1ibman\"]",
-    "description": "Brighton, recSPfNgJFj1IBMAN"
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
+    "slug": "brighton-united-kingdom",
+    "description": "Brighton, United Kingdom"
   },
   {
     "name": "Argentina",
@@ -96,108 +108,124 @@
     "city": "Buenos Aires",
     "latitude": -34.6037,
     "longitude": -58.3816,
-    "addressCountry": [
+    "country": [
       "recvdOhU3HtPLAD5s"
     ],
-    "slug": "buenos-aires-[\"recvdohu3htplad5s\"]",
-    "description": "Buenos Aires, recvdOhU3HtPLAD5s"
+    "addressCountry": "Argentina",
+    "addressRegion": null,
+    "slug": "buenos-aires-argentina",
+    "description": "Buenos Aires, Argentina"
   },
   {
-    "name": "Castle Rock",
+    "name": "CityCamp Castle Rock",
     "Status": "Done",
     "city": "Castle Rock",
     "latitude": 39.3722,
     "longitude": -104.8561,
-    "addressRegion": [
+    "address": [
       "rectO7NH2YTw1XFg0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "castle-rock-[\"recto7nh2ytw1xfg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Castle Rock, rectO7NH2YTw1XFg0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CO",
+    "slug": "castle-rock-co-united-states",
+    "description": "Castle Rock, CO, United States"
   },
   {
-    "name": "Chandler",
+    "name": "CityCamp Chandler",
     "Status": "Done",
     "city": "Chandler",
     "latitude": 33.3062,
     "longitude": -111.8413,
-    "addressRegion": [
+    "address": [
       "recv5GonFpxRhjgb0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "chandler-[\"recv5gonfpxrhjgb0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Chandler, recv5GonFpxRhjgb0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
+    "slug": "chandler-az-united-states",
+    "description": "Chandler, AZ, United States"
   },
   {
-    "name": "Chelmsford",
+    "name": "CityCamp Chelmsford",
     "Status": "Done",
     "city": "Chelmsford",
     "latitude": 51.7356,
     "longitude": 0.4685,
-    "addressCountry": [
+    "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "slug": "chelmsford-[\"recspfngjfj1ibman\"]",
-    "description": "Chelmsford, recSPfNgJFj1IBMAN"
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
+    "slug": "chelmsford-united-kingdom",
+    "description": "Chelmsford, United Kingdom"
   },
   {
-    "name": "Chicago",
+    "name": "CityCamp Chicago",
     "notes": "Inaugural CityCamp\n",
     "Status": "Done",
     "city": "Chicago",
     "latitude": 41.8781,
     "longitude": -87.6298,
-    "addressRegion": [
+    "address": [
       "recLLFOP44zxqgRN1"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "chicago-[\"recllfop44zxqgrn1\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Chicago, recLLFOP44zxqgRN1, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "IL",
+    "slug": "chicago-il-united-states",
+    "description": "Chicago, IL, United States"
   },
   {
-    "name": "Coventry",
+    "name": "CityCamp Coventry",
     "Status": "Done",
     "city": "Coventry",
     "latitude": 52.4068,
     "longitude": -1.5197,
-    "addressCountry": [
+    "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "slug": "coventry-[\"recspfngjfj1ibman\"]",
-    "description": "Coventry, recSPfNgJFj1IBMAN"
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
+    "slug": "coventry-united-kingdom",
+    "description": "Coventry, United Kingdom"
   },
   {
-    "name": "Denver",
+    "name": "CityCamp Denver",
     "Status": "Done",
     "city": "Denver",
     "latitude": 39.7392,
     "longitude": -104.9903,
-    "addressRegion": [
+    "address": [
       "rectO7NH2YTw1XFg0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "denver-[\"recto7nh2ytw1xfg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Denver, rectO7NH2YTw1XFg0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CO",
+    "slug": "denver-co-united-states",
+    "description": "Denver, CO, United States"
   },
   {
-    "name": "Edmonton",
+    "name": "CityCamp Edmonton",
     "Status": "Done",
     "city": "Edmonton",
     "latitude": 53.5461,
     "longitude": -113.4938,
-    "addressCountry": [
+    "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "slug": "edmonton-[\"recpqnvjcxeikujhl\"]",
-    "description": "Edmonton, recpQnvjCxeIKuJhl"
+    "addressCountry": "Canada",
+    "addressRegion": null,
+    "slug": "edmonton-canada",
+    "description": "Edmonton, Canada"
   },
   {
     "name": "CityCamp Eugene",
@@ -210,26 +238,30 @@
     "longitude": -123.0925,
     "price": "TBD",
     "addressLocality": "Eugene",
-    "addressRegion": [
+    "address": [
       "recnjzLsfLfW5K5ow"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "eugene-[\"recnjzlsflfw5k5ow\"]-[\"rec45yssrulp5r735\"]",
-    "description": "2025-09-20, Eugene, recnjzLsfLfW5K5ow, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "OR",
+    "slug": "eugene-or-united-states",
+    "description": "September 20, 2025, Eugene, OR, United States"
   },
   {
-    "name": "Gafsa",
+    "name": "CityCamp Gafsa",
     "Status": "Done",
     "city": "Gafsa",
     "latitude": 34.425,
     "longitude": 8.7842,
-    "addressCountry": [
+    "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "slug": "gafsa-[\"recqydt7pdhysu9d1\"]",
-    "description": "Gafsa, recqYdT7PdHySu9D1"
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
+    "slug": "gafsa-tunisia",
+    "description": "Gafsa, Tunisia"
   },
   {
     "name": "CityCamp Gainesville",
@@ -245,74 +277,84 @@
     "organizer-url": "https://floridainnovation.org/",
     "price": "N/A",
     "addressLocality": "Gainesville",
-    "addressRegion": [
+    "address": [
       "recqUEjWZMVs6YuxP"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "gainesville-[\"recquejwzmvs6yuxp\"]-[\"rec45yssrulp5r735\"]",
-    "description": "2025-09-20, Gainesville, recqUEjWZMVs6YuxP, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "FL",
+    "slug": "gainesville-fl-united-states",
+    "description": "September 20, 2025, Gainesville, FL, United States"
   },
   {
-    "name": "Golden",
+    "name": "CityCamp Golden",
     "Status": "Done",
     "city": "Golden",
     "latitude": 39.7555,
     "longitude": -105.2211,
-    "addressRegion": [
+    "address": [
       "rectO7NH2YTw1XFg0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "golden-[\"recto7nh2ytw1xfg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Golden, rectO7NH2YTw1XFg0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CO",
+    "slug": "golden-co-united-states",
+    "description": "Golden, CO, United States"
   },
   {
-    "name": "Hampton Roads",
+    "name": "CityCamp Hampton Roads",
     "Status": "Done",
     "city": "Hampton Roads",
     "latitude": 36.8508,
     "longitude": -76.2859,
-    "addressRegion": [
+    "address": [
       "rec6mFxPm38Xa5eGy"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "hampton-roads-[\"rec6mfxpm38xa5egy\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Hampton Roads, rec6mFxPm38Xa5eGy, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "VA",
+    "slug": "hampton-roads-va-united-states",
+    "description": "Hampton Roads, VA, United States"
   },
   {
-    "name": "s",
+    "name": "CityCamp Honolulu",
     "Status": "Done",
     "city": "Honolulu",
     "latitude": 21.3069,
     "longitude": -157.8583,
-    "addressRegion": [
+    "address": [
       "recughrQfBU56s9xn"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "honolulu-[\"recughrqfbu56s9xn\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Honolulu, recughrQfBU56s9xn, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "HI",
+    "slug": "honolulu-hi-united-states",
+    "description": "Honolulu, HI, United States"
   },
   {
-    "name": "Kansas City",
+    "name": "CityCamp Kansas City",
     "Status": "Done",
     "city": "Kansas City",
     "latitude": 39.0997,
     "longitude": -94.5786,
-    "addressRegion": [
+    "address": [
       "rec0TvBpbZUUlzn5h"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "kansas-city-[\"rec0tvbpbzuulzn5h\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Kansas City, rec0TvBpbZUUlzn5h, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "MO",
+    "slug": "kansas-city-mo-united-states",
+    "description": "Kansas City, MO, United States"
   },
   {
     "name": "CityCamp Lafayette",
@@ -328,80 +370,92 @@
     "price": "TBD",
     "postalCode": "94549",
     "addressLocality": "Lafayette",
-    "addressRegion": [
+    "address": [
       "recr4iFAkL0rm7JgV"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "lafayette-[\"recr4ifakl0rm7jgv\"]-[\"rec45yssrulp5r735\"]",
-    "description": "2025-09-20, Lafayette, recr4iFAkL0rm7JgV, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "lafayette-ca-united-states",
+    "description": "September 20, 2025, Lafayette, CA, United States"
   },
   {
-    "name": "London",
+    "name": "CityCamp London",
     "Status": "Done",
     "city": "London",
     "latitude": 51.5074,
     "longitude": -0.1278,
-    "addressCountry": [
+    "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "slug": "london-[\"recspfngjfj1ibman\"]",
-    "description": "London, recSPfNgJFj1IBMAN"
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
+    "slug": "london-united-kingdom",
+    "description": "London, United Kingdom"
   },
   {
-    "name": "Madison",
+    "name": "CityCamp Madison",
     "Status": "Done",
     "city": "Madison",
     "latitude": 43.0731,
     "longitude": -89.4012,
-    "addressRegion": [
+    "address": [
       "recfSTlU6G3GgeCyP"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "madison-[\"recfstlu6g3ggecyp\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Madison, recfSTlU6G3GgeCyP, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "WI",
+    "slug": "madison-wi-united-states",
+    "description": "Madison, WI, United States"
   },
   {
-    "name": "Manchester",
+    "name": "CityCamp Manchester",
     "Status": "Done",
     "city": "Manchester",
     "latitude": 53.4808,
     "longitude": -2.2426,
-    "addressCountry": [
+    "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "slug": "manchester-[\"recspfngjfj1ibman\"]",
-    "description": "Manchester, recSPfNgJFj1IBMAN"
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
+    "slug": "manchester-united-kingdom",
+    "description": "Manchester, United Kingdom"
   },
   {
-    "name": "Minneapolis",
+    "name": "CityCamp Minneapolis",
     "Status": "Done",
     "city": "Minneapolis",
     "latitude": 44.9778,
     "longitude": -93.265,
-    "addressRegion": [
+    "address": [
       "rec6aeYCv8e3J8WG0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "minneapolis-[\"rec6aeycv8e3j8wg0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Minneapolis, rec6aeYCv8e3J8WG0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "MN",
+    "slug": "minneapolis-mn-united-states",
+    "description": "Minneapolis, MN, United States"
   },
   {
-    "name": "Monterrey",
+    "name": "CityCamp Monterrey",
     "Status": "Done",
     "city": "Monterrey",
     "latitude": 25.6866,
     "longitude": -100.3161,
-    "addressCountry": [
+    "country": [
       "rec2fbj9hVoCoydwy"
     ],
-    "slug": "monterrey-[\"rec2fbj9hvocoydwy\"]",
-    "description": "Monterrey, rec2fbj9hVoCoydwy"
+    "addressCountry": "Mexico",
+    "addressRegion": null,
+    "slug": "monterrey-mexico",
+    "description": "Monterrey, Mexico"
   },
   {
     "name": "CityCamp NYC",
@@ -420,193 +474,221 @@
     "price": "TBD",
     "postalCode": "11101",
     "addressLocality": "Long Island City",
-    "addressRegion": [
+    "address": [
       "recr3PrtajDSCdTLs"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "new-york-city-[\"recr3prtajdscdtls\"]-[\"rec45yssrulp5r735\"]",
-    "description": "2025-09-06, New York City, recr3PrtajDSCdTLs, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "NY",
+    "slug": "new-york-city-ny-united-states",
+    "description": "September 06, 2025, New York City, NY, United States"
   },
   {
-    "name": "Oakland",
+    "name": "CityCamp Oakland",
     "Status": "Done",
     "city": "Oakland",
     "latitude": 37.8044,
     "longitude": -122.2711,
-    "addressRegion": [
+    "address": [
       "recr4iFAkL0rm7JgV"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "oakland-[\"recr4ifakl0rm7jgv\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Oakland, recr4iFAkL0rm7JgV, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "oakland-ca-united-states",
+    "description": "Oakland, CA, United States"
   },
   {
-    "name": "Oklahoma City",
+    "name": "CityCamp Oklahoma City",
     "Status": "Done",
     "city": "Oklahoma City",
     "latitude": 35.4676,
     "longitude": -97.5164,
-    "addressRegion": [
+    "address": [
       "recMJ6zwJrmx3V6A5"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "oklahoma-city-[\"recmj6zwjrmx3v6a5\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Oklahoma City, recMJ6zwJrmx3V6A5, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "OK",
+    "slug": "oklahoma-city-ok-united-states",
+    "description": "Oklahoma City, OK, United States"
   },
   {
-    "name": "Perm",
+    "name": "CityCamp Perm",
     "Status": "Done",
     "city": "Perm",
     "latitude": 58.0105,
     "longitude": 56.2502,
-    "addressCountry": [
+    "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "slug": "perm-[\"recphrmgvfmehgbkl\"]",
-    "description": "Perm, recPhRmGVFmEhgbKl"
+    "addressCountry": "Russia",
+    "addressRegion": null,
+    "slug": "perm-russia",
+    "description": "Perm, Russia"
   },
   {
-    "name": "Phoenix",
+    "name": "CityCamp Phoenix",
     "Status": "Done",
     "city": "Phoenix",
     "latitude": 33.4484,
     "longitude": -112.074,
-    "addressRegion": [
+    "address": [
       "recv5GonFpxRhjgb0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "phoenix-[\"recv5gonfpxrhjgb0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Phoenix, recv5GonFpxRhjgb0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
+    "slug": "phoenix-az-united-states",
+    "description": "Phoenix, AZ, United States"
   },
   {
-    "name": "Raleigh",
+    "name": "CityCamp Raleigh",
     "Status": "Done",
     "city": "Raleigh",
     "latitude": 35.7796,
     "longitude": -78.6382,
-    "addressRegion": [
+    "address": [
       "recICkRsmtX2hAzL8"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "raleigh-[\"recickrsmtx2hazl8\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Raleigh, recICkRsmtX2hAzL8, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "NC",
+    "slug": "raleigh-nc-united-states",
+    "description": "Raleigh, NC, United States"
   },
   {
-    "name": "Sacramento",
+    "name": "CityCamp Sacramento",
     "Status": "Done",
     "city": "Sacramento",
     "latitude": 38.5781,
     "longitude": -121.4944,
-    "addressRegion": [
+    "address": [
       "recr4iFAkL0rm7JgV"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "sacramento-[\"recr4ifakl0rm7jgv\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Sacramento, recr4iFAkL0rm7JgV, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "sacramento-ca-united-states",
+    "description": "Sacramento, CA, United States"
   },
   {
-    "name": "San Francisco",
+    "name": "CityCamp San Francisco",
     "Status": "Done",
     "city": "San Francisco",
     "latitude": 37.7749,
     "longitude": -122.4194,
-    "addressRegion": [
+    "address": [
       "recr4iFAkL0rm7JgV"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "san-francisco-[\"recr4ifakl0rm7jgv\"]-[\"rec45yssrulp5r735\"]",
-    "description": "San Francisco, recr4iFAkL0rm7JgV, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "san-francisco-ca-united-states",
+    "description": "San Francisco, CA, United States"
   },
   {
-    "name": "Santiago",
+    "name": "CityCamp Santiago",
     "Status": "Done",
     "city": "Santiago",
     "latitude": -33.4489,
     "longitude": -70.6693,
-    "addressCountry": [
+    "country": [
       "recCgYNl5z07vysrY"
     ],
-    "slug": "santiago-[\"reccgynl5z07vysry\"]",
-    "description": "Santiago, recCgYNl5z07vysrY"
+    "addressCountry": "Chile",
+    "addressRegion": null,
+    "slug": "santiago-chile",
+    "description": "Santiago, Chile"
   },
   {
-    "name": "Sfax",
+    "name": "CityCamp Sfax",
     "Status": "Done",
     "city": "Sfax",
     "latitude": 34.739,
     "longitude": 10.76,
-    "addressCountry": [
+    "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "slug": "sfax-[\"recqydt7pdhysu9d1\"]",
-    "description": "Sfax, recqYdT7PdHySu9D1"
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
+    "slug": "sfax-tunisia",
+    "description": "Sfax, Tunisia"
   },
   {
-    "name": "St. Petersburg",
+    "name": "CityCamp St. Petersburg",
     "Status": "Done",
     "city": "St. Petersburg",
     "latitude": 59.9343,
     "longitude": 30.3351,
-    "addressCountry": [
+    "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "slug": "st-petersburg-[\"recphrmgvfmehgbkl\"]",
-    "description": "St. Petersburg, recPhRmGVFmEhgbKl"
+    "addressCountry": "Russia",
+    "addressRegion": null,
+    "slug": "st-petersburg-russia",
+    "description": "St. Petersburg, Russia"
   },
   {
-    "name": "Tuscon",
+    "name": "CityCamp Tuscon",
     "Status": "Done",
     "city": "Tuscon",
     "latitude": 32.2226,
     "longitude": -110.9747,
-    "addressRegion": [
+    "address": [
       "recv5GonFpxRhjgb0"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "tuscon-[\"recv5gonfpxrhjgb0\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Tuscon, recv5GonFpxRhjgb0, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
+    "slug": "tuscon-az-united-states",
+    "description": "Tuscon, AZ, United States"
   },
   {
-    "name": "Ulyanovsk",
+    "name": "CityCamp Ulyanovsk",
     "Status": "Done",
     "city": "Ulyanovsk",
     "latitude": 54.3182,
     "longitude": 48.3838,
-    "addressCountry": [
+    "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "slug": "ulyanovsk-[\"recphrmgvfmehgbkl\"]",
-    "description": "Ulyanovsk, recPhRmGVFmEhgbKl"
+    "addressCountry": "Russia",
+    "addressRegion": null,
+    "slug": "ulyanovsk-russia",
+    "description": "Ulyanovsk, Russia"
   },
   {
-    "name": "Washington, D.C.",
+    "name": "CityCamp Washington, D.C.",
     "Status": "Done",
     "city": "Washington, D.C.",
     "latitude": 38.9072,
     "longitude": -77.0369,
-    "addressRegion": [
+    "address": [
       "recFcumnWcIxEGaad"
     ],
-    "addressCountry": [
+    "country": [
       "rec45yssRULp5R735"
     ],
-    "slug": "washington-dc-[\"recfcumnwcixegaad\"]-[\"rec45yssrulp5r735\"]",
-    "description": "Washington, D.C., recFcumnWcIxEGaad, rec45yssRULp5R735"
+    "addressCountry": "United States",
+    "addressRegion": "DC",
+    "slug": "washington-dc-dc-united-states",
+    "description": "Washington, D.C., DC, United States"
   }
 ]

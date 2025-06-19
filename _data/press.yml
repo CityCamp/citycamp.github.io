@@ -6,6 +6,8 @@ docs:
   source: "CityCamp"
   date: 2025-03-03
   type: article
+  state: ""
+  country: "United States"
 
 - title: "CityCamp Sav - Understanding the City's Budget Process"
   url: https://www.youtube.com/watch?v=gBWgVNnYUTc
@@ -14,7 +16,7 @@ docs:
   type: video
   state: "GA"
   country: "United States"
-  
+
 - title: "CityCamp Savannah: City Budget and Beyond"
   url: https://www.youtube.com/watch?v=tdX7ZLCMBYQ
   source: "City of Savannah"
@@ -22,7 +24,7 @@ docs:
   type: video
   state: "GA"
   country: "United States"
-  
+
 - title: "CityCamp Savannah - Media Conference"
   url: https://www.youtube.com/watch?v=6h2DT2N6BF0
   source: "City of Savannah"
@@ -30,7 +32,7 @@ docs:
   type: video
   state: "GA"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Finale and Winner Announcement"
   url: https://youtu.be/Iul5_hbUXdQ?si=dCiBNJ8-R-v8FOXM
   source: "CityCamp NC"
@@ -38,7 +40,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Data Bacon"
   url: https://youtu.be/o86If6OBdaU?si=xVJabRK-yiDjGZaO
   source: "CityCamp NC"
@@ -46,7 +48,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Site Shield"
   url: https://youtu.be/yLTLyc9e2lg?si=CGamolDzIpnxBySJ
   source: "CityCamp NC"
@@ -54,7 +56,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Are we represented?"
   url: https://youtu.be/fZ349MWZ5eA?si=uF59vSxBDmWPxyB1
   source: "CityCamp NC"
@@ -62,7 +64,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Price Gouging"
   url: https://youtu.be/ARDDsJvRmw4?si=H349TIvgrtOYS4eX
   source: "CityCamp NC"
@@ -70,7 +72,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Park Locator"
   url: https://youtu.be/3fXtWlSbUNg?si=NfIxFrj_DZqtKpKD
   source: "CityCamp NC"
@@ -78,7 +80,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Techies on Tour"
   url: https://youtu.be/TczDnLai9EM?si=__MXoZpDtRbXTt4M
   source: "CityCamp NC"
@@ -86,7 +88,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza 2017 - Find Me A Grad School"
   url: https://youtu.be/skItO2uXv8M?si=Asq0rnSMJOeaDKjt
   source: "CityCamp NC"
@@ -94,7 +96,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "NC DataPalooza’s Open Data Competition Kickoff"
   url: https://youtu.be/aBR-6LzL6qQ?si=5q1e6QqZJry28HRV
   source: "CityCamp NC"
@@ -102,7 +104,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - pitches for unconference sessions"
   url: https://youtu.be/65uRIU2ecHw?si=nAlhijMbpwdjTuQ2
   source: "CityCamp NC"
@@ -110,7 +112,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Keynote, Stephen Larrick"
   url: https://youtu.be/pOwpcd6lhbI?si=WJfZ-oaG57ewQFBY
   source: "CityCamp NC"
@@ -118,7 +120,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Introduction to open data"
   url: https://youtu.be/hPrjaVdIKdE?si=PTR1-KxzZBIIREts
   source: "CityCamp NC"
@@ -126,7 +128,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Featured Code for NC project: NC Reentry Resources Hub"
   url: https://youtu.be/0yH5qaeL1Ho?si=Cnw-Z54DJPYbYNVv
   source: "CityCamp NC"
@@ -134,7 +136,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Smart Communities panel"
   url: https://youtu.be/RwtCcAE0bWk?si=yQe0dH52CDri1xoL
   source: "CityCamp NC"
@@ -142,7 +144,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Lightning Talks"
   url: https://youtu.be/coHGDLBQ8dc?si=kwmS6xUlOPYD-F47
   source: "CityCamp NC"
@@ -150,7 +152,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "2017 Citycamp NC - Introduction and Mega-lightning Talk"
   url: https://youtu.be/WNGLI5fnJKw?si=gjKl-m7e2oiLxeE2
   source: "CityCamp NC"
@@ -158,15 +160,15 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCamp NC 2017"
   url: https://youtube.com/playlist?list=PLsD0j-2T5Q_lLCVPtzxKphAP4THvsaJH1&si=PHUBcOA4FfsUaX9E
-  source: CityCamp NC
+  source: "CityCamp NC"
   date: 2017-09-30
   type: playlist
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - CityCamp NC pitches for unconference sessions"
   url: https://youtu.be/bhsJrYZCrDM?si=RR9VRf2VgNcqIDak
   source: "CityCamp NC"
@@ -174,7 +176,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Keynote, Jen Pahlka, Code for America"
   url: https://youtu.be/JPW29LOHh2E?si=qIW2lEb6m7Rb7D1I
   source: "CityCamp NC"
@@ -182,7 +184,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Inspiration, Erik Garr, Google Fiber"
   url: https://youtu.be/i1xyNhilLl4?si=C_PfCe65GUDmkpTj
   source: "CityCamp NC"
@@ -190,7 +192,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Inspiration, Amy Gaskins, Panopticon Global"
   url: https://youtu.be/mst3PGd46LY?si=nYjJxx0zQja7pdvu
   source: "CityCamp NC"
@@ -198,7 +200,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Public CIO panel"
   url: https://youtu.be/Xv5Cw7ngeeE?si=gdGiYjKnWTqvd7HP
   source: "CityCamp NC"
@@ -206,7 +208,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 10 Allison Warren Barbour—Ending Poverty through Virtual Reality"
   url: https://youtu.be/EQm2RiIB3to?si=OKv0QZzRd88Ow7A6
   source: "CityCamp NC"
@@ -214,7 +216,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 9 Andrew Turner—Space Time Visualizations and You"
   url: https://youtu.be/ALxQfh1tU6Y?si=JNMjZWL9xm4M9Tvu
   source: "CityCamp NC"
@@ -222,7 +224,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 8 James Alberque—Invisions Raleigh"
   url: https://youtu.be/hysIFAqinNA?si=AGzLK-2vffQDBxCC
   source: "CityCamp NC"
@@ -230,7 +232,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 7 Richard Marshall—Digital Inclusion Efforts in the City of Raleigh"
   url: https://youtu.be/3njgs2_3bI8?si=omemOyKVJl-paxpr
   source: "CityCamp NC"
@@ -238,7 +240,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 6 - Jason Baker—Making zoning changes consumable from open data"
   url: https://youtu.be/mFk6cnf6-70?si=IQQHpiD-H9FA4fyq
   source: "CityCamp NC"
@@ -246,7 +248,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 5 Tia Bethea—What does the digital divide look like in the Triangle"
   url: https://youtu.be/PqXH71SPfws?si=DsKPmp4SGjMhsIsf
   source: "CityCamp NC"
@@ -254,7 +256,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 Speaker 4 David Green—Introducing Chapel Hill Open Data"
   url: https://youtu.be/lJi4fIRx92U?si=7j8uk0N4smzxKHZK
   source: "CityCamp NC"
@@ -262,7 +264,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 3 Rebecca Tippett—Diversity in the Triangle Insights from Census Data"
   url: https://youtu.be/Lusa20nMkxE?si=uDYHzj8TX4k3hH1J
   source: "CityCamp NC"
@@ -270,7 +272,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 2 Bill Scanlon—Get a little help from your friends"
   url: https://youtu.be/uYAa27F8xxc?si=agE3dXy1SnSeeLX6
   source: "CityCamp NC"
@@ -278,7 +280,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016 - Speaker 1 Jay Dawkins—Baby Pics, Citizen Engagement, Cat Pics"
   url: https://youtu.be/f8HwFcWEde8?si=TPa1u_u1MDnydvs9
   source: "CityCamp NC"
@@ -286,7 +288,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Citycamp NC 2016"
   url: https://www.youtube.com/playlist?list=PLsD0j-2T5Q_lQvxx5G_5qY7dzJ1ZKzIJI
   source: "CityCamp NC"
@@ -294,7 +296,7 @@ docs:
   type: playlist
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Alex Gibson—Mass Transit is Failing You"
   url: https://youtu.be/j3x9Y8sWX-s?si=jT0mXNs3urdYmbOL
   source: "CityCamp NC"
@@ -302,7 +304,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Allison Warren-Barbour--Real Solutions, Transformative Change"
   url: https://youtu.be/IEMkWLwbAsg?si=jhVoGxnnSsP4XE4V
   source: "CityCamp NC"
@@ -310,7 +312,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Caroline Sullivan—Technology for Government"
   url: https://youtu.be/T8QLvO1bzUI?si=s71iJ2MKgZ2x8LoQ
   source: "CityCamp NC"
@@ -318,7 +320,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Jedidiah Gant—Citizen Informed: Hybrid"
   url: https://youtu.be/wlfVk1uJBt4?si=4P-n165zDFrIFTEY
   source: "CityCamp NC"
@@ -326,7 +328,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk -Kim Johnson—Go Triangle and Citizen Engagement"
   url: https://youtu.be/Cvanj3xaKzs?si=nwlNX4YMpJBma6Ff
   source: "CityCamp NC"
@@ -334,7 +336,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC Lightning Talk - Lawrence Abeyta—AppCityLife"
   url: https://youtu.be/pALY92XZ1Oc?si=R-oxlkFryXlhfrzW
   source: "CityCamp NC"
@@ -342,14 +344,15 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Mark Headd--keynote preview"
   url: https://youtu.be/RkY8Z_bsMAY?si=dgtZGIn-UH3fJIEW
   source: "CityCamp NC"
   date: 2016-08-28
   type: video
+  state: ""
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Sarah Kahn—Girl Develop It RDU"
   url: https://youtu.be/Kk3K0X1Bp8M?si=63fONTqTbEegvf1V
   source: "CityCamp NC"
@@ -357,7 +360,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Twyla McDermott—Citygram"
   url: https://youtu.be/YM91I3eIR3w?si=UgOntqee-fJ_wNPF
   source: "CityCamp NC"
@@ -365,7 +368,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCampNC 2015 Lightning Talk - Zeydy Ortiz—Exploring CitySDK"
   url: https://youtu.be/Y1MClweM1DY?si=_an9sDN2OsVSWHLK
   source: "CityCamp NC"
@@ -373,7 +376,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "Mark Headd presents Civic Tech: Days of Future Past at CityCamp NC"
   url: https://youtu.be/sOjuc5jNCqA?si=5onJ4h6SkXQPAao7
   source: "CityCamp NC"
@@ -381,7 +384,7 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
+
 - title: "CityCamp NC 2015 GIS panel lead by ESRI's John Yaist"
   url: https://youtu.be/b3Tf9GUJw74?si=q_tWOgvINKu9ntwC
   source: "CityCamp NC"
@@ -389,22 +392,24 @@ docs:
   type: video
   state: "NC"
   country: "United States"
-  
-- title: CityCamp NC 2015
+
+- title: "CityCamp NC 2015"
   url: https://www.youtube.com/playlist?list=PLsD0j-2T5Q_kpz_5CJVxxZoG2jHDGoICB
   source: "CityCamp NC"
   date: 2016-08-28
   type: playlist
   state: "NC"
   country: "United States"
-  
+
 - title: "4 Cities Jumpstart Civic Tech Solutions with CityCamp"
   url: https://www.govtech.com/dc/articles/4-cities-jumpstart-civic-tech-solutions-with-citycamp.html
   source: "Government Technology"
   author: "Jason Shueh"
   date: 2015-01-07
   type: article
-  
+  state: ""
+  country: "United States"
+
 - title: "CityCamp Palo Alto 2013"
   url: https://www.youtube.com/watch?v=CVPJ0Uqn6kI
   source: "City of Palo Alto"
@@ -412,7 +417,7 @@ docs:
   type: video
   state: "CA"
   country: "United States"
-  
+
 - title: "Families flock to Palo Alto’s ‘civic hacking’ celebration"
   url: https://www.paloaltoonline.com/news/2013/06/01/hackathon-takes-over-downtown-palo-alto/
   source: "Palo Alto Online"
@@ -445,6 +450,8 @@ docs:
   source: GovGirlBlog
   date: 2012-10-31
   type: video
+  state: ""
+  country: "United States"
 
 - title: "What open source can teach government officials"
   url: https://opensource.com/government/12/6/what-open-source-can-teach-government-officials
@@ -452,6 +459,8 @@ docs:
   author: "Jason Hibbets"
   date: 2012-06-07
   type: article
+  state: ""
+  country: "United States"
 
 - title: "The merits of failing faster"
   url: https://opensource.com/business/12/6/merits-failing-faster
@@ -459,6 +468,8 @@ docs:
   author: "Casey Brown"
   date: 2012-06-05
   type: article
+  state: ""
+  country: "United States"
 
 - title: "CityCamp Raleigh sets up for year two this weekend, $5000 prize"
   url: https://dtraleigh.com/2012/05/citycamp-raleigh-sets-up-for-year-2-this-weekend-5000-prize/
@@ -509,6 +520,7 @@ docs:
   source: "Manchester Urban Institute"
   date: 2012-01-26
   type: video
+  state: "England"
   country: "United Kingdom"
 
 - title: "Five essential elements of an open government unconference"
@@ -517,6 +529,8 @@ docs:
   author: "Jason Hibbets"
   date: 2012-01-05
   type: article
+  state: ""
+  country: "United States"
 
 - title: "Code for America: CityCamp is seriously local"
   url: https://opensource.com/government/11/12/code-america-citycamp-seriously-local
@@ -524,6 +538,8 @@ docs:
   author: "Alissa Black"
   date: 2011-12-21
   type: article
+  state: ""
+  country: "United States"
 
 - title: "Restoring trust in government"
   url: https://opensource.com/government/11/12/restoring-trust-government
@@ -531,6 +547,8 @@ docs:
   author: "Jason Hibbets"
   date: 2011-12-05
   type: article
+  state: ""
+  country: "United States"
 
 - title: "CityCamp Honolulu"
   url: https://www.youtube.com/watch?v=YlOYP42ngjY
@@ -601,6 +619,8 @@ docs:
   author: "Jason Hibbets"
   date: 2011-10-20
   type: article
+  state: ""
+  country: "United States"
 
 - title: "Enhancing access to government at CityCamp Colorado"
   url: https://opensource.com/government/11/10/enhancing-access-government-citycamp-colorado
@@ -626,6 +646,8 @@ docs:
   author: "David Both"
   date: 2011-06-10
   type: article
+  state: ""
+  country: "United States"
 
 - title: "Keeping an open mind on open government"
   url: https://opensource.com/government/11/6/open-mind-open-government
@@ -633,6 +655,8 @@ docs:
   author: "Harrison Gilbert"
   date: 2011-06-07
   type: article
+  state: ""
+  country: "United States"
 
 - title: "CityCamp: Organizing an unconference for a transparent city government"
   url: https://opensource.com/government/11/6/citycamp-organizing-unconference-transparent-city-government
@@ -640,6 +664,8 @@ docs:
   author: "Jason Hibbets"
   date: 2011-06-03
   type: article
+  state: ""
+  country: "United States"
 
 - title: "How CityCamp became an open source brand"
   url: https://opensource.com/government/11/5/how-citycamp-became-open-source-brand
@@ -647,6 +673,8 @@ docs:
   author: "Kevin Curry"
   date: 2011-05-03
   type: article
+  state: ""
+  country: "United States"
 
 - title: "CityCamp Colorado - Creating an Open Government Directive for Local Agencies"
   url: https://www.youtube.com/watch?v=iwvlcjBsx-0
@@ -766,3 +794,5 @@ docs:
   source: "André Natta"
   date: 2010-01-27
   type: video
+  state: ""
+  country: "United States"

@@ -90,4 +90,4 @@ page_gen:
     index_files: true
     name_expr: "record['slug']"
     title: 'name'
-    filter_condition: "record['Status'] == 'In progress'"
+    # filter_condition: "record['Status'] == 'In progress'"
