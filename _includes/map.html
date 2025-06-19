@@ -35,6 +35,7 @@
         lng: {{ event.longitude }},
         state: "{{ event.state }}",
         status: "{{ event.Status }}",
+        slug: "{{ event.slug }}",
       },
     {% endfor %}];
 
@@ -67,7 +68,7 @@
 
         L.marker([city.lat, city.lng], { icon: pinChoice })
             .addTo(map)
-            .bindPopup(`<b>${city.name}</b>`);
+            .bindPopup(`<b><a href="{{ site.baseurl }}/events/${city.slug}">${city.name}</a></b>`);
     });
 
     // Fit the map view to the bounds to show all markers
