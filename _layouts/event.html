@@ -9,7 +9,7 @@ schematype: "Event"
     <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
       {% assign event = page %}
       <h2 class="mb-3">Details</h2>
-      {% if page.website %}
+      {% if page.Status == "In progress" %}
       <ul class="list-unstyled">
         {% if page.date %}
         <li class="mb-2">
