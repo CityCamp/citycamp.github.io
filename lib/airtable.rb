@@ -30,7 +30,7 @@ events = events.map do |row|
   .reject(&:empty?)
 
   description_parts = [
-    row["date"],
+    row["date"] ? Date.parse(row["date"]).strftime("%B %d, %Y") : "",
     row["city"],
     row["addressRegion"],
     row["addressCountry"]
