@@ -35,7 +35,7 @@ events = events.map do |row|
   .compact # remove nil
   .reject(&:empty?)
 
-  row["slug"] = parts.map { |part| part.gsub(".", "").gsub(",", "").downcase }.join('-')
+  row["slug"] = parts.map { |part| part.to_s.gsub(".", "").gsub(",", "").downcase }.join('-')
   row["description"] = description_parts.join(', ')
   row
 end
