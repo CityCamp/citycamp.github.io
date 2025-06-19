@@ -8,9 +8,8 @@
     "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "addressCountry": [
-      "Canada"
-    ],
+    "addressCountry": "Canada",
+    "addressRegion": null,
     "slug": "alberta-canada",
     "description": "Alberta, Canada"
   },
@@ -26,12 +25,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CO",
     "slug": "arvada-co-united-states",
     "description": "Arvada, CO, United States"
   },
@@ -57,12 +52,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "GA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "GA",
     "slug": "atlanta-ga-united-states",
     "description": "2025-09-20, Atlanta, GA, United States"
   },
@@ -75,9 +66,8 @@
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": [
-      "Tunisia"
-    ],
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
     "slug": "bizerte-tunisia",
     "description": "Bizerte, Tunisia"
   },
@@ -93,12 +83,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CO",
     "slug": "boulder-co-united-states",
     "description": "Boulder, CO, United States"
   },
@@ -111,9 +97,8 @@
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": [
-      "United Kingdom"
-    ],
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
     "slug": "brighton-united-kingdom",
     "description": "Brighton, United Kingdom"
   },
@@ -126,9 +111,8 @@
     "country": [
       "recvdOhU3HtPLAD5s"
     ],
-    "addressCountry": [
-      "Argentina"
-    ],
+    "addressCountry": "Argentina",
+    "addressRegion": null,
     "slug": "buenos-aires-argentina",
     "description": "Buenos Aires, Argentina"
   },
@@ -144,12 +128,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CO",
     "slug": "castle-rock-co-united-states",
     "description": "Castle Rock, CO, United States"
   },
@@ -165,12 +145,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "AZ"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
     "slug": "chandler-az-united-states",
     "description": "Chandler, AZ, United States"
   },
@@ -183,9 +159,8 @@
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": [
-      "United Kingdom"
-    ],
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
     "slug": "chelmsford-united-kingdom",
     "description": "Chelmsford, United Kingdom"
   },
@@ -202,12 +177,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "IL"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "IL",
     "slug": "chicago-il-united-states",
     "description": "Chicago, IL, United States"
   },
@@ -220,9 +191,8 @@
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": [
-      "United Kingdom"
-    ],
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
     "slug": "coventry-united-kingdom",
     "description": "Coventry, United Kingdom"
   },
@@ -238,12 +208,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CO",
     "slug": "denver-co-united-states",
     "description": "Denver, CO, United States"
   },
@@ -256,9 +222,8 @@
     "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "addressCountry": [
-      "Canada"
-    ],
+    "addressCountry": "Canada",
+    "addressRegion": null,
     "slug": "edmonton-canada",
     "description": "Edmonton, Canada"
   },
@@ -279,12 +244,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "OR"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "OR",
     "slug": "eugene-or-united-states",
     "description": "2025-09-20, Eugene, OR, United States"
   },
@@ -297,9 +258,8 @@
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": [
-      "Tunisia"
-    ],
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
     "slug": "gafsa-tunisia",
     "description": "Gafsa, Tunisia"
   },
@@ -323,12 +283,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "FL"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "FL",
     "slug": "gainesville-fl-united-states",
     "description": "2025-09-20, Gainesville, FL, United States"
   },
@@ -344,12 +300,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CO",
     "slug": "golden-co-united-states",
     "description": "Golden, CO, United States"
   },
@@ -365,12 +317,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "VA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "VA",
     "slug": "hampton-roads-va-united-states",
     "description": "Hampton Roads, VA, United States"
   },
@@ -386,12 +334,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "HI"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "HI",
     "slug": "honolulu-hi-united-states",
     "description": "Honolulu, HI, United States"
   },
@@ -407,12 +351,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "MO"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "MO",
     "slug": "kansas-city-mo-united-states",
     "description": "Kansas City, MO, United States"
   },
@@ -436,12 +376,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
     "slug": "lafayette-ca-united-states",
     "description": "2025-09-20, Lafayette, CA, United States"
   },
@@ -454,9 +390,8 @@
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": [
-      "United Kingdom"
-    ],
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
     "slug": "london-united-kingdom",
     "description": "London, United Kingdom"
   },
@@ -472,12 +407,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "WI"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "WI",
     "slug": "madison-wi-united-states",
     "description": "Madison, WI, United States"
   },
@@ -490,9 +421,8 @@
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": [
-      "United Kingdom"
-    ],
+    "addressCountry": "United Kingdom",
+    "addressRegion": null,
     "slug": "manchester-united-kingdom",
     "description": "Manchester, United Kingdom"
   },
@@ -508,12 +438,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "MN"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "MN",
     "slug": "minneapolis-mn-united-states",
     "description": "Minneapolis, MN, United States"
   },
@@ -526,9 +452,8 @@
     "country": [
       "rec2fbj9hVoCoydwy"
     ],
-    "addressCountry": [
-      "Mexico"
-    ],
+    "addressCountry": "Mexico",
+    "addressRegion": null,
     "slug": "monterrey-mexico",
     "description": "Monterrey, Mexico"
   },
@@ -555,12 +480,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "NY"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "NY",
     "slug": "new-york-city-ny-united-states",
     "description": "2025-09-06, New York City, NY, United States"
   },
@@ -576,12 +497,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
     "slug": "oakland-ca-united-states",
     "description": "Oakland, CA, United States"
   },
@@ -597,12 +514,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "OK"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "OK",
     "slug": "oklahoma-city-ok-united-states",
     "description": "Oklahoma City, OK, United States"
   },
@@ -615,9 +528,8 @@
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": [
-      "Russia"
-    ],
+    "addressCountry": "Russia",
+    "addressRegion": null,
     "slug": "perm-russia",
     "description": "Perm, Russia"
   },
@@ -633,12 +545,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "AZ"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
     "slug": "phoenix-az-united-states",
     "description": "Phoenix, AZ, United States"
   },
@@ -654,12 +562,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "NC"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "NC",
     "slug": "raleigh-nc-united-states",
     "description": "Raleigh, NC, United States"
   },
@@ -675,12 +579,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
     "slug": "sacramento-ca-united-states",
     "description": "Sacramento, CA, United States"
   },
@@ -696,12 +596,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "CA"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
     "slug": "san-francisco-ca-united-states",
     "description": "San Francisco, CA, United States"
   },
@@ -714,9 +610,8 @@
     "country": [
       "recCgYNl5z07vysrY"
     ],
-    "addressCountry": [
-      "Chile"
-    ],
+    "addressCountry": "Chile",
+    "addressRegion": null,
     "slug": "santiago-chile",
     "description": "Santiago, Chile"
   },
@@ -729,9 +624,8 @@
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": [
-      "Tunisia"
-    ],
+    "addressCountry": "Tunisia",
+    "addressRegion": null,
     "slug": "sfax-tunisia",
     "description": "Sfax, Tunisia"
   },
@@ -744,9 +638,8 @@
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": [
-      "Russia"
-    ],
+    "addressCountry": "Russia",
+    "addressRegion": null,
     "slug": "st-petersburg-russia",
     "description": "St. Petersburg, Russia"
   },
@@ -762,12 +655,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "AZ"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "AZ",
     "slug": "tuscon-az-united-states",
     "description": "Tuscon, AZ, United States"
   },
@@ -780,9 +669,8 @@
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": [
-      "Russia"
-    ],
+    "addressCountry": "Russia",
+    "addressRegion": null,
     "slug": "ulyanovsk-russia",
     "description": "Ulyanovsk, Russia"
   },
@@ -798,12 +686,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": [
-      "United States"
-    ],
-    "addressRegion": [
-      "DC"
-    ],
+    "addressCountry": "United States",
+    "addressRegion": "DC",
     "slug": "washington-dc-dc-united-states",
     "description": "Washington, D.C., DC, United States"
   }
