@@ -9,11 +9,13 @@ schematype: "Event"
     <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
       {% assign event = page %}
       <h2 class="mb-3">Details</h2>
+      {% if page.website %}
       <ul class="list-unstyled">
         {% if page.date %}
-          <li class="mb-2">
-            <i class="fa-solid fa-calendar" aria-label="hidden"></i>
-            When: {{ page.date | date: "%B %d, %Y" }}</li>
+        <li class="mb-2">
+          <i class="fa-solid fa-calendar" aria-label="hidden"></i>
+          When: {{ page.date | date: "%B %d, %Y" }}
+        </li>
         {% endif %}
         <li class="mb-2">
           <i class="fa-solid fa-building" aria-label="hidden"></i>
@@ -59,6 +61,11 @@ schematype: "Event"
           </li>
         {% endif %}
       </ul>
+      {% else %}
+      CityCamp {{ page.city }} needs an organizer. Learn how to
+      <a href="{{ site.baseurl }}/organize">organize a CityCamp</a>.
+      {% endif %}
+
       <h2>About</h2>
       <p>{{ page.title }} is a civic-focused event for the {{ page.city }} community. While space is limited, everyone is welcome to join and share their ideas and skills to help make {{ page.city }} a better place.</p>
       {% if site.data.who.docs %}
