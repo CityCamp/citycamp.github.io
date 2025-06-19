@@ -18,10 +18,13 @@ events = events.sort_by { |h| [h["State"], h["City"]] }
 
 # for each Event, set custom `slug`` & `description` attribute
 events = events.map do |row|
+  row["addressRegion"] = row["addressRegion"]&.first # pluck the first value for the CityCamp side.
+  row["addressCountry"] = row["addressCountry"]&.first
+
   parts = [
     row["city"].gsub(" ", "-"),
-    row["addressRegion"]&.first,
-    row["addressCountry"]&.first
+    row["addressRegion"],
+    row["addressCountry"]
   ]
   .compact # remove nil
   .reject(&:empty?)
@@ -29,8 +32,8 @@ events = events.map do |row|
   description_parts = [
     row["date"],
     row["city"],
-    row["addressRegion"]&.first,
-    row["addressCountry"]&.first
+    row["addressRegion"],
+    row["addressCountry"]
   ]
   .compact # remove nil
   .reject(&:empty?)
