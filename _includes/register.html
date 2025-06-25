@@ -1,35 +1,35 @@
 {% if page.Status == 'In progress' %}
   {% if page.website %}
-<div class="fixed-bottom border-top register">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <a
-          href="{{ page.website }}"
-          id=""
-          aria-label="Register"
-          class="btn btn-primary btn-lg">
-          Register
-        </a>
+    <div class="fixed-bottom border-top register">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a
+              href="{{ page.website }}"
+              id=""
+              aria-label="Register"
+              class="btn btn-primary btn-lg">
+              Register
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   {% endif %}
 {% else %}
-<div class="fixed-bottom border-top register">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <a
-          href="{{ site.baseurl }}/organize"
-          id=""
-          aria-label="Register"
-          class="btn btn-primary btn-lg">
-          Organize a CityCamp
-        </a>
+  <div class="fixed-bottom border-top register">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a
+            href="{{ site.baseurl }}/organize"
+            id=""
+            aria-label="Organize CityCamp {{ page.city }}"
+            class="btn btn-primary btn-lg">
+            Organize CityCamp {{ page.city }}
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 {% endif %}
