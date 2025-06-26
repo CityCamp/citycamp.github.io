@@ -2,6 +2,8 @@
 layout: default
 title: Unconference
 description: CityCamp guide to an unconference.
+img-og: sticky-note-og.png
+img-alt: "Sticky note icon"
 topics:
   - About
 ---

@@ -20,7 +20,7 @@ While some cities hold CityCamps throughout the year, World CityCamp Day brings 
 
 ## Format
 
-CityCamp is an [unconference](http://en.wikipedia.org/wiki/Unconference), where the people attending help plan the schedule.
+CityCamp is an [unconference](/unconference), where the people attending help plan the schedule.
 
 * Participants create and organize the agenda, with help from facilitators.
 * Everyone takes part in the sessions instead of just listening.
