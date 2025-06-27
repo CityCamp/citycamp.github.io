@@ -120,6 +120,12 @@ h3:hover a#heading-hashtag {
     margin-top: 2rem;
 }
 
+.post-main h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
 .post-main {
     padding-bottom: 2rem;
 }

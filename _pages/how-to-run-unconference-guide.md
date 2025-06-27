@@ -230,5 +230,8 @@ Ready to organize your first unconference? Start with your community's most pres
 ### Community guidelines and safety resources
 - [Citizen Code of Conduct](https://citizencodeofconduct.org/) - Template for community event guidelines
 
-### Planning and organizing tools
-- [CityCamp](https://citycamp.com/) - Main site with additional organizing resources
+## Organize a CityCamp! 🎉
+
+- [Join the CityCamp community](https://citycamp.com/community)
+- [How to organize a CityCamp](https://citycamp.com/organize)
+- [Join CityCamp office hours](https://citycamp.com/meet)

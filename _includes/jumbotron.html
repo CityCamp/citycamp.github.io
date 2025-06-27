@@ -56,15 +56,22 @@
     </div>
   </div>
 {% elsif page.layout == "default" %}
-  <h1 class="display-5 mb-2">{{ page.title }}</h1>
-  {% if page.search == nil %}
-    {% if page.description %}
-      <p class="lead fs-4 mb-3 pb-4 border-bottom">{{ page.description }}</p>
-    {% endif %}
-  {% endif %}
-  {% if page.search == true %}
-    {% include search-lunr.html %}
-  {% endif %}
+  <div class="container border-bottom">
+    <div class="row pt-5">
+      <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+        <h1 class="display-5 mb-2">{{ page.title }}</h1>
+        {% if page.search == nil %}
+          {% if page.description %}
+            <p class="lead fs-4 mb-3 pb-4">{{ page.description }}</p>
+          {% endif %}
+        {% endif %}
+        {% if page.search == true %}
+          {% include search-lunr.html %}
+        {% endif %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+    </div>
+  </div>
 {% elsif page.title == "Events" %}
   <div class="bg-dark mb-4 border-bottom shadow py-3">
     <div class="container py-5">
