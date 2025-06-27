@@ -5,17 +5,13 @@ docs:
   icon: fa-solid fa-info-circle
   url: /about
 
-- title: Support
-  icon: fa-solid fa-gift
-  url: /support
+- title: Events
+  icon: fa-solid fa-calendar
+  url: /events
 
 - title: Cities
   icon: fa-solid fa-location-dot
   url: /cities
-
-- title: Events
-  icon: fa-solid fa-calendar
-  url: /events
 
 - title: News
   icon: fa-solid fa-satellite-dish
@@ -24,6 +20,10 @@ docs:
 - title: Press
   icon: fa-solid fa-newspaper
   url: /press
+
+- title: Support
+  icon: fa-solid fa-gift
+  url: /support
 
 - title: Help
   icon: fa-solid fa-question-circle
