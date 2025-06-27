@@ -4,6 +4,8 @@ title: Complete guide to organizing successful unconferences
 description: CityCamp guide to an unconference.
 img-og: sticky-note-og.png
 img-alt: "Sticky note icon"
+img-caption: "Sticky note icon from Font Awesome"
+img-link: https://fontawesome.com/
 redirect_from: /unconference
 topics:
   - About
