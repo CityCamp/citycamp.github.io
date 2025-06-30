@@ -42,10 +42,10 @@ Unconferences are particularly effective for:
 
 Here's what typically happens at a successful unconference:
 
-- **Gathering and Topic Generation**: Participants arrive and suggest session topics based on their interests, challenges, or expertise
-- **Collaborative Scheduling**: Ideas are posted on a visible wall or board, and a schedule is built together through group discussion
-- **Session Formation**: Participants self-organize into discussion groups around the topics that most interest them
-- **Open Dialogue**: Sessions begin with anyone able to lead and anyone free to join, leave, or move between discussions
+- **Gathering and topic generation**: Participants arrive and suggest session topics based on their interests, challenges, or expertise
+- **Collaborative scheduling**: Ideas are posted on a visible wall or board, and a schedule is built together through group discussion
+- **Session formation**: Participants self-organize into discussion groups around the topics that most interest them
+- **Open dialogue**: Sessions begin with anyone able to lead and anyone free to join, leave, or move between discussions
 
 No formal presentations required—just authentic conversations and collaborative thinking. If a session isn't valuable for you, you can leave and try another. This flexibility is known as the "law of two feet."
 
@@ -64,30 +64,30 @@ Running an unconference requires less advance planning than traditional conferen
 
 ### Before your event: planning phase 📋
 
-- **Define Your Focus**: Choose a theme that will attract engaged participants (civic engagement, education innovation, community development, local government reform)
-- **Secure Your Venue**: Find a location with flexible spaces and moveable furniture (see venue selection guide below)
-- **Build Your Community**: Spread the word through local networks, community organizations, and social media, clearly explaining the unconference format
-- **Establish Safety Guidelines**: Create and share a Code of Conduct that ensures all participants feel welcome and safe
-- **Gather Essential Supplies**: Stock up on sticky notes, markers, masking tape, flip chart paper, name tags, and basic refreshments
+- **Define your focus**: Choose a theme that will attract engaged participants (civic engagement, education innovation, community development, local government reform)
+- **Secure your venue**: Find a location with flexible spaces and moveable furniture (see venue selection guide below)
+- **Build your community**: Spread the word through local networks, community organizations, and social media, clearly explaining the unconference format
+- **Establish safety guidelines**: Create and share a Code of Conduct that ensures all participants feel welcome and safe
+- **Gather essential supplies**: Stock up on sticky notes, markers, masking tape, flip chart paper, name tags, and basic refreshments
 
 **Pro tip: Encourage pre-event connection by creating opportunities for potential attendees to connect on social media and start discussing potential session topics. This helps people arrive with ideas already formed and can spark creative collaboration before the event even begins.**
 
 ### During your event: facilitation 🎪
 
-- **Welcome and Orientation**: Explain the unconference format and review community guidelines with all participants
-- **Collaborative Agenda Building**: Facilitate the process of topic suggestion and schedule creation
-- **Maintain Open Atmosphere**: Keep the environment welcoming and encourage participation from quieter voices
-- **Support Session Leaders**: Help discussions get started and provide gentle guidance when needed
-- **Document the Experience**: Take photos (with permission) and notes to share with the community afterward
+- **Welcome and orientation**: Explain the unconference format and review community guidelines with all participants
+- **Collaborative agenda building**: Facilitate the process of topic suggestion and schedule creation
+- **Maintain open atmosphere**: Keep the environment welcoming and encourage participation from quieter voices
+- **Support session leaders**: Help discussions get started and provide gentle guidance when needed
+- **Document the experience**: Take photos (with permission) and notes to share with the community afterward
 
 **Key facilitation insight: Help newcomers feel comfortable by pairing them with experienced participants or organizers. Remember that everyone was new at some point, and reducing first-time anxiety leads to better participation.**
 
 ### After your event: follow-up 🌈
 
-- **Express Gratitude**: Thank participants, venue hosts, and any sponsors or supporters
-- **Share Resources**: Distribute session notes, contact information, and relevant links from discussions
-- **Gather Feedback**: Ask participants what worked well and what could be improved for future events
-- **Maintain Momentum**: Keep your community connected through follow-up meetings, online groups, or collaborative projects
+- **Express gratitude**: Thank participants, venue hosts, and any sponsors or supporters
+- **Share resources**: Distribute session notes, contact information, and relevant links from discussions
+- **Gather feedback**: Ask participants what worked well and what could be improved for future events
+- **Maintain momentum**: Keep your community connected through follow-up meetings, online groups, or collaborative projects
 
 ## Maximizing participant engagement and experience 🚀
 
@@ -100,13 +100,13 @@ The success of your unconference depends on active, engaged participants. Here's
 - **Network early**: Arrive a bit early to meet other attendees and bounce session ideas off them. These pre-event conversations often lead to the most creative session concepts
 
 **During the event:**
-- **Come with Curiosity**: Bring your questions, challenges, and genuine interest in learning from others
-- **Contribute Your Voice**: Don't hesitate to suggest a session topic, even if you don't consider yourself an expert
-- **Practice Flexibility**: Move between sessions freely to find the conversations that most interest you
+- **Come with curiosity**: Bring your questions, challenges, and genuine interest in learning from others
+- **Contribute your voice**: Don't hesitate to suggest a session topic, even if you don't consider yourself an expert
+- **Practice flexibility**: Move between sessions freely to find the conversations that most interest you
 - **Make your session cards stand out**: Use colorful pens, stickers, creative artwork, or even small decorative items to help your session card catch attention on the scheduling board
 - **Network confidently**: Don't be nervous about joining conversations. If you overhear an interesting discussion, simply ask "Do you mind if I join the conversation?"
-- **Document and Connect**: Take notes, exchange contact information, and ask thoughtful questions
-- **Lead by Example**: You don't need credentials to facilitate a valuable discussion—just genuine interest and good questions
+- **Document and connect**: Take notes, exchange contact information, and ask thoughtful questions
+- **Lead by example**: You don't need credentials to facilitate a valuable discussion—just genuine interest and good questions
 - **Ask questions freely**: There are no silly questions in an unconference setting. Smart, accomplished people ask lots of questions, and your questions help others feel comfortable participating too
 
 **Session leadership best practices:**
@@ -127,18 +127,18 @@ Successful unconferences need flexible, welcoming spaces that encourage collabor
 
 ### Essential venue features ✨
 
-- **Large Assembly Space**: One room where all participants can gather for opening, agenda-building, and closing activities
-- **Multiple Breakout Areas**: At least 3-5 separate spaces for simultaneous small group discussions
-- **Wall Space for Scheduling**: Areas where you can post session topics and build the collaborative schedule
-- **Flexible Furniture**: Moveable chairs and tables that can be rearranged for different group sizes
+- **Large assembly space**: One room where all participants can gather for opening, agenda-building, and closing activities
+- **Multiple breakout areas**: At least 3-5 separate spaces for simultaneous small group discussions
+- **Wall space for scheduling**: Areas where you can post session topics and build the collaborative schedule
+- **Flexible furniture**: Moveable chairs and tables that can be rearranged for different group sizes
 
 ### Valuable additional features 🎁
 
 - **Reliable Wi-Fi**: Enables participants to share resources and stay connected
-- **Accessible Restrooms**: Ensures all community members can participate comfortably
-- **Kitchen or Refreshment Area**: Space for coffee, water, and light snacks
-- **Quiet Spaces**: Areas for one-on-one conversations or small group planning
-- **Clear Signage**: Helps participants navigate between session spaces
+- **Accessible restrooms**: Ensures all community members can participate comfortably
+- **Kitchen or refreshment area**: Space for coffee, water, and light snacks
+- **Quiet spaces**: Areas for one-on-one conversations or small group planning
+- **Clear signage**: Helps participants navigate between session spaces
 
 ### Ideal venue types 🏠
 
@@ -183,12 +183,12 @@ Each maintains the core unconference principles while focusing on specific commu
 
 Unconferences create unique value for both participants and organizers:
 
-- **Low Barrier to Participation**: No expertise requirements—just curiosity and willingness to engage
-- **Democratic Voice and Choice**: Participants shape the agenda based on their real interests and needs
-- **Accessible to Organize**: Minimal advance planning and lower costs than traditional conferences
-- **Authentic Connections**: Small group discussions foster genuine relationships and ongoing collaboration
-- **Inclusive by Design**: Format naturally accommodates diverse learning styles and participation preferences
-- **Responsive to Community Needs**: Content emerges from what participants actually want to discuss
+- **Low barrier to participation**: No expertise requirements—just curiosity and willingness to engage
+- **Democratic voice and choice**: Participants shape the agenda based on their real interests and needs
+- **Accessible to organize**: Minimal advance planning and lower costs than traditional conferences
+- **Authentic connections**: Small group discussions foster genuine relationships and ongoing collaboration
+- **Inclusive by design**: Format naturally accommodates diverse learning styles and participation preferences
+- **Responsive to community needs**: Content emerges from what participants actually want to discuss
 
 This format particularly appeals to community organizers, educators, civic activists, local government staff, and anyone interested in collaborative approaches to social change.
 
@@ -198,15 +198,15 @@ Here's a tested timeline that works well for full-day community unconferences:
 
 | Time | Activity | Description |
 |---|---|---|
-| 9:00 AM | Arrival and Welcome | Coffee, name tags, informal networking |
-| 9:30 AM | Opening Circle | Introductions, unconference overview, community guidelines |
-| 10:00 AM | Collaborative Agenda Building | Topic suggestions, schedule creation, room assignments |
-| 10:30 AM | First Session Block | Initial discussions in breakout groups |
-| 11:15 AM | Second Session Block | New topics or continued conversations |
-| 12:00 PM | Lunch Break | Shared meal, informal networking, one-on-one conversations |
-| 1:00 PM | Third Session Block | Afternoon discussions, action planning sessions |
-| 1:45 PM | Final Session Block | Follow-up conversations, resource sharing |
-| 2:30 PM | Closing Circle | Reflections, commitments, next steps, appreciation |
+| 9:00 AM | Arrival and welcome | Coffee, name tags, informal networking |
+| 9:30 AM | Opening circle | Introductions, unconference overview, community guidelines |
+| 10:00 AM | Collaborative agenda building | Topic suggestions, schedule creation, room assignments |
+| 10:30 AM | First session block | Initial discussions in breakout groups |
+| 11:15 AM | Second session block | New topics or continued conversations |
+| 12:00 PM | Lunch break | Shared meal, informal networking, one-on-one conversations |
+| 1:00 PM | Third session block | Afternoon discussions, action planning sessions |
+| 1:45 PM | Final session block | Follow-up conversations, resource sharing |
+| 2:30 PM | Closing circle | Reflections, commitments, next steps, appreciation |
 
 Adjust timing based on your community's needs—some groups prefer shorter, more intensive formats while others benefit from longer, more reflective sessions.
 
@@ -257,6 +257,31 @@ Many successful unconferences become regular community gatherings. Consider:
 The goal isn't just a successful single event, but building sustained capacity for community engagement and collaborative problem-solving in your area.
 
 Ready to organize your first unconference? Start with your community's most pressing questions, find a flexible venue, and trust in the collective wisdom of engaged citizens working together.
+
+## Case study: CityCamp Raleigh - from Twitter idea to 200+ attendees 📈
+
+CityCamp Raleigh demonstrates how passionate volunteers can organize a successful unconference from scratch in just 12 weeks. The event began with a simple Twitter conversation in March 2011 between community members discussing how to make Raleigh an open source hub.
+
+**The organizing team faced significant challenges:** None of the organizers had ever attended a CityCamp or any unconference before. Despite this inexperience, their shared passion for open government, transparency, and civic technology drove them to create a three-day event focused on reimagining how technology could improve their city.
+
+**Key organizing decisions that led to success:**
+
+- **Co-leadership structure**: Two committed leaders shared the organizing burden rather than relying on a single organizer
+- **Weekly meetups**: Regular in-person gatherings kept momentum and accountability
+- **Committee structure**: Teams focused on marketing, sponsorship, speakers, and logistics
+- **Transparent planning**: They published their project plan publicly for community input and accountability
+- **Strategic communication tools**: Used Facebook groups for primary communication and Google Docs for collaborative work
+- **Community research**: Studied other CityCamps and consulted with CityCamp founders for guidance
+
+**Results achieved:**
+- Over 200 registrants
+- 20 sponsors and supporters
+- 15 speakers
+- Strong foundation for ongoing civic engagement in Raleigh
+
+The organizers noted that using Facebook as their primary communication tool initially seemed unconventional but proved highly effective for collaboration and keeping everyone informed across multiple committees.
+
+**Key lesson**: The organizers reflected that "opportunities like this don't come along very often" and saw CityCamp as a catalyst for broader open government movement in their city. Their experience shows that passionate community members can successfully organize impactful unconferences even without prior experience, when they combine clear vision with collaborative organizing methods.
 
 ## Reference links and resources 🔗
 
