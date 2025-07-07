@@ -19,11 +19,15 @@ Color:
 - CityCamp base color: #00000
 - City-specific: Open (note: make sure your custom color is [contrast accessible](https://webaim.org/resources/contrastchecker/))
 
-Visual:
+Font:
 
 - Logo font: [Public Sans](https://public-sans.digital.gov/)
 - CityCamp font: Public Sans ExtraBold
 - City font: Public Sans Regular
+
+Icons:
+
+- [Font Awesome](https://fontawesome.com/)
 
 ## Assets
 
