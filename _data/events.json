@@ -602,6 +602,32 @@
     "description": "San Francisco, CA, United States"
   },
   {
+    "name": "CityCamp SF",
+    "Status": "In progress",
+    "venue": "TBD",
+    "poc": "Francis Li",
+    "city": "San Francisco",
+    "email": "hello@sfcivictech.org",
+    "date": "2025-09-20",
+    "latitude": 37.774929,
+    "longitude": -122.419418,
+    "organizer": "SF Civic Tech",
+    "organizer-url": "https://www.sfcivictech.org/",
+    "price": "Free",
+    "postalCode": "94112",
+    "addressLocality": "San Francisco",
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "san-francisco-ca-united-states",
+    "description": "September 20, 2025, San Francisco, CA, United States"
+  },
+  {
     "name": "CityCamp Santiago",
     "Status": "Done",
     "city": "Santiago",
