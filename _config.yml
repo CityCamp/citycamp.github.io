@@ -17,7 +17,7 @@ plugins:
 
 sass:
   load_paths:
-    - /home/runner/work/citycamp.github.io/citycamp.github.io/node_modules/bootstrap/scss
+    - ./node_modules/bootstrap/scss
   style: compressed
 
 # Date/time

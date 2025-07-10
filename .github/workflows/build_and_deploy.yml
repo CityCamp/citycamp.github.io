@@ -50,8 +50,6 @@ jobs:
     - name: "npm install, Build Site, and run PostCSS/PurgeCSS"
       run: |
         npm ci --include=dev
-        pwd
-        ls -la node_modules/bootstrap/scss
         bundle exec jekyll build --trace
         npx postcss _site/assets/css/style.css -o _site/assets/css/style.css
       env:

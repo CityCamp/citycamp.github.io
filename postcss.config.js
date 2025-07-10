@@ -1,12 +1,13 @@
-const purgecss = require('@fullhuman/postcss-purgecss')
+const { purgeCSSPlugin } = require('@fullhuman/postcss-purgecss')
+const autoprefixer = require('autoprefixer')
 
 const inProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   plugins: [
-    require('autoprefixer'),
+  autoprefixer,
     ...(inProd ? [
-      purgecss({
+      purgeCSSPlugin({
         content: [
           './_site/**/*.html',        // built pages
           './_includes/**/*.html',    // templating
