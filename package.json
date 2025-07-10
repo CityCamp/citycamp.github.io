@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.7",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "purgecss": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development bundle exec jekyll serve",
+    "build": "NODE_ENV=production bundle exec jekyll build"
+  }
+}

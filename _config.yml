@@ -10,10 +10,15 @@ markdown: kramdown
 plugins:
   - jekyll-datapage-generator
   - jekyll-feed
+  - jekyll-postcss
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+
+sass:
+  load_paths:
+    - node_modules/bootstrap/scss
 
 # Date/time
 date: "%B %-d, %Y"
