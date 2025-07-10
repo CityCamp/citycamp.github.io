@@ -46,8 +46,8 @@ jobs:
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
-    - name: "Build Site"
-      run: bundle exec jekyll build
+    - name: "npm install, Build Site, and run PostCSS/PurgeCSS"
+      run: npm i && bundle exec jekyll build && NODE_ENV=production npx postcss _site/assets/css/style.css -o _site/assets/css/style.css
       env:
         JEKYLL_ENV: production
         NODE_ENV: production
