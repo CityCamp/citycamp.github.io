@@ -16,7 +16,6 @@ gem "jekyll", "~> 4.2.0"
 group :jekyll_plugins do
   gem "jekyll-datapage-generator"
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-postcss'
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
