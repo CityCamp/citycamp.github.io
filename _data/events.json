@@ -233,7 +233,7 @@
     "poc": "Mark Davis",
     "city": "Eugene",
     "email": "info@openeugene.org",
-    "date": "2025-09-20",
+    "date": "2025-09-27",
     "latitude": 44.052222,
     "longitude": -123.0925,
     "price": "TBD",
@@ -247,7 +247,7 @@
     "addressCountry": "United States",
     "addressRegion": "OR",
     "slug": "eugene-or-united-states",
-    "description": "September 20, 2025, Eugene, OR, United States"
+    "description": "September 27, 2025, Eugene, OR, United States"
   },
   {
     "name": "CityCamp Gafsa",
@@ -269,7 +269,7 @@
     "venue": "TBD",
     "poc": "Nicole Dan",
     "city": "Gainesville",
-    "email": "nicole.dan@floridainnovation.org",
+    "email": "city.camp@floridainnovation.org",
     "date": "2025-09-20",
     "latitude": 29.665245,
     "longitude": -82.336097,
