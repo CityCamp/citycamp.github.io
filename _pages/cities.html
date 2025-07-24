@@ -12,7 +12,10 @@ topics:
 {%- assign countries = events | map: "addressCountry" | uniq | sort -%}
 
 {% for country in countries %}
-  <h2>{{ country }}</h2>
+  <h2
+    id="{{ country }}">
+    {{ country }}
+  </h2>
 
   {% assign country_events = events | where: "addressCountry", country %}
 
