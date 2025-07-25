@@ -120,20 +120,20 @@ schematype: "Event"
   </div>
   {% include register.html %}
 </div>
-{% assign sorted_items = site.data.press.docs
+{% assign sorted_docs = site.data.press.docs
   | where_exp: "item", "item.state != ''"
   | where: "state", page.addressRegion
   | sort: 'date'
   | reverse
 %}
-{% if sorted_items.size > 0 %}
+{% if sorted_docs.size > 0 %}
   <div class="container border-top mt-5 pt-4">
     <div class="row">
       <h2>Press</h2>
       <p class="lead">
-          Related {{ page.addressRegion }} CityCamp events in the news.
+        Related {{ page.addressRegion }} CityCamp events in the news.
       </p>
     </div>
-    {% include press-cards.html %}
+    {% include press-cards.html docs=sorted_docs %}
   </div>
 {% endif %}
