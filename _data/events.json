@@ -230,13 +230,17 @@
   {
     "name": "CityCamp Eugene",
     "Status": "In progress",
+    "venue": "Ninkasi Brewing 3rd Floor Bar & Patio",
     "poc": "Mark Davis",
     "city": "Eugene",
+    "website": "https://citycampeugene2025.eventbrite.com",
     "email": "info@openeugene.org",
-    "date": "2025-09-27",
+    "date": "2025-10-25",
     "latitude": 44.052222,
     "longitude": -123.0925,
+    "streetAddress": "155 Blair Blvd",
     "price": "TBD",
+    "postalCode": "97402",
     "addressLocality": "Eugene",
     "address": [
       "recnjzLsfLfW5K5ow"
@@ -247,7 +251,7 @@
     "addressCountry": "United States",
     "addressRegion": "OR",
     "slug": "eugene-or-united-states",
-    "description": "September 27, 2025, Eugene, OR, United States"
+    "description": "October 25, 2025, Eugene, OR, United States"
   },
   {
     "name": "CityCamp Gafsa",
@@ -668,6 +672,31 @@
     "addressRegion": null,
     "slug": "st-petersburg-russia",
     "description": "St. Petersburg, Russia"
+  },
+  {
+    "name": "CityCamp Tulsa",
+    "Status": "In progress",
+    "venue": "Gradient",
+    "poc": "Carlos Moreno",
+    "city": "Tulsa",
+    "email": "tulsadesigner@gmail.com",
+    "date": "2025-09-19",
+    "organizer": "Tulsa Data Science",
+    "organizer-url": "https://www.tulsadatascience.org/",
+    "streetAddress": "12 N. Cheyenne Ave.",
+    "price": "Free",
+    "postalCode": "74105",
+    "addressLocality": "Tulsa",
+    "address": [
+      "recMJ6zwJrmx3V6A5"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "OK",
+    "slug": "tulsa-ok-united-states",
+    "description": "September 19, 2025, Tulsa, OK, United States"
   },
   {
     "name": "CityCamp Tuscon",
