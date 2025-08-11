@@ -494,6 +494,8 @@
     "website": "https://citycampoakland.eventbrite.com",
     "email": "citycamp@openoakland.org",
     "date": "2025-09-20",
+    "latitude": 37.8053204,
+    "longitude": -122.2725444,
     "organizer": "OpenOakland",
     "organizer-url": "https://openoakland.org/",
     "streetAddress": "1 Frank H. Ogawa Plaza",
