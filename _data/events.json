@@ -364,31 +364,6 @@
     "description": "Kansas City, MO, United States"
   },
   {
-    "name": "CityCamp Lafayette",
-    "Status": "In progress",
-    "venue": "TBD",
-    "poc": "Luke Fretwell",
-    "city": "Lafayette",
-    "website": "https://ti.to/citycamp-lafayette/citycamp-lafayette",
-    "email": "luke@lukefretwell.com",
-    "date": "2025-09-20",
-    "latitude": 37.8908,
-    "longitude": -122.127472,
-    "price": "TBD",
-    "postalCode": "94549",
-    "addressLocality": "Lafayette",
-    "address": [
-      "recr4iFAkL0rm7JgV"
-    ],
-    "country": [
-      "rec45yssRULp5R735"
-    ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
-    "slug": "lafayette-ca-united-states",
-    "description": "September 20, 2025, Lafayette, CA, United States"
-  },
-  {
     "name": "CityCamp London",
     "Status": "Done",
     "city": "London",
