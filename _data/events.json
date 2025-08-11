@@ -485,6 +485,33 @@
     "description": "Oakland, CA, United States"
   },
   {
+    "name": "CityCamp Oakland",
+    "notes": "Eventbrite may not be published yet, plan to publish it soon",
+    "Status": "In progress",
+    "venue": "Oakland City Hall",
+    "poc": "OpenOakland",
+    "city": "Oakland",
+    "website": "https://citycampoakland.eventbrite.com",
+    "email": "citycamp@openoakland.org",
+    "date": "2025-09-20",
+    "organizer": "OpenOakland",
+    "organizer-url": "https://openoakland.org/",
+    "streetAddress": "1 Frank H. Ogawa Plaza",
+    "price": "Free, Donations welcome",
+    "postalCode": "94612",
+    "addressLocality": "Oakland",
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "oakland-ca-united-states",
+    "description": "September 20, 2025, Oakland, CA, United States"
+  },
+  {
     "name": "CityCamp Oklahoma City",
     "Status": "Done",
     "city": "Oklahoma City",
@@ -659,6 +686,8 @@
     "city": "Tulsa",
     "email": "tulsadesigner@gmail.com",
     "date": "2025-09-19",
+    "latitude": 36.1556565,
+    "longitude": -95.9955354,
     "organizer": "Tulsa Data Science",
     "organizer-url": "https://www.tulsadatascience.org/",
     "streetAddress": "12 N. Cheyenne Ave.",
