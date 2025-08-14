@@ -68,6 +68,11 @@ schematype: "Event"
 
       <h2>About</h2>
       <p>{{ page.title }} is a civic-focused event for the {{ page.city }} community. While space is limited, everyone is welcome to join and share their ideas and skills to help make {{ page.city }} a better place.</p>
+
+      {% if event.about %}
+      <p>{{ event.about | markdownify }}</p>
+      {% endif %}
+
       {% if site.data.who.docs %}
         <h2>Who it's for</h2>
         <div class="row">
