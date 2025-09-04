@@ -31,7 +31,7 @@ Icons:
 
 ## Assets
 
-- [Brand files](https://www.figma.com/design/Mr9CVVPOvNm2HdAfirnqQd/CityCamp-brand-assets-(Community)?node-id=0-1&t=tFQQjITroFf9OK2g-1) (Figma)
+- [Brand files](https://www.figma.com/design/miODOWVv60q6bOcOem60rI/CityCamp-brand-assets?node-id=0-1&t=ecgp2aNZF589knUr-1) (Figma)
 
 ## Photos
 - [Unconference photos (general)](https://photos.app.goo.gl/h215ywWD7gfjEQXHA)
