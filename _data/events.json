@@ -54,6 +54,7 @@
     ],
     "addressCountry": "United States",
     "addressRegion": "GA",
+    "about": "Civic Tech Atlanta (501(c)(3), formerly Code for Atlanta), in partnership with the Mayor's Office I-Team, invites community organizers, technologists, artists, designers, public servants, and civic-minded residents to CityCamp on Saturday, September 20th, 2025. CityCamp is an unconference to harness community power and technology for local solutions.\n\nOur theme is We are here to save us. It is our rallying cry for grassroots mobilization at the municipal level. CityCamp will create a vital space for Atlanta's civic ecosystem to co-create and share innovative approaches to community challenges. Key areas include:\n\n* Improving civic engagement through accessible technology\n* Identifying actions to build climate resilience\n* Ways to address our affordable housing crisis\n* Decreasing racial disparities to achieve equitable outcomes\n* Building our future while honoring our past",
     "slug": "atlanta-ga-united-states",
     "description": "September 20, 2025, Atlanta, GA, United States"
   },
@@ -560,6 +561,32 @@
     "addressRegion": "AZ",
     "slug": "phoenix-az-united-states",
     "description": "Phoenix, AZ, United States"
+  },
+  {
+    "name": "CityCamp PDX",
+    "notes": "CityCamp Lite\nOur focus: Youth Organizations\nSept 26 - 1:00-4:00pm \u000b\nMeyer Memorial Trust\u000b\n",
+    "Status": "In progress",
+    "venue": "Meyer Memorial Trust",
+    "poc": "Denise Waldron",
+    "city": "Portland",
+    "website": "https://docs.google.com/forms/d/e/1FAIpQLSe-Yi8UOqqfHaR4KF2ms5GldsIrxWvT2QOPj6Llb1uFiYUQ8w/viewform?usp=header",
+    "email": "denise@life2launch.com",
+    "date": "2025-09-26",
+    "organizer": "Oregon Commons Camps",
+    "streetAddress": "2045 N Vancouver Ave",
+    "price": "TBD",
+    "postalCode": "97227",
+    "addressLocality": "Portland",
+    "address": [
+      "recnjzLsfLfW5K5ow"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "OR",
+    "slug": "portland-or-united-states",
+    "description": "September 26, 2025, Portland, OR, United States"
   },
   {
     "name": "CityCamp Raleigh",
