@@ -623,6 +623,32 @@
     "description": "Sacramento, CA, United States"
   },
   {
+    "name": "CityCamp Twin Cities",
+    "notes": "Minnesota Digital Service is looking to organize a hackathon before the end of 2025, and we are partnering with CityCamp to host a Twin Cities planning meeting on Sept 20. CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. Everyone is welcome to join and share their ideas and skills to help make the Twin Cities a better place.\n\nOur goal is to strengthen our civic tech community in Minnesota—creating a space for technologists, problem-solvers, and engaged citizens to build, learn, and connect.",
+    "Status": "In progress",
+    "venue": "Rondo Community Library",
+    "poc": "Liz Tupper",
+    "city": "Saint Paul, MN",
+    "email": "elizabeth.tupper@gmail.com",
+    "date": "2025-09-20",
+    "organizer": "Minnesota Digital Services",
+    "organizer-url": "https://minnesotadigitalservices.notion.site/Minnesota-Digital-Services-4c2d3e438ddb44df9b09ec96af8fcf9c",
+    "streetAddress": "461 N Dale St.",
+    "price": "Free",
+    "postalCode": "55103",
+    "addressLocality": "Saint Paul",
+    "address": [
+      "rec6aeYCv8e3J8WG0"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "MN",
+    "slug": "saint-paul-mn-mn-united-states",
+    "description": "September 20, 2025, Saint Paul, MN, MN, United States"
+  },
+  {
     "name": "CityCamp San Francisco",
     "Status": "Done",
     "city": "San Francisco",
