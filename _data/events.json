@@ -628,9 +628,11 @@
     "Status": "In progress",
     "venue": "Rondo Community Library",
     "poc": "Liz Tupper",
-    "city": "Saint Paul, MN",
+    "city": "Saint Paul",
     "email": "elizabeth.tupper@gmail.com",
     "date": "2025-09-20",
+    "latitude": 44.9552692,
+    "longitude": -93.1296343,
     "organizer": "Minnesota Digital Services",
     "organizer-url": "https://minnesotadigitalservices.notion.site/Minnesota-Digital-Services-4c2d3e438ddb44df9b09ec96af8fcf9c",
     "streetAddress": "461 N Dale St.",
@@ -645,8 +647,8 @@
     ],
     "addressCountry": "United States",
     "addressRegion": "MN",
-    "slug": "saint-paul-mn-mn-united-states",
-    "description": "September 20, 2025, Saint Paul, MN, MN, United States"
+    "slug": "saint-paul-mn-united-states",
+    "description": "September 20, 2025, Saint Paul, MN, United States"
   },
   {
     "name": "CityCamp San Francisco",
