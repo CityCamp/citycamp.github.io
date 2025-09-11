@@ -470,23 +470,6 @@
   },
   {
     "name": "CityCamp Oakland",
-    "Status": "Done",
-    "city": "Oakland",
-    "latitude": 37.8044,
-    "longitude": -122.2711,
-    "address": [
-      "recr4iFAkL0rm7JgV"
-    ],
-    "country": [
-      "rec45yssRULp5R735"
-    ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
-    "slug": "oakland-ca-united-states",
-    "description": "Oakland, CA, United States"
-  },
-  {
-    "name": "CityCamp Oakland",
     "notes": "Eventbrite may not be published yet, plan to publish it soon",
     "Status": "In progress",
     "venue": "Oakland City Hall",
@@ -513,6 +496,23 @@
     "addressRegion": "CA",
     "slug": "oakland-ca-united-states",
     "description": "September 20, 2025, Oakland, CA, United States"
+  },
+  {
+    "name": "CityCamp Oakland",
+    "Status": "Done",
+    "city": "Oakland",
+    "latitude": 37.8044,
+    "longitude": -122.2711,
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "oakland-ca-united-states",
+    "description": "Oakland, CA, United States"
   },
   {
     "name": "CityCamp Oklahoma City",
@@ -653,23 +653,6 @@
     "description": "September 20, 2025, Saint Paul, MN, United States"
   },
   {
-    "name": "CityCamp San Francisco",
-    "Status": "Done",
-    "city": "San Francisco",
-    "latitude": 37.7749,
-    "longitude": -122.4194,
-    "address": [
-      "recr4iFAkL0rm7JgV"
-    ],
-    "country": [
-      "rec45yssRULp5R735"
-    ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
-    "slug": "san-francisco-ca-united-states",
-    "description": "San Francisco, CA, United States"
-  },
-  {
     "name": "CityCamp SF",
     "Status": "In progress",
     "venue": "The Commons",
@@ -696,6 +679,23 @@
     "addressRegion": "CA",
     "slug": "san-francisco-ca-united-states",
     "description": "September 20, 2025, San Francisco, CA, United States"
+  },
+  {
+    "name": "CityCamp San Francisco",
+    "Status": "Done",
+    "city": "San Francisco",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "addressCountry": "United States",
+    "addressRegion": "CA",
+    "slug": "san-francisco-ca-united-states",
+    "description": "San Francisco, CA, United States"
   },
   {
     "name": "CityCamp Santiago",
