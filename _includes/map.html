@@ -30,12 +30,12 @@
 
     var cities = [{% for event in events %}
       {
-        name: "{{ event.name }}",
-        lat: {{ event.latitude }},
-        lng: {{ event.longitude }},
-        state: "{{ event.state }}",
-        status: "{{ event.Status }}",
-        slug: "{{ event.slug }}",
+        "name": "{{ event.name }}",
+        "lat": {{ event.latitude }},
+        "lng": {{ event.longitude }},
+        "state": "{{ event.state }}",
+        "status": "{{ event.Status }}",
+        "slug": "{{ event.slug }}",
       },
     {% endfor %}];
 
