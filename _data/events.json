@@ -441,10 +441,33 @@
     "description": "Monterrey, Mexico"
   },
   {
-    "latitude": 40.746429,
     "address": [
       "recr3PrtajDSCdTLs"
     ],
+    "organizer-url": "www.beta.nyc",
+    "organizer": "BetaNYC",
+    "price": "$30-$50",
+    "date": "2026-09-19",
+    "addressLocality": "New York",
+    "streetAddress": "695 Park Avenue ",
+    "Status": "In progress",
+    "email": "duncan@beta.nyc",
+    "addressRegion": "NY",
+    "addressCountry": "United States",
+    "postalCode": "10065",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "city": "New York City",
+    "name": "CityCamp NYC",
+    "venue": "Hunter College",
+    "poc": "Duncan Ballantine",
+    "website": "www.citycamp.nyc",
+    "slug": "new-york-city-ny-united-states",
+    "description": "September 19, 2026, New York City, NY, United States"
+  },
+  {
+    "latitude": 40.746429,
     "organizer-url": "https://beta.nyc",
     "organizer": "BetaNYC",
     "price": "TBD",
@@ -453,7 +476,6 @@
     "streetAddress": "2 Ct Square W",
     "Status": "Done",
     "email": "citycamp@beta.nyc",
-    "addressRegion": "NY",
     "addressCountry": "United States",
     "postalCode": "11101",
     "country": [
@@ -465,8 +487,9 @@
     "venue": "CUNY School of Law",
     "poc": "BetaNYC",
     "website": "https://www.citycamp.nyc",
-    "slug": "new-york-city-ny-united-states",
-    "description": "September 06, 2025, New York City, NY, United States"
+    "addressRegion": null,
+    "slug": "new-york-city-united-states",
+    "description": "September 06, 2025, New York City, United States"
   },
   {
     "latitude": 37.8044,
