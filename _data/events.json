@@ -441,6 +441,7 @@
     "description": "Monterrey, Mexico"
   },
   {
+    "latitude": 40.7859227,
     "address": [
       "recr3PrtajDSCdTLs"
     ],
@@ -458,6 +459,7 @@
     "country": [
       "rec45yssRULp5R735"
     ],
+    "longitude": -73.9541428,
     "city": "New York City",
     "name": "CityCamp NYC",
     "venue": "Hunter College",
@@ -586,6 +588,7 @@
     "description": "Phoenix, AZ, United States"
   },
   {
+    "latitude": 45.5377,
     "notes": "CityCamp Lite\nOur focus: Youth Organizations\nSept 26 - 1:00-4:00pm \u000b\nMeyer Memorial Trust\u000b\n",
     "address": [
       "recnjzLsfLfW5K5ow"
@@ -603,6 +606,7 @@
     "country": [
       "rec45yssRULp5R735"
     ],
+    "longitude": -122.66803,
     "city": "Portland",
     "name": "CityCamp PDX",
     "venue": "Meyer Memorial Trust",
