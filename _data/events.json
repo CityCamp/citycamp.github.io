@@ -469,7 +469,6 @@
     "description": "September 19, 2026, New York City, NY, United States"
   },
   {
-    "latitude": 40.746429,
     "organizer-url": "https://beta.nyc",
     "organizer": "BetaNYC",
     "price": "TBD",
@@ -483,7 +482,6 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "longitude": -73.944069,
     "city": "New York City",
     "name": "CityCamp NYC",
     "venue": "CUNY School of Law",
