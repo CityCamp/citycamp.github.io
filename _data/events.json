@@ -1,818 +1,816 @@
 [
   {
-    "name": "CityCamp Alberta",
-    "Status": "Done",
-    "city": "Alberta",
     "latitude": 53.93327,
-    "longitude": -116.5765,
+    "Status": "Done",
+    "addressCountry": "Canada",
     "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "addressCountry": "Canada",
+    "longitude": -116.5765,
+    "city": "Alberta",
+    "name": "CityCamp Alberta",
     "addressRegion": null,
     "slug": "alberta-canada",
     "description": "Alberta, Canada"
   },
   {
-    "name": "CityCamp Arvada",
-    "Status": "Done",
-    "city": "Arvada",
     "latitude": 39.8028,
-    "longitude": -105.0875,
     "address": [
       "rectO7NH2YTw1XFg0"
     ],
+    "Status": "Done",
+    "addressRegion": "CO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CO",
+    "longitude": -105.0875,
+    "city": "Arvada",
+    "name": "CityCamp Arvada",
     "slug": "arvada-co-united-states",
     "description": "Arvada, CO, United States"
   },
   {
-    "name": "CityCamp Atlanta",
-    "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
-    "Status": "In progress",
-    "venue": "City Hall - Old Council Chambers",
-    "poc": "Shaun Mosley",
-    "city": "Atlanta",
-    "website": "https://www.eventbrite.com/e/citycamp-atlanta-2025-tickets-1510915020499",
-    "email": "citycamp@civictechatlanta.org",
-    "date": "2025-09-20",
     "latitude": 33.74908765738871,
-    "longitude": -84.39014409967115,
-    "organizer": "Civic Tech Atlanta",
-    "organizer-url": "https://www.civictechatlanta.org",
-    "price": "Free but donations welcomed!",
-    "addressLocality": "Atlanta",
+    "notes": "Will need to return and update values, but this is the basic starter for Atlanta 🍑",
     "address": [
       "rec6Cq5o2GjXdkdkT"
     ],
+    "organizer-url": "https://www.civictechatlanta.org",
+    "organizer": "Civic Tech Atlanta",
+    "price": "Free but donations welcomed!",
+    "date": "2025-09-20",
+    "addressLocality": "Atlanta",
+    "Status": "Done",
+    "email": "citycamp@civictechatlanta.org",
+    "addressRegion": "GA",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "GA",
+    "longitude": -84.39014409967115,
+    "city": "Atlanta",
+    "name": "CityCamp Atlanta",
+    "venue": "City Hall - Old Council Chambers",
+    "poc": "Shaun Mosley",
     "about": "Civic Tech Atlanta (501(c)(3), formerly Code for Atlanta), in partnership with the Mayor's Office I-Team, invites community organizers, technologists, artists, designers, public servants, and civic-minded residents to CityCamp on Saturday, September 20th, 2025. CityCamp is an unconference to harness community power and technology for local solutions.\n\nOur theme is We are here to save us. It is our rallying cry for grassroots mobilization at the municipal level. CityCamp will create a vital space for Atlanta's civic ecosystem to co-create and share innovative approaches to community challenges. Key areas include:\n\n* Improving civic engagement through accessible technology\n* Identifying actions to build climate resilience\n* Ways to address our affordable housing crisis\n* Decreasing racial disparities to achieve equitable outcomes\n* Building our future while honoring our past",
+    "website": "https://www.eventbrite.com/e/citycamp-atlanta-2025-tickets-1510915020499",
     "slug": "atlanta-ga-united-states",
     "description": "September 20, 2025, Atlanta, GA, United States"
   },
   {
-    "name": "CityCamp Bizerte",
-    "Status": "Done",
-    "city": "Bizerte",
     "latitude": 37.2744,
-    "longitude": 9.8739,
+    "Status": "Done",
+    "addressCountry": "Tunisia",
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": "Tunisia",
+    "longitude": 9.8739,
+    "city": "Bizerte",
+    "name": "CityCamp Bizerte",
     "addressRegion": null,
     "slug": "bizerte-tunisia",
     "description": "Bizerte, Tunisia"
   },
   {
-    "name": "CityCamp Boulder",
-    "Status": "Done",
-    "city": "Boulder",
     "latitude": 40.015,
-    "longitude": -105.2705,
     "address": [
       "rectO7NH2YTw1XFg0"
     ],
+    "Status": "Done",
+    "addressRegion": "CO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CO",
+    "longitude": -105.2705,
+    "city": "Boulder",
+    "name": "CityCamp Boulder",
     "slug": "boulder-co-united-states",
     "description": "Boulder, CO, United States"
   },
   {
-    "name": "CityCamp Brighton",
-    "Status": "Done",
-    "city": "Brighton",
     "latitude": 50.8225,
-    "longitude": -0.1372,
+    "Status": "Done",
+    "addressCountry": "United Kingdom",
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": "United Kingdom",
+    "longitude": -0.1372,
+    "city": "Brighton",
+    "name": "CityCamp Brighton",
     "addressRegion": null,
     "slug": "brighton-united-kingdom",
     "description": "Brighton, United Kingdom"
   },
   {
-    "name": "Argentina",
-    "Status": "Done",
-    "city": "Buenos Aires",
     "latitude": -34.6037,
-    "longitude": -58.3816,
+    "Status": "Done",
+    "addressCountry": "Argentina",
     "country": [
       "recvdOhU3HtPLAD5s"
     ],
-    "addressCountry": "Argentina",
+    "longitude": -58.3816,
+    "city": "Buenos Aires",
+    "name": "Argentina",
     "addressRegion": null,
     "slug": "buenos-aires-argentina",
     "description": "Buenos Aires, Argentina"
   },
   {
-    "name": "CityCamp Castle Rock",
-    "Status": "Done",
-    "city": "Castle Rock",
     "latitude": 39.3722,
-    "longitude": -104.8561,
     "address": [
       "rectO7NH2YTw1XFg0"
     ],
+    "Status": "Done",
+    "addressRegion": "CO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CO",
+    "longitude": -104.8561,
+    "city": "Castle Rock",
+    "name": "CityCamp Castle Rock",
     "slug": "castle-rock-co-united-states",
     "description": "Castle Rock, CO, United States"
   },
   {
-    "name": "CityCamp Chandler",
-    "Status": "Done",
-    "city": "Chandler",
     "latitude": 33.3062,
-    "longitude": -111.8413,
     "address": [
       "recv5GonFpxRhjgb0"
     ],
+    "Status": "Done",
+    "addressRegion": "AZ",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "AZ",
+    "longitude": -111.8413,
+    "city": "Chandler",
+    "name": "CityCamp Chandler",
     "slug": "chandler-az-united-states",
     "description": "Chandler, AZ, United States"
   },
   {
-    "name": "CityCamp Chelmsford",
-    "Status": "Done",
-    "city": "Chelmsford",
     "latitude": 51.7356,
-    "longitude": 0.4685,
+    "Status": "Done",
+    "addressCountry": "United Kingdom",
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": "United Kingdom",
+    "longitude": 0.4685,
+    "city": "Chelmsford",
+    "name": "CityCamp Chelmsford",
     "addressRegion": null,
     "slug": "chelmsford-united-kingdom",
     "description": "Chelmsford, United Kingdom"
   },
   {
-    "name": "CityCamp Chicago",
-    "notes": "Inaugural CityCamp\n",
-    "Status": "Done",
-    "city": "Chicago",
     "latitude": 41.8781,
-    "longitude": -87.6298,
+    "notes": "Inaugural CityCamp\n",
     "address": [
       "recLLFOP44zxqgRN1"
     ],
+    "Status": "Done",
+    "addressRegion": "IL",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "IL",
+    "longitude": -87.6298,
+    "city": "Chicago",
+    "name": "CityCamp Chicago",
     "slug": "chicago-il-united-states",
     "description": "Chicago, IL, United States"
   },
   {
-    "name": "CityCamp Coventry",
-    "Status": "Done",
-    "city": "Coventry",
     "latitude": 52.4068,
-    "longitude": -1.5197,
+    "Status": "Done",
+    "addressCountry": "United Kingdom",
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": "United Kingdom",
+    "longitude": -1.5197,
+    "city": "Coventry",
+    "name": "CityCamp Coventry",
     "addressRegion": null,
     "slug": "coventry-united-kingdom",
     "description": "Coventry, United Kingdom"
   },
   {
-    "name": "CityCamp Denver",
-    "Status": "Done",
-    "city": "Denver",
     "latitude": 39.7392,
-    "longitude": -104.9903,
     "address": [
       "rectO7NH2YTw1XFg0"
     ],
+    "Status": "Done",
+    "addressRegion": "CO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CO",
+    "longitude": -104.9903,
+    "city": "Denver",
+    "name": "CityCamp Denver",
     "slug": "denver-co-united-states",
     "description": "Denver, CO, United States"
   },
   {
-    "name": "CityCamp Edmonton",
-    "Status": "Done",
-    "city": "Edmonton",
     "latitude": 53.5461,
-    "longitude": -113.4938,
+    "Status": "Done",
+    "addressCountry": "Canada",
     "country": [
       "recpQnvjCxeIKuJhl"
     ],
-    "addressCountry": "Canada",
+    "longitude": -113.4938,
+    "city": "Edmonton",
+    "name": "CityCamp Edmonton",
     "addressRegion": null,
     "slug": "edmonton-canada",
     "description": "Edmonton, Canada"
   },
   {
-    "name": "CityCamp Eugene",
-    "Status": "In progress",
-    "venue": "Ninkasi Brewing 3rd Floor Bar & Patio",
-    "poc": "Mark Davis",
-    "city": "Eugene",
-    "website": "https://openeugene.org/citycamp-eugene-2025/",
-    "email": "info@openeugene.org",
-    "date": "2025-10-25",
-    "latitude": 44.0579471,
-    "longitude": -123.1115053,
-    "streetAddress": "155 Blair Blvd",
-    "price": "TBD",
-    "postalCode": "97402",
-    "addressLocality": "Eugene",
+    "latitude": 44.052222,
     "address": [
       "recnjzLsfLfW5K5ow"
     ],
+    "price": "TBD",
+    "date": "2025-10-25",
+    "addressLocality": "Eugene",
+    "streetAddress": "155 Blair Blvd",
+    "Status": "Done",
+    "email": "info@openeugene.org",
+    "addressRegion": "OR",
+    "addressCountry": "United States",
+    "postalCode": "97402",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "OR",
+    "longitude": -123.0925,
+    "city": "Eugene",
+    "name": "CityCamp Eugene",
+    "venue": "Ninkasi Brewing 3rd Floor Bar & Patio",
+    "poc": "Mark Davis",
+    "website": "https://citycampeugene2025.eventbrite.com",
     "slug": "eugene-or-united-states",
     "description": "October 25, 2025, Eugene, OR, United States"
   },
   {
-    "name": "CityCamp Gafsa",
-    "Status": "Done",
-    "city": "Gafsa",
     "latitude": 34.425,
-    "longitude": 8.7842,
+    "Status": "Done",
+    "addressCountry": "Tunisia",
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": "Tunisia",
+    "longitude": 8.7842,
+    "city": "Gafsa",
+    "name": "CityCamp Gafsa",
     "addressRegion": null,
     "slug": "gafsa-tunisia",
     "description": "Gafsa, Tunisia"
   },
   {
-    "name": "CityCamp Gainesville",
-    "Status": "In progress",
-    "venue": "Pascal’s Coffeehouse",
-    "poc": "Nicole Dan",
-    "city": "Gainesville",
-    "website": "https://floridainnovation.org/citycamp-gainesville-2025/",
-    "email": "city.camp@floridainnovation.org",
-    "date": "2025-09-20",
     "latitude": 29.653219,
-    "longitude": -82.336097,
-    "organizer": "Florida Community Innovation",
-    "organizer-url": "https://floridainnovation.org/",
-    "streetAddress": "112 NW 16th St",
-    "price": "N/A",
-    "postalCode": "32603",
-    "addressLocality": "Gainesville",
     "address": [
       "recqUEjWZMVs6YuxP"
     ],
+    "organizer-url": "https://floridainnovation.org/",
+    "organizer": "Florida Community Innovation",
+    "price": "N/A",
+    "date": "2025-09-20",
+    "addressLocality": "Gainesville",
+    "streetAddress": "112 NW 16th St",
+    "Status": "Done",
+    "email": "city.camp@floridainnovation.org",
+    "addressRegion": "FL",
+    "addressCountry": "United States",
+    "postalCode": "32603",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "FL",
+    "longitude": -82.336097,
+    "city": "Gainesville",
+    "name": "CityCamp Gainesville",
+    "venue": "Pascal’s Coffeehouse",
+    "poc": "Nicole Dan",
+    "website": "https://floridainnovation.org/citycamp-gainesville-2025/",
     "slug": "gainesville-fl-united-states",
     "description": "September 20, 2025, Gainesville, FL, United States"
   },
   {
-    "name": "CityCamp Golden",
-    "Status": "Done",
-    "city": "Golden",
     "latitude": 39.7555,
-    "longitude": -105.2211,
     "address": [
       "rectO7NH2YTw1XFg0"
     ],
+    "Status": "Done",
+    "addressRegion": "CO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CO",
+    "longitude": -105.2211,
+    "city": "Golden",
+    "name": "CityCamp Golden",
     "slug": "golden-co-united-states",
     "description": "Golden, CO, United States"
   },
   {
-    "name": "CityCamp Hampton Roads",
-    "Status": "Done",
-    "city": "Hampton Roads",
     "latitude": 36.8508,
-    "longitude": -76.2859,
     "address": [
       "rec6mFxPm38Xa5eGy"
     ],
+    "Status": "Done",
+    "addressRegion": "VA",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "VA",
+    "longitude": -76.2859,
+    "city": "Hampton Roads",
+    "name": "CityCamp Hampton Roads",
     "slug": "hampton-roads-va-united-states",
     "description": "Hampton Roads, VA, United States"
   },
   {
-    "name": "CityCamp Honolulu",
-    "Status": "Done",
-    "city": "Honolulu",
     "latitude": 21.3069,
-    "longitude": -157.8583,
     "address": [
       "recughrQfBU56s9xn"
     ],
+    "Status": "Done",
+    "addressRegion": "HI",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "HI",
+    "longitude": -157.8583,
+    "city": "Honolulu",
+    "name": "CityCamp Honolulu",
     "slug": "honolulu-hi-united-states",
     "description": "Honolulu, HI, United States"
   },
   {
-    "name": "CityCamp Kansas City",
-    "Status": "Done",
-    "city": "Kansas City",
     "latitude": 39.0997,
-    "longitude": -94.5786,
     "address": [
       "rec0TvBpbZUUlzn5h"
     ],
+    "Status": "Done",
+    "addressRegion": "MO",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "MO",
+    "longitude": -94.5786,
+    "city": "Kansas City",
+    "name": "CityCamp Kansas City",
     "slug": "kansas-city-mo-united-states",
     "description": "Kansas City, MO, United States"
   },
   {
-    "name": "CityCamp London",
-    "Status": "Done",
-    "city": "London",
     "latitude": 51.5074,
-    "longitude": -0.1278,
+    "Status": "Done",
+    "addressCountry": "United Kingdom",
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": "United Kingdom",
+    "longitude": -0.1278,
+    "city": "London",
+    "name": "CityCamp London",
     "addressRegion": null,
     "slug": "london-united-kingdom",
     "description": "London, United Kingdom"
   },
   {
-    "name": "CityCamp Madison",
-    "Status": "Done",
-    "city": "Madison",
     "latitude": 43.0731,
-    "longitude": -89.4012,
     "address": [
       "recfSTlU6G3GgeCyP"
     ],
+    "Status": "Done",
+    "addressRegion": "WI",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "WI",
+    "longitude": -89.4012,
+    "city": "Madison",
+    "name": "CityCamp Madison",
     "slug": "madison-wi-united-states",
     "description": "Madison, WI, United States"
   },
   {
-    "name": "CityCamp Manchester",
-    "Status": "Done",
-    "city": "Manchester",
     "latitude": 53.4808,
-    "longitude": -2.2426,
+    "Status": "Done",
+    "addressCountry": "United Kingdom",
     "country": [
       "recSPfNgJFj1IBMAN"
     ],
-    "addressCountry": "United Kingdom",
+    "longitude": -2.2426,
+    "city": "Manchester",
+    "name": "CityCamp Manchester",
     "addressRegion": null,
     "slug": "manchester-united-kingdom",
     "description": "Manchester, United Kingdom"
   },
   {
-    "name": "CityCamp Minneapolis",
-    "Status": "Done",
-    "city": "Minneapolis",
     "latitude": 44.9778,
-    "longitude": -93.265,
     "address": [
       "rec6aeYCv8e3J8WG0"
     ],
+    "Status": "Done",
+    "addressRegion": "MN",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "MN",
+    "longitude": -93.265,
+    "city": "Minneapolis",
+    "name": "CityCamp Minneapolis",
     "slug": "minneapolis-mn-united-states",
     "description": "Minneapolis, MN, United States"
   },
   {
-    "name": "CityCamp Monterrey",
-    "Status": "Done",
-    "city": "Monterrey",
     "latitude": 25.6866,
-    "longitude": -100.3161,
+    "Status": "Done",
+    "addressCountry": "Mexico",
     "country": [
       "rec2fbj9hVoCoydwy"
     ],
-    "addressCountry": "Mexico",
+    "longitude": -100.3161,
+    "city": "Monterrey",
+    "name": "CityCamp Monterrey",
     "addressRegion": null,
     "slug": "monterrey-mexico",
     "description": "Monterrey, Mexico"
   },
   {
-    "name": "CityCamp NYC",
-    "Status": "In progress",
-    "venue": "CUNY School of Law",
-    "poc": "BetaNYC",
-    "city": "New York City",
-    "website": "https://www.citycamp.nyc",
-    "email": "citycamp@beta.nyc",
-    "date": "2025-09-06",
     "latitude": 40.746429,
-    "longitude": -73.944069,
-    "organizer": "BetaNYC",
-    "organizer-url": "https://beta.nyc",
-    "streetAddress": "2 Ct Square W",
-    "price": "TBD",
-    "postalCode": "11101",
-    "addressLocality": "Long Island City",
     "address": [
       "recr3PrtajDSCdTLs"
     ],
+    "organizer-url": "https://beta.nyc",
+    "organizer": "BetaNYC",
+    "price": "TBD",
+    "date": "2025-09-06",
+    "addressLocality": "Long Island City",
+    "streetAddress": "2 Ct Square W",
+    "Status": "Done",
+    "email": "citycamp@beta.nyc",
+    "addressRegion": "NY",
+    "addressCountry": "United States",
+    "postalCode": "11101",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "NY",
+    "longitude": -73.944069,
+    "city": "New York City",
+    "name": "CityCamp NYC",
+    "venue": "CUNY School of Law",
+    "poc": "BetaNYC",
+    "website": "https://www.citycamp.nyc",
     "slug": "new-york-city-ny-united-states",
     "description": "September 06, 2025, New York City, NY, United States"
   },
   {
-    "name": "CityCamp Oakland",
-    "Status": "Done",
-    "city": "Oakland",
     "latitude": 37.8044,
-    "longitude": -122.2711,
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
+    "Status": "Done",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
+    "longitude": -122.2711,
+    "city": "Oakland",
+    "name": "CityCamp Oakland",
     "slug": "oakland-ca-united-states",
     "description": "Oakland, CA, United States"
   },
   {
-    "name": "CityCamp Oakland",
-    "notes": "Eventbrite may not be published yet, plan to publish it soon",
-    "Status": "In progress",
-    "venue": "Oakland City Hall",
-    "poc": "OpenOakland",
-    "city": "Oakland",
-    "website": "https://citycampoakland.eventbrite.com",
-    "email": "citycamp@openoakland.org",
-    "date": "2025-09-20",
     "latitude": 37.8053204,
-    "longitude": -122.2725444,
-    "organizer": "OpenOakland",
-    "organizer-url": "https://openoakland.org/",
-    "streetAddress": "1 Frank H. Ogawa Plaza",
-    "price": "Free, Donations welcome",
-    "postalCode": "94612",
-    "addressLocality": "Oakland",
+    "notes": "Eventbrite may not be published yet, plan to publish it soon",
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
+    "organizer-url": "https://openoakland.org/",
+    "organizer": "OpenOakland",
+    "price": "Free, Donations welcome",
+    "date": "2025-09-20",
+    "addressLocality": "Oakland",
+    "streetAddress": "1 Frank H. Ogawa Plaza",
+    "Status": "Done",
+    "email": "citycamp@openoakland.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94612",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
+    "longitude": -122.2725444,
+    "city": "Oakland",
+    "name": "CityCamp Oakland",
+    "venue": "Oakland City Hall",
+    "poc": "OpenOakland",
+    "website": "https://citycampoakland.eventbrite.com",
     "slug": "oakland-ca-united-states",
     "description": "September 20, 2025, Oakland, CA, United States"
   },
   {
-    "name": "CityCamp Oklahoma City",
-    "Status": "Done",
-    "city": "Oklahoma City",
     "latitude": 35.4676,
-    "longitude": -97.5164,
     "address": [
       "recMJ6zwJrmx3V6A5"
     ],
+    "Status": "Done",
+    "addressRegion": "OK",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "OK",
+    "longitude": -97.5164,
+    "city": "Oklahoma City",
+    "name": "CityCamp Oklahoma City",
     "slug": "oklahoma-city-ok-united-states",
     "description": "Oklahoma City, OK, United States"
   },
   {
-    "name": "CityCamp Perm",
-    "Status": "Done",
-    "city": "Perm",
     "latitude": 58.0105,
-    "longitude": 56.2502,
+    "Status": "Done",
+    "addressCountry": "Russia",
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": "Russia",
+    "longitude": 56.2502,
+    "city": "Perm",
+    "name": "CityCamp Perm",
     "addressRegion": null,
     "slug": "perm-russia",
     "description": "Perm, Russia"
   },
   {
-    "name": "CityCamp Phoenix",
-    "Status": "Done",
-    "city": "Phoenix",
     "latitude": 33.4484,
-    "longitude": -112.074,
     "address": [
       "recv5GonFpxRhjgb0"
     ],
+    "Status": "Done",
+    "addressRegion": "AZ",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "AZ",
+    "longitude": -112.074,
+    "city": "Phoenix",
+    "name": "CityCamp Phoenix",
     "slug": "phoenix-az-united-states",
     "description": "Phoenix, AZ, United States"
   },
   {
-    "name": "CityCamp PDX",
     "notes": "CityCamp Lite\nOur focus: Youth Organizations\nSept 26 - 1:00-4:00pm \u000b\nMeyer Memorial Trust\u000b\n",
-    "Status": "In progress",
-    "latitude": 45.5377596,
-    "longitude": -122.6705893,
-    "venue": "Meyer Memorial Trust",
-    "poc": "Denise Waldron",
-    "city": "Portland",
-    "website": "https://docs.google.com/forms/d/e/1FAIpQLSe-Yi8UOqqfHaR4KF2ms5GldsIrxWvT2QOPj6Llb1uFiYUQ8w/viewform?usp=header",
-    "email": "denise@life2launch.com",
-    "date": "2025-09-26",
-    "organizer": "Oregon Commons Camps",
-    "streetAddress": "2045 N Vancouver Ave",
-    "price": "TBD",
-    "postalCode": "97227",
-    "addressLocality": "Portland",
     "address": [
       "recnjzLsfLfW5K5ow"
     ],
+    "organizer": "Oregon Commons Camps",
+    "price": "TBD",
+    "date": "2025-09-26",
+    "addressLocality": "Portland",
+    "streetAddress": "2045 N Vancouver Ave",
+    "Status": "Done",
+    "email": "denise@life2launch.com",
+    "addressRegion": "OR",
+    "addressCountry": "United States",
+    "postalCode": "97227",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "OR",
+    "city": "Portland",
+    "name": "CityCamp PDX",
+    "venue": "Meyer Memorial Trust",
+    "poc": "Denise Waldron",
+    "website": "https://docs.google.com/forms/d/e/1FAIpQLSe-Yi8UOqqfHaR4KF2ms5GldsIrxWvT2QOPj6Llb1uFiYUQ8w/viewform?usp=header",
     "slug": "portland-or-united-states",
     "description": "September 26, 2025, Portland, OR, United States"
   },
   {
-    "name": "CityCamp Raleigh",
-    "Status": "Done",
-    "city": "Raleigh",
     "latitude": 35.7796,
-    "longitude": -78.6382,
     "address": [
       "recICkRsmtX2hAzL8"
     ],
+    "Status": "Done",
+    "addressRegion": "NC",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "NC",
+    "longitude": -78.6382,
+    "city": "Raleigh",
+    "name": "CityCamp Raleigh",
     "slug": "raleigh-nc-united-states",
     "description": "Raleigh, NC, United States"
   },
   {
-    "name": "CityCamp Sacramento",
-    "Status": "Done",
-    "city": "Sacramento",
     "latitude": 38.5781,
-    "longitude": -121.4944,
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
+    "Status": "Done",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
+    "longitude": -121.4944,
+    "city": "Sacramento",
+    "name": "CityCamp Sacramento",
     "slug": "sacramento-ca-united-states",
     "description": "Sacramento, CA, United States"
   },
   {
-    "name": "CityCamp Twin Cities",
-    "notes": "Minnesota Digital Service is looking to organize a hackathon before the end of 2025, and we are partnering with CityCamp to host a Twin Cities planning meeting on Sept 20. CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. Everyone is welcome to join and share their ideas and skills to help make the Twin Cities a better place.\n\nOur goal is to strengthen our civic tech community in Minnesota—creating a space for technologists, problem-solvers, and engaged citizens to build, learn, and connect.",
-    "Status": "In progress",
-    "venue": "Rondo Community Library",
-    "poc": "Liz Tupper",
-    "city": "Saint Paul",
-    "website": "https://www.linkedin.com/events/7371662210986672128/",
-    "email": "elizabeth.tupper@gmail.com",
-    "date": "2025-09-20",
     "latitude": 44.954002,
-    "longitude": -93.120539,
-    "organizer": "Minnesota Digital Services",
-    "organizer-url": "https://minnesotadigitalservices.notion.site/Minnesota-Digital-Services-4c2d3e438ddb44df9b09ec96af8fcf9c",
-    "streetAddress": "461 N Dale St.",
-    "price": "Free",
-    "postalCode": "55103",
-    "addressLocality": "Saint Paul",
+    "notes": "Minnesota Digital Service is looking to organize a hackathon before the end of 2025, and we are partnering with CityCamp to host a Twin Cities planning meeting on Sept 20. CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. Everyone is welcome to join and share their ideas and skills to help make the Twin Cities a better place.\n\nOur goal is to strengthen our civic tech community in Minnesota—creating a space for technologists, problem-solvers, and engaged citizens to build, learn, and connect.",
     "address": [
       "rec6aeYCv8e3J8WG0"
     ],
+    "organizer-url": "https://minnesotadigitalservices.notion.site/Minnesota-Digital-Services-4c2d3e438ddb44df9b09ec96af8fcf9c",
+    "organizer": "Minnesota Digital Services",
+    "price": "Free",
+    "date": "2025-09-20",
+    "addressLocality": "Saint Paul",
+    "streetAddress": "461 N Dale St.",
+    "Status": "Done",
+    "email": "elizabeth.tupper@gmail.com",
+    "addressRegion": "MN",
+    "addressCountry": "United States",
+    "postalCode": "55103",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "MN",
+    "longitude": -93.120539,
+    "city": "Saint Paul",
+    "name": "CityCamp Twin Cities",
+    "venue": "Rondo Community Library",
+    "poc": "Liz Tupper",
     "about": "Happening 2-4pm",
+    "website": "https://www.linkedin.com/events/7371662210986672128/",
     "slug": "saint-paul-mn-united-states",
     "description": "September 20, 2025, Saint Paul, MN, United States"
   },
   {
-    "name": "CityCamp San Francisco",
-    "Status": "Done",
-    "city": "San Francisco",
     "latitude": 37.7749,
-    "longitude": -122.4194,
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
+    "Status": "Done",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
+    "longitude": -122.4194,
+    "city": "San Francisco",
+    "name": "CityCamp San Francisco",
     "slug": "san-francisco-ca-united-states",
     "description": "San Francisco, CA, United States"
   },
   {
-    "name": "CityCamp SF",
-    "Status": "In progress",
-    "venue": "The Commons",
-    "poc": "Francis Li",
-    "city": "San Francisco",
-    "website": "https://c4sf.me/citycamp",
-    "email": "hello@sfcivictech.org",
-    "date": "2025-09-20",
     "latitude": 37.774929,
-    "longitude": -82.343498,
-    "organizer": "SF Civic Tech",
-    "organizer-url": "https://www.sfcivictech.org/",
-    "streetAddress": "550 Laguna St",
-    "price": "Free",
-    "postalCode": "94102",
-    "addressLocality": "San Francisco",
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
+    "organizer-url": "https://www.sfcivictech.org/",
+    "organizer": "SF Civic Tech",
+    "price": "Free",
+    "date": "2025-09-20",
+    "addressLocality": "San Francisco",
+    "streetAddress": "550 Laguna St",
+    "Status": "Done",
+    "email": "hello@sfcivictech.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94102",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "CA",
+    "longitude": -82.343498,
+    "city": "San Francisco",
+    "name": "CityCamp SF",
+    "venue": "The Commons",
+    "poc": "Francis Li",
+    "website": "https://c4sf.me/citycamp",
     "slug": "san-francisco-ca-united-states",
     "description": "September 20, 2025, San Francisco, CA, United States"
   },
   {
-    "name": "CityCamp Santiago",
-    "Status": "Done",
-    "city": "Santiago",
     "latitude": -33.4489,
-    "longitude": -70.6693,
+    "Status": "Done",
+    "addressCountry": "Chile",
     "country": [
       "recCgYNl5z07vysrY"
     ],
-    "addressCountry": "Chile",
+    "longitude": -70.6693,
+    "city": "Santiago",
+    "name": "CityCamp Santiago",
     "addressRegion": null,
     "slug": "santiago-chile",
     "description": "Santiago, Chile"
   },
   {
-    "name": "CityCamp Sfax",
-    "Status": "Done",
-    "city": "Sfax",
     "latitude": 34.739,
-    "longitude": 10.76,
+    "Status": "Done",
+    "addressCountry": "Tunisia",
     "country": [
       "recqYdT7PdHySu9D1"
     ],
-    "addressCountry": "Tunisia",
+    "longitude": 10.76,
+    "city": "Sfax",
+    "name": "CityCamp Sfax",
     "addressRegion": null,
     "slug": "sfax-tunisia",
     "description": "Sfax, Tunisia"
   },
   {
-    "name": "CityCamp St. Petersburg",
-    "Status": "Done",
-    "city": "St. Petersburg",
     "latitude": 59.9343,
-    "longitude": 30.3351,
+    "Status": "Done",
+    "addressCountry": "Russia",
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": "Russia",
+    "longitude": 30.3351,
+    "city": "St. Petersburg",
+    "name": "CityCamp St. Petersburg",
     "addressRegion": null,
     "slug": "st-petersburg-russia",
     "description": "St. Petersburg, Russia"
   },
   {
-    "name": "CityCamp Tulsa",
-    "Status": "In progress",
-    "venue": "Gradient",
-    "poc": "Carlos Moreno",
-    "city": "Tulsa",
-    "email": "tulsadesigner@gmail.com",
-    "date": "2025-09-19",
     "latitude": 36.1556565,
-    "longitude": -95.9955354,
-    "organizer": "Tulsa Data Science",
-    "organizer-url": "https://www.tulsadatascience.org/",
-    "streetAddress": "12 N. Cheyenne Ave.",
-    "price": "Free",
-    "postalCode": "74105",
-    "addressLocality": "Tulsa",
     "address": [
       "recMJ6zwJrmx3V6A5"
     ],
+    "organizer-url": "https://www.tulsadatascience.org/",
+    "organizer": "Tulsa Data Science",
+    "price": "Free",
+    "date": "2025-09-19",
+    "addressLocality": "Tulsa",
+    "streetAddress": "12 N. Cheyenne Ave.",
+    "Status": "Done",
+    "email": "tulsadesigner@gmail.com",
+    "addressRegion": "OK",
+    "addressCountry": "United States",
+    "postalCode": "74105",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "OK",
+    "longitude": -95.9955354,
+    "city": "Tulsa",
+    "name": "CityCamp Tulsa",
+    "venue": "Gradient",
+    "poc": "Carlos Moreno",
     "slug": "tulsa-ok-united-states",
     "description": "September 19, 2025, Tulsa, OK, United States"
   },
   {
-    "name": "CityCamp Tuscon",
-    "Status": "Done",
-    "city": "Tuscon",
     "latitude": 32.2226,
-    "longitude": -110.9747,
     "address": [
       "recv5GonFpxRhjgb0"
     ],
+    "Status": "Done",
+    "addressRegion": "AZ",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "AZ",
+    "longitude": -110.9747,
+    "city": "Tuscon",
+    "name": "CityCamp Tuscon",
     "slug": "tuscon-az-united-states",
     "description": "Tuscon, AZ, United States"
   },
   {
-    "name": "CityCamp Ulyanovsk",
-    "Status": "Done",
-    "city": "Ulyanovsk",
     "latitude": 54.3182,
-    "longitude": 48.3838,
+    "Status": "Done",
+    "addressCountry": "Russia",
     "country": [
       "recPhRmGVFmEhgbKl"
     ],
-    "addressCountry": "Russia",
+    "longitude": 48.3838,
+    "city": "Ulyanovsk",
+    "name": "CityCamp Ulyanovsk",
     "addressRegion": null,
     "slug": "ulyanovsk-russia",
     "description": "Ulyanovsk, Russia"
   },
   {
-    "name": "CityCamp Washington, D.C.",
-    "Status": "Done",
-    "city": "Washington, D.C.",
     "latitude": 38.9072,
-    "longitude": -77.0369,
     "address": [
       "recFcumnWcIxEGaad"
     ],
+    "Status": "Done",
+    "addressRegion": "DC",
+    "addressCountry": "United States",
     "country": [
       "rec45yssRULp5R735"
     ],
-    "addressCountry": "United States",
-    "addressRegion": "DC",
+    "longitude": -77.0369,
+    "city": "Washington, D.C.",
+    "name": "CityCamp Washington, D.C.",
     "slug": "washington-dc-dc-united-states",
     "description": "Washington, D.C., DC, United States"
   }
