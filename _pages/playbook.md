@@ -8,4 +8,4 @@ redirect_from:
   - /playbook/
 ---
 
-[Official CityCamp playbook document](https://docs.google.com/document/d/1nvZp2fcV7bS8S-HFZEJxuJyqAmRVNXaqf5Rt2RGuSQQ/edit?usp=sharing)
+[Official CityCamp playbook document](https://docs.google.com/document/d/1uUUTwXXZvDXuKOEmh0_vVjZVuq8kre_fVGxp0gY0EN0/edit?tab=t.41gigkt4xwqs)
