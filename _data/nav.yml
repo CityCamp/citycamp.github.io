@@ -25,6 +25,7 @@ docs:
   icon: fa-solid fa-gift
   url: /support
 
-- title: Help
-  icon: fa-solid fa-question-circle
-  url: /help
+#Jordan from BetaNYC did not want to delete these items, but they are commented out so they are not live on the site. 
+# - title: Help
+#   icon: fa-solid fa-question-circle
+#   url: /help
