@@ -17,8 +17,8 @@ docs:
  - title: Connect
    url: /connect
 
- - title: Contact
-   url: /contact
+ # - title: Contact
+ #   url: /contact
 
 -
 
@@ -59,8 +59,8 @@ docs:
 
 -
 
- - title: Help
-   url: /help
+ # - title: Help
+ #   url: /help
 
  - title: How we work
    url: /how-we-work
