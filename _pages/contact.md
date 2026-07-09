@@ -1,6 +1,7 @@
 ---
 title: Contact
 description: Contact CityCamp.
+published: false
 topics:
   - About
 redirect_from:
