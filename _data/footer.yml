@@ -62,11 +62,10 @@ docs:
  # - title: Help
  #   url: /help
 
- - title: How we work
-   url: /how-we-work
-
- - title: Code of conduct
+  - title: Code of conduct
    url: /conduct
+
+ - title: Accessibility
 
  - title: License
    url: /license
