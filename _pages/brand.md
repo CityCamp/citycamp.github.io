@@ -39,3 +39,6 @@ Icons:
 ## License
 
 - [License](/license)
+
+CityCamp is licensed under a Creative Commons License.
+
