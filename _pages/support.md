@@ -10,5 +10,4 @@ redirect_from:
 
 Ways to support CityCamp efforts:
 
-- CityCamp operations: [contact us](/contact)
 - Local CityCamp events: [find an event near you](/events) (and contact the organizers)
