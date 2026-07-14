@@ -14,7 +14,7 @@ The first CityCamp was organized by Kevin Curry and Jen Pahlka and held January 
 
 ## World CityCamp Day
 
-World CityCamp Day is held on the third Saturday of September.
+World CityCamp Day is held on the third Saturday of September. This year, World CityCamp Day is September 19, 2026.
 
 While some cities hold CityCamps throughout the year, World CityCamp Day brings together the global CityCamp community to celebrate their efforts. Some cities hold official CityCamps at this time, while others use it to plan for a future event.
 
