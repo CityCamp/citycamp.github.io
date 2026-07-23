@@ -269,34 +269,6 @@
     "description": "Gafsa, Tunisia"
   },
   {
-    "latitude": 29.6479581,
-    "notes": "Event will be from 10 AM to 6 PM. ",
-    "address": [
-      "recqUEjWZMVs6YuxP"
-    ],
-    "organizer-url": "https://floridainnovation.org/",
-    "organizer": "Florida Community Innovation Foundation",
-    "date": "2026-09-20",
-    "addressLocality": "Gainesville",
-    "streetAddress": "444 Newell Drive",
-    "Status": "In progress",
-    "email": "city.camp@floridainnovation.org",
-    "addressRegion": "FL",
-    "addressCountry": "United States",
-    "postalCode": "32611",
-    "country": [
-      "rec45yssRULp5R735"
-    ],
-    "longitude": -82.3439546,
-    "city": "Gainesville",
-    "name": "CityCamp Gainesville 2026",
-    "venue": "Marston Basement L136 Conference Room",
-    "poc": "Nikhil Sangamkar",
-    "website": "https://docs.google.com/forms/d/e/1FAIpQLSd6sg6sD4mGKLE1FgOth7RE570eZ6ZeBFHqtw4vVXig-sWMtg/viewform?usp=dialog",
-    "slug": "gainesville-fl-united-states",
-    "description": "September 20, 2026, Gainesville, FL, United States"
-  },
-  {
     "latitude": 29.653219,
     "address": [
       "recqUEjWZMVs6YuxP"
@@ -321,8 +293,36 @@
     "venue": "Pascal’s Coffeehouse",
     "poc": "Nicole Dan",
     "website": "https://floridainnovation.org/citycamp-gainesville-2025/",
-    "slug": "gainesville-fl-united-states",
+    "slug": "gainesville-fl-united-states-2025",
     "description": "September 20, 2025, Gainesville, FL, United States"
+  },
+  {
+    "latitude": 29.6479581,
+    "notes": "Event will be from 10 AM to 6 PM. ",
+    "address": [
+      "recqUEjWZMVs6YuxP"
+    ],
+    "organizer-url": "https://floridainnovation.org/",
+    "organizer": "Florida Community Innovation Foundation",
+    "date": "2026-09-20",
+    "addressLocality": "Gainesville",
+    "streetAddress": "444 Newell Drive",
+    "Status": "In progress",
+    "email": "city.camp@floridainnovation.org",
+    "addressRegion": "FL",
+    "addressCountry": "United States",
+    "postalCode": "32611",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "longitude": -82.3439546,
+    "city": "Gainesville",
+    "name": "CityCamp Gainesville 2026",
+    "venue": "Marston Basement L136 Conference Room",
+    "poc": "Nikhil Sangamkar",
+    "website": "https://docs.google.com/forms/d/e/1FAIpQLSd6sg6sD4mGKLE1FgOth7RE570eZ6ZeBFHqtw4vVXig-sWMtg/viewform?usp=dialog",
+    "slug": "gainesville-fl-united-states-2026",
+    "description": "September 20, 2026, Gainesville, FL, United States"
   },
   {
     "latitude": 39.7555,
@@ -564,7 +564,7 @@
     "venue": "Oakland City Hall",
     "poc": "OpenOakland",
     "website": "https://citycampoakland.eventbrite.com",
-    "slug": "oakland-ca-united-states",
+    "slug": "oakland-ca-united-states-2025",
     "description": "September 20, 2025, Oakland, CA, United States"
   },
   {
@@ -749,7 +749,7 @@
     "venue": "The Commons",
     "poc": "Francis Li",
     "website": "https://c4sf.me/citycamp",
-    "slug": "san-francisco-ca-united-states",
+    "slug": "san-francisco-ca-united-states-2025",
     "description": "September 20, 2025, San Francisco, CA, United States"
   },
   {
