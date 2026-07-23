@@ -28,7 +28,11 @@
     // City locations
     {% assign events = site.data.events %}
 
-    var cities = [{% for event in events %}
+    // Only emit events that have both coordinates. A record missing
+    // latitude/longitude (e.g. a new Airtable city not yet geocoded)
+    // would otherwise render as invalid JS (`"lat": ,`) and break the
+    // entire map. Skipping it keeps every other city rendering.
+    var cities = [{% for event in events %}{% if event.latitude and event.longitude and event.latitude != "" and event.longitude != "" %}
       {
         "name": "{{ event.name }}",
         "lat": {{ event.latitude }},
@@ -37,7 +41,7 @@
         "status": "{{ event.Status }}",
         "slug": "{{ event.slug }}",
       },
-    {% endfor %}];
+    {% endif %}{% endfor %}];
 
     // Custom black map pin
     const blackPin = L.icon({
