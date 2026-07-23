@@ -269,6 +269,7 @@
     "description": "Gafsa, Tunisia"
   },
   {
+    "latitude": 29.6479581,
     "notes": "Event will be from 10 AM to 6 PM. ",
     "address": [
       "recqUEjWZMVs6YuxP"
@@ -286,8 +287,9 @@
     "country": [
       "rec45yssRULp5R735"
     ],
+    "longitude": -82.3439546,
     "city": "Gainesville",
-    "name": "CityCamp Gainesville",
+    "name": "CityCamp Gainesville 2026",
     "venue": "Marston Basement L136 Conference Room",
     "poc": "Nikhil Sangamkar",
     "website": "https://docs.google.com/forms/d/e/1FAIpQLSd6sg6sD4mGKLE1FgOth7RE570eZ6ZeBFHqtw4vVXig-sWMtg/viewform?usp=dialog",
@@ -315,7 +317,7 @@
     ],
     "longitude": -82.336097,
     "city": "Gainesville",
-    "name": "CityCamp Gainesville",
+    "name": "CityCamp Gainesville 2025",
     "venue": "Pascal’s Coffeehouse",
     "poc": "Nicole Dan",
     "website": "https://floridainnovation.org/citycamp-gainesville-2025/",
@@ -487,7 +489,7 @@
     ],
     "longitude": -73.9541428,
     "city": "New York City",
-    "name": "CityCamp NYC",
+    "name": "CityCamp NYC 2026",
     "venue": "Hunter College",
     "poc": "Duncan Ballantine",
     "website": "www.citycamp.nyc",
@@ -511,7 +513,7 @@
     ],
     "longitude": -73.944069,
     "city": "New York City",
-    "name": "CityCamp NYC",
+    "name": "CityCamp NYC 2025",
     "venue": "CUNY School of Law",
     "poc": "BetaNYC",
     "website": "https://www.citycamp.nyc",
