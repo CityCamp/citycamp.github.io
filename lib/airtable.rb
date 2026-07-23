@@ -43,6 +43,23 @@ events = events.map do |row|
   row
 end
 
+# Ensure slugs are unique. A city that hosted CityCamp in more than one year
+# derives the same base slug (city + region + country) and would otherwise
+# collide onto a single /events/ page — so every pin for that city links to
+# whichever record generated the page. Append the event year to any shared
+# slug; fall back to a numeric suffix when a year is unavailable or still ties.
+events.group_by { |e| e["slug"] }.each_value do |group|
+  next if group.size == 1
+  seen = Hash.new(0)
+  group.each do |row|
+    year = (Date.parse(row["date"]).year rescue nil)
+    candidate = year ? "#{row["slug"]}-#{year}" : row["slug"]
+    seen[candidate] += 1
+    candidate = "#{candidate}-#{seen[candidate]}" if seen[candidate] > 1
+    row["slug"] = candidate
+  end
+end
+
 # order by `slug`
 events = events.sort_by { |e| e["slug"] }
 
