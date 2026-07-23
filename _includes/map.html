@@ -58,15 +58,13 @@
     cities.forEach(city => {
         // Extend bounds to include all cities
         bounds.extend([city.lat, city.lng]);
+const isActive = city.status == "In progress";
+const pinChoice = isActive ? activePin : blackPin;
 
-        let pinChoice;
-        if (city.status == "In progress") {
-          pinChoice = activePin
-        } else {
-          pinChoice = blackPin
-        }
+// Force active (blue) pins above black pins (Leaflet stacks by latitude by default)
+const zIndexOffset = isActive ? 1000 : 0;
 
-        L.marker([city.lat, city.lng], { icon: pinChoice })
+L.marker([city.lat, city.lng], { icon: pinChoice, zIndexOffset: zIndexOffset })
             .addTo(map)
             .bindPopup(`<b><a href="{{ site.baseurl }}/events/${city.slug}">${city.name}</a></b>`);
     });
