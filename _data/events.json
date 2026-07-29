@@ -297,7 +297,7 @@
     "description": "September 20, 2025, Gainesville, FL, United States"
   },
   {
-    "latitude": 29.6479581,
+    "latitude": 29.641,
     "notes": "Event will be from 10 AM to 6 PM. ",
     "address": [
       "recqUEjWZMVs6YuxP"
@@ -306,7 +306,7 @@
     "organizer": "Florida Community Innovation Foundation",
     "date": "2026-09-20",
     "addressLocality": "Gainesville",
-    "streetAddress": "444 Newell Drive",
+    "streetAddress": "686 Museum Road",
     "Status": "In progress",
     "email": "city.camp@floridainnovation.org",
     "addressRegion": "FL",
@@ -315,10 +315,10 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "longitude": -82.3439546,
+    "longitude": -82.342,
     "city": "Gainesville",
     "name": "CityCamp Gainesville 2026",
-    "venue": "Marston Basement L136 Conference Room",
+    "venue": "J. Wayne Reitz Union, Room G325",
     "poc": "Nikhil Sangamkar",
     "website": "https://docs.google.com/forms/d/e/1FAIpQLSd6sg6sD4mGKLE1FgOth7RE570eZ6ZeBFHqtw4vVXig-sWMtg/viewform?usp=dialog",
     "slug": "gainesville-fl-united-states-2026",
