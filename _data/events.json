@@ -525,6 +525,32 @@
     "description": "September 19, 2026, New York City, NY, United States"
   },
   {
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "organizer-url": "https://openoakland.org/",
+    "organizer": "OpenOakland",
+    "price": "0",
+    "date": "2026-10-17",
+    "addressLocality": "Oakland",
+    "streetAddress": "1 Frank H. Ogawa Plaza",
+    "Status": "In progress",
+    "email": "rowley.cristy@openoakland.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94612",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "city": "Oakland, CA",
+    "name": "CityCamp Oakland",
+    "venue": "Oakland City Hall",
+    "poc": "Cristy Rowley",
+    "website": "https://citycamp.eventbrite.com/?aff=Citycampcom",
+    "slug": "oakland-ca-ca-united-states",
+    "description": "October 17, 2026, Oakland, CA, CA, United States"
+  },
+  {
     "latitude": 37.8044,
     "address": [
       "recr4iFAkL0rm7JgV"
