@@ -571,6 +571,7 @@
     "description": "September 20, 2025, Oakland, CA, United States"
   },
   {
+    "latitude": 37.8051197,
     "address": [
       "recr4iFAkL0rm7JgV"
     ],
@@ -588,7 +589,8 @@
     "country": [
       "rec45yssRULp5R735"
     ],
-    "city": "Oakland, CA",
+    "longitude": -122.2718349,
+    "city": "Oakland",
     "name": "CityCamp Oakland",
     "venue": "Oakland City Hall",
     "poc": "Cristy Rowley",
@@ -628,6 +630,7 @@
     "description": "Perm, Russia"
   },
   {
+    "latitude": 39.948654,
     "address": [
       "recWpxAukvOgLTSmL"
     ],
@@ -645,6 +648,7 @@
     "country": [
       "rec45yssRULp5R735"
     ],
+    "longitude": -75.173,
     "city": "Philadelphia ",
     "name": "CityCamp Philly",
     "venue": "Philadelphia Ethical Society",
@@ -806,6 +810,34 @@
     "website": "https://c4sf.me/citycamp",
     "slug": "san-francisco-ca-united-states-2025",
     "description": "September 20, 2025, San Francisco, CA, United States"
+  },
+  {
+    "latitude": 37.776363,
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "organizer-url": "https://www.sfcivictech.org",
+    "organizer": "SF Civic Tech",
+    "price": "Free, suggested $20 donation",
+    "date": "2026-09-19",
+    "addressLocality": "San Francisco",
+    "streetAddress": "550 Laguna St",
+    "Status": "In progress",
+    "email": "hello@sfcivictech.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94102",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "longitude": -122.4261,
+    "city": "San Francisco",
+    "name": "CityCamp SF",
+    "venue": "The Commons",
+    "poc": "SF Civic Tech",
+    "website": "https://c4sf.me/citycamp",
+    "slug": "san-francisco-ca-united-states-2026",
+    "description": "September 19, 2026, San Francisco, CA, United States"
   },
   {
     "latitude": -33.4489,
