@@ -571,6 +571,34 @@
     "description": "September 20, 2025, Oakland, CA, United States"
   },
   {
+    "latitude": 37.8051197,
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "organizer-url": "https://openoakland.org/",
+    "organizer": "OpenOakland",
+    "price": "0",
+    "date": "2026-10-17",
+    "addressLocality": "Oakland",
+    "streetAddress": "1 Frank H. Ogawa Plaza",
+    "Status": "In progress",
+    "email": "rowley.cristy@openoakland.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94612",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "longitude": -122.2718349,
+    "city": "Oakland",
+    "name": "CityCamp Oakland",
+    "venue": "Oakland City Hall",
+    "poc": "Cristy Rowley",
+    "website": "https://citycamp.eventbrite.com/?aff=Citycampcom",
+    "slug": "oakland-ca-united-states-2026",
+    "description": "October 17, 2026, Oakland, CA, United States"
+  },
+  {
     "latitude": 35.4676,
     "address": [
       "recMJ6zwJrmx3V6A5"
@@ -600,6 +628,34 @@
     "addressRegion": null,
     "slug": "perm-russia",
     "description": "Perm, Russia"
+  },
+  {
+    "latitude": 39.948654,
+    "address": [
+      "recWpxAukvOgLTSmL"
+    ],
+    "organizer-url": "phillyethics.org",
+    "organizer": "Philadelphia Ethical Society",
+    "price": "TBD",
+    "date": "2026-11-15",
+    "addressLocality": "Philadelphia",
+    "streetAddress": "1906 Rittenhouse Square",
+    "Status": "In progress",
+    "email": "leader@phillyethics.org",
+    "addressRegion": "PA",
+    "addressCountry": "United States",
+    "postalCode": "19106",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "longitude": -75.173,
+    "city": "Philadelphia ",
+    "name": "CityCamp Philly",
+    "venue": "Philadelphia Ethical Society",
+    "poc": "Philip Lindsay",
+    "website": "TBD",
+    "slug": "philadelphia--pa-united-states",
+    "description": "November 15, 2026, Philadelphia , PA, United States"
   },
   {
     "latitude": 33.4484,
@@ -754,6 +810,34 @@
     "website": "https://c4sf.me/citycamp",
     "slug": "san-francisco-ca-united-states-2025",
     "description": "September 20, 2025, San Francisco, CA, United States"
+  },
+  {
+    "latitude": 37.776363,
+    "address": [
+      "recr4iFAkL0rm7JgV"
+    ],
+    "organizer-url": "https://www.sfcivictech.org",
+    "organizer": "SF Civic Tech",
+    "price": "Free, suggested $20 donation",
+    "date": "2026-09-19",
+    "addressLocality": "San Francisco",
+    "streetAddress": "550 Laguna St",
+    "Status": "In progress",
+    "email": "hello@sfcivictech.org",
+    "addressRegion": "CA",
+    "addressCountry": "United States",
+    "postalCode": "94102",
+    "country": [
+      "rec45yssRULp5R735"
+    ],
+    "longitude": -122.4261,
+    "city": "San Francisco",
+    "name": "CityCamp SF",
+    "venue": "The Commons",
+    "poc": "SF Civic Tech",
+    "website": "https://c4sf.me/citycamp",
+    "slug": "san-francisco-ca-united-states-2026",
+    "description": "September 19, 2026, San Francisco, CA, United States"
   },
   {
     "latitude": -33.4489,
