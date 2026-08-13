@@ -16,29 +16,50 @@ events = Event.all.map(&:fields)
 # Sort by State then City
 events = events.sort_by { |h| [h["State"], h["City"]] }
 
+# Drop a trailing ", REGION" from a free-text city so the region is not
+# duplicated in slug or description when addressRegion already carries it.
+# Compares alphanumerics only so "D.C." matches region "DC".
+def normalize_city(city, region)
+  city = city.to_s.strip
+  region = region.to_s.strip
+  return city if region.empty?
+  region_norm = region.gsub(/\W/, '').downcase
+  m = city.match(/\A(.*?)[,\s]+([^,]+?)\s*\z/)
+  return city unless m
+  m[2].gsub(/\W/, '').downcase == region_norm ? m[1].strip : city
+end
+
 # for each Event, set custom `slug`` & `description` attribute
 events = events.map do |row|
   row["addressRegion"] = row["addressRegion"]&.first # pluck the first value for the CityCamp side.
   row["addressCountry"] = row["addressCountry"]&.first
 
+  city = normalize_city(row["city"], row["addressRegion"])
+
   parts = [
-    row["city"].gsub(" ", "-"),
+    city,
     row["addressRegion"],
     row["addressCountry"]
   ]
   .compact # remove nil
+  .map { |p| p.to_s.strip }
   .reject(&:empty?)
 
   description_parts = [
     row["date"] ? Date.parse(row["date"]).strftime("%B %d, %Y") : "",
-    row["city"],
+    city,
     row["addressRegion"],
     row["addressCountry"]
   ]
   .compact # remove nil
+  .map { |p| p.to_s.strip }
   .reject(&:empty?)
 
-  row["slug"] = parts.map { |part| part.to_s.gsub(".", "").gsub(",", "").gsub(" ", "-").downcase }.join('-')
+  row["slug"] = parts
+    .map { |part| part.to_s.gsub(".", "").gsub(",", "").gsub(" ", "-").downcase }
+    .join('-')
+    .gsub(/-+/, '-')
+    .gsub(/\A-|-\z/, '')
   row["description"] = description_parts.join(', ')
   row
 end
