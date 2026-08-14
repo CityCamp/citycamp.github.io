@@ -29,10 +29,24 @@ def normalize_city(city, region)
   m[2].gsub(/\W/, '').downcase == region_norm ? m[1].strip : city
 end
 
+# Prepend https:// when a URL field has no scheme, so "www.example.org" or a
+# bare domain does not render as a relative link. Preserves mailto: and empty
+# or placeholder values (TBD).
+def normalize_url(url)
+  url = url.to_s.strip
+  return url if url.empty?
+  return url if url =~ /\A(https?|mailto):/i
+  return url if url.upcase == 'TBD'
+  "https://#{url}"
+end
+
 # for each Event, set custom `slug`` & `description` attribute
 events = events.map do |row|
   row["addressRegion"] = row["addressRegion"]&.first # pluck the first value for the CityCamp side.
   row["addressCountry"] = row["addressCountry"]&.first
+
+  row["website"] = normalize_url(row["website"]) if row.key?("website")
+  row["organizer-url"] = normalize_url(row["organizer-url"]) if row.key?("organizer-url")
 
   city = normalize_city(row["city"], row["addressRegion"])
 

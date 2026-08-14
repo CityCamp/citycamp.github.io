@@ -501,7 +501,7 @@
     "address": [
       "recr3PrtajDSCdTLs"
     ],
-    "organizer-url": "www.beta.nyc",
+    "organizer-url": "https://www.beta.nyc",
     "organizer": "BetaNYC",
     "price": "$30-$50",
     "date": "2026-09-19",
@@ -520,7 +520,7 @@
     "name": "CityCamp NYC 2026",
     "venue": "Hunter College",
     "poc": "Duncan Ballantine",
-    "website": "www.citycamp.nyc",
+    "website": "https://www.citycamp.nyc",
     "slug": "new-york-city-ny-united-states-2026",
     "description": "September 19, 2026, New York City, NY, United States"
   },
@@ -634,7 +634,7 @@
     "address": [
       "recWpxAukvOgLTSmL"
     ],
-    "organizer-url": "phillyethics.org",
+    "organizer-url": "https://phillyethics.org",
     "organizer": "Philadelphia Ethical Society",
     "price": "TBD",
     "date": "2026-11-15",
