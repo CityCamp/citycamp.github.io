@@ -4,6 +4,16 @@ title: CityCamp Event page
 schematype: "Event"
 ---
 
+{% assign redirect_target = site.data.event_redirects[page.slug] %}
+{% if redirect_target %}
+  {% assign redirect_url = "/events/" | append: redirect_target | append: "/" %}
+  <meta http-equiv="refresh" content="0; url={{ redirect_url }}">
+  <link rel="canonical" href="{{ site.url }}{{ redirect_url }}">
+  <script>window.location.replace({{ redirect_url | jsonify }});</script>
+  <div class="container event">
+    <p>This event has moved. Redirecting to <a href="{{ redirect_url }}">{{ site.url }}{{ redirect_url }}</a>&hellip;</p>
+  </div>
+{% else %}
 <div class="container event">
   <div class="row">
     <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
@@ -125,6 +135,7 @@ schematype: "Event"
   </div>
   {% include register.html %}
 </div>
+{% endif %}
 {% assign sorted_docs = site.data.press.docs
   | where_exp: "item", "item.state != ''"
   | where: "state", page.addressRegion

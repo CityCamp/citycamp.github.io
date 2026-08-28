@@ -1,0 +1,13 @@
+# Redirects old event slugs to their current year's slug.
+#
+# The datapage generator emits a page for every record in _data/events.json,
+# including historical records with Status "Done". When a repeat event lives at
+# a new year-suffixed slug (e.g. oakland-ca-united-states-2026), the un-suffixed
+# slug still resolves to a stale page. This map lets _layouts/event.html emit a
+# redirect on those stale pages.
+#
+# Format:
+#   old-slug: new-slug
+#
+oakland-ca-united-states: oakland-ca-united-states-2026
+san-francisco-ca-united-states: san-francisco-ca-united-states-2026
