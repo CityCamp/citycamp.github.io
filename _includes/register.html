@@ -1,4 +1,6 @@
-{% if page.Status == 'In progress' %}
+{% assign notice = site.data.event_notices[page.slug] %}
+{% if notice.status == 'cancelled' %}
+{% elsif page.Status == 'In progress' %}
   {% if page.website %}
     <div class="fixed-bottom border-top register">
       <div class="container">
