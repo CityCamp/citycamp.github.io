@@ -18,8 +18,17 @@ schematype: "Event"
   <div class="row">
     <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
       {% assign event = page %}
+      {% assign notice = site.data.event_notices[page.slug] %}
+      {% if notice.status == "cancelled" %}
+      <h2 class="mb-3">Cancelled</h2>
+      <div class="alert alert-warning" role="alert">
+        {{ notice.message | markdownify }}
+      </div>
+      {% else %}
       <h2 class="mb-3">Details</h2>
-      {% if page.Status == "In progress" %}
+      {% endif %}
+      {% if notice.status == "cancelled" %}
+      {% elsif page.Status == "In progress" %}
       <ul class="list-unstyled">
         {% if page.date %}
         <li class="mb-2">
@@ -121,7 +130,7 @@ schematype: "Event"
       <p>{{ page.title }} welcomes everyone regardless of background, gender, orientation, ability, ethnicity, or beliefs. We're committed to creating a safe, inclusive environment where all can contribute.
         <a href="https://citycamp.com/conduct">CityCamp code of conduct.</a>
       </p>
-      {% if page.website %}
+      {% if page.website and notice.status != "cancelled" %}
       <h2>Learn more</h2>
       <a href="{{ page.website }}" class="btn btn-primary">Website</a>
       {% endif %}

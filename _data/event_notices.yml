@@ -1,0 +1,20 @@
+# Per-event notices, keyed by event slug.
+#
+# _data/events.json is regenerated from Airtable and must not be hand-edited,
+# and Airtable has no "Cancelled" state the templates understand. An entry here
+# keeps the event page up but replaces its details and Register button with the
+# message below, and stops the event from showing as active on the events list,
+# the cities list, and the map.
+#
+# Format:
+#   event-slug:
+#     status: cancelled
+#     message: Markdown shown on the event page.
+#
+oakland-ca-united-states-2026:
+  status: cancelled
+  message: >-
+    CityCamp Oakland 2026 has been cancelled. Please
+    [subscribe to the OpenOakland newsletter](https://openoakland.org/newsletter/)
+    or [follow OpenOakland on Facebook](https://www.facebook.com/openoak)
+    for information about future events.

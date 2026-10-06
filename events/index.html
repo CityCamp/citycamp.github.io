@@ -24,7 +24,11 @@ topics:
               <p class="card-text">{{ event.city }}, {{ event.addressRegion }}</p>
             </div>
             <div class="card-footer text-muted small">
-              {{ event.date | date: "%B %d, %Y" }}
+              {% if site.data.event_notices[event.slug].status == "cancelled" %}
+                Cancelled
+              {% else %}
+                {{ event.date | date: "%B %d, %Y" }}
+              {% endif %}
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@
         "lat": {{ event.latitude }},
         "lng": {{ event.longitude }},
         "state": "{{ event.state }}",
-        "status": "{{ event.Status }}",
+        "status": "{% if site.data.event_notices[event.slug].status == "cancelled" %}Cancelled{% else %}{{ event.Status }}{% endif %}",
         "slug": "{{ event.slug }}",
       },
     {% endif %}{% endfor %}];

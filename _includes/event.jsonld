@@ -5,7 +5,7 @@
     "startDate": "{{ page.date }}",
     "endDate": "{{ page.date }}",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
+    "eventStatus": "https://schema.org/{% if site.data.event_notices[page.slug].status == "cancelled" %}EventCancelled{% else %}EventScheduled{% endif %}",
     "location": {
         "@type": "{{ page.event-type }}",
         "name": "{{ page.venue }}",
